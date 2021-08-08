@@ -27,7 +27,7 @@ class Game:
         self.dealerId: Optional[str] = None
 
     def init(self, rows: List[Dict[str,str]]):
-        super.init()
+        # super.init()
 
         last_row = last(rows)
         at = last_row["at"] if last_row else None
