@@ -1,0 +1,87 @@
+entry,at,order
+"The player ""player1 @ 85m_d6hETP"" stand up with the stack of 950.00.",2021-08-08T21:13:22.839Z,162845720283900
+"-- ending hand #5 --",2021-08-08T21:13:19.892Z,162845719989202
+"""player1 @ 85m_d6hETP"" collected 10.00 from pot",2021-08-08T21:13:19.892Z,162845719989201
+"Uncalled bet of 5.00 returned to ""player1 @ 85m_d6hETP""",2021-08-08T21:13:19.892Z,162845719989200
+"""player2 @ jyXAN0EtRT"" folds",2021-08-08T21:13:19.077Z,162845719907700
+"""player1 @ 85m_d6hETP"" posts a big blind of 10.00",2021-08-08T21:13:13.360Z,162845719336005
+"""player2 @ jyXAN0EtRT"" posts a small blind of 5.00",2021-08-08T21:13:13.360Z,162845719336004
+"Your hand is 2♦, 5♠",2021-08-08T21:13:13.360Z,162845719336002
+"Player stacks: #1 ""player1 @ 85m_d6hETP"" (945.00) | #5 ""player2 @ jyXAN0EtRT"" (1055.00)",2021-08-08T21:13:13.360Z,162845719336001
+"-- starting hand #5  (No Limit Texas Hold'em) (dealer: ""player2 @ jyXAN0EtRT"") --",2021-08-08T21:13:13.360Z,162845719336000
+"-- ending hand #4 --",2021-08-08T21:13:10.437Z,162845719043702
+"""player2 @ jyXAN0EtRT"" collected 10.00 from pot",2021-08-08T21:13:10.437Z,162845719043701
+"Uncalled bet of 5.00 returned to ""player2 @ jyXAN0EtRT""",2021-08-08T21:13:10.437Z,162845719043700
+"""player1 @ 85m_d6hETP"" folds",2021-08-08T21:13:09.629Z,162845718962900
+"""player2 @ jyXAN0EtRT"" posts a big blind of 10.00",2021-08-08T21:12:59.958Z,162845717995805
+"""player1 @ 85m_d6hETP"" posts a small blind of 5.00",2021-08-08T21:12:59.958Z,162845717995804
+"Your hand is 7♠, A♠",2021-08-08T21:12:59.958Z,162845717995802
+"Player stacks: #1 ""player1 @ 85m_d6hETP"" (950.00) | #5 ""player2 @ jyXAN0EtRT"" (1050.00)",2021-08-08T21:12:59.958Z,162845717995801
+"-- starting hand #4  (No Limit Texas Hold'em) (dealer: ""player1 @ 85m_d6hETP"") --",2021-08-08T21:12:59.958Z,162845717995800
+"-- ending hand #3 --",2021-08-08T21:12:53.915Z,162845717391503
+"""player1 @ 85m_d6hETP"" shows a 5♣, 3♣.",2021-08-08T21:12:53.915Z,162845717391502
+"""player2 @ jyXAN0EtRT"" collected 180.00 from pot with Pair, 2's (combination: 2♥, 2♣, Q♦, 9♦, 8♠)",2021-08-08T21:12:53.915Z,162845717391501
+"""player2 @ jyXAN0EtRT"" shows a 9♦, 4♣.",2021-08-08T21:12:53.915Z,162845717391500
+"""player2 @ jyXAN0EtRT"" checks",2021-08-08T21:12:53.108Z,162845717310800
+"""player1 @ 85m_d6hETP"" checks",2021-08-08T21:12:50.479Z,162845717047900
+"River: 8♠, 6♣, 2♥, 2♣ [Q♦]",2021-08-08T21:12:49.874Z,162845716987400
+"""player2 @ jyXAN0EtRT"" checks",2021-08-08T21:12:49.068Z,162845716906800
+"""player1 @ 85m_d6hETP"" checks",2021-08-08T21:12:47.958Z,162845716795800
+"Turn: 8♠, 6♣, 2♥ [2♣]",2021-08-08T21:12:42.705Z,162845716270500
+"""player2 @ jyXAN0EtRT"" calls 50.00",2021-08-08T21:12:41.897Z,162845716189700
+"""player1 @ 85m_d6hETP"" raises to 50.00",2021-08-08T21:12:37.378Z,162845715737800
+"""player2 @ jyXAN0EtRT"" raises to 40.00",2021-08-08T21:12:33.769Z,162845715376900
+"""player1 @ 85m_d6hETP"" raises to 30.00",2021-08-08T21:12:31.468Z,162845715146800
+"""player2 @ jyXAN0EtRT"" raises to 20.00",2021-08-08T21:12:29.399Z,162845714939900
+"""player1 @ 85m_d6hETP"" bets 10.00",2021-08-08T21:12:26.838Z,162845714683800
+"Flop:  [8♠, 6♣, 2♥]",2021-08-08T21:12:23.306Z,162845714330600
+"""player2 @ jyXAN0EtRT"" calls 40.00",2021-08-08T21:12:22.500Z,162845714250000
+"""player1 @ 85m_d6hETP"" raises to 40.00",2021-08-08T21:12:19.639Z,162845713963900
+"""player2 @ jyXAN0EtRT"" raises to 20.00",2021-08-08T21:12:15.308Z,162845713530800
+"""player1 @ 85m_d6hETP"" posts a big blind of 10.00",2021-08-08T21:12:10.834Z,162845713083405
+"""player2 @ jyXAN0EtRT"" posts a small blind of 5.00",2021-08-08T21:12:10.834Z,162845713083404
+"Your hand is 5♣, 3♣",2021-08-08T21:12:10.834Z,162845713083402
+"Player stacks: #1 ""player1 @ 85m_d6hETP"" (1040.00) | #5 ""player2 @ jyXAN0EtRT"" (960.00)",2021-08-08T21:12:10.834Z,162845713083401
+"-- starting hand #3  (No Limit Texas Hold'em) (dealer: ""player2 @ jyXAN0EtRT"") --",2021-08-08T21:12:10.834Z,162845713083400
+"-- ending hand #2 --",2021-08-08T21:12:07.896Z,162845712789602
+"""player1 @ 85m_d6hETP"" collected 20.00 from pot",2021-08-08T21:12:07.896Z,162845712789601
+"Uncalled bet of 10.00 returned to ""player1 @ 85m_d6hETP""",2021-08-08T21:12:07.896Z,162845712789600
+"""player2 @ jyXAN0EtRT"" folds",2021-08-08T21:12:07.087Z,162845712708700
+"""player1 @ 85m_d6hETP"" raises to 20.00",2021-08-08T21:12:05.428Z,162845712542800
+"""player2 @ jyXAN0EtRT"" posts a big blind of 10.00",2021-08-08T21:12:00.309Z,162845712030905
+"""player1 @ 85m_d6hETP"" posts a small blind of 5.00",2021-08-08T21:12:00.309Z,162845712030904
+"Your hand is 4♦, 6♦",2021-08-08T21:12:00.309Z,162845712030902
+"Player stacks: #1 ""player1 @ 85m_d6hETP"" (1030.00) | #5 ""player2 @ jyXAN0EtRT"" (970.00)",2021-08-08T21:12:00.309Z,162845712030901
+"-- starting hand #2  (No Limit Texas Hold'em) (dealer: ""player1 @ 85m_d6hETP"") --",2021-08-08T21:12:00.309Z,162845712030900
+"-- ending hand #1 --",2021-08-08T21:11:54.283Z,162845711428302
+"""player1 @ 85m_d6hETP"" collected 60.00 from pot with Two Pair, A's & 8's (combination: A♠, A♥, 8♠, 8♣, 9♦)",2021-08-08T21:11:54.283Z,162845711428301
+"""player1 @ 85m_d6hETP"" shows a 4♦, A♠.",2021-08-08T21:11:54.283Z,162845711428300
+"""player2 @ jyXAN0EtRT"" checks",2021-08-08T21:11:53.477Z,162845711347700
+"""player1 @ 85m_d6hETP"" checks",2021-08-08T21:11:51.478Z,162845711147800
+"River: 2♥, 8♠, 8♣, 9♦ [A♥]",2021-08-08T21:11:51.034Z,162845711103400
+"""player2 @ jyXAN0EtRT"" checks",2021-08-08T21:11:50.227Z,162845711022700
+"""player1 @ 85m_d6hETP"" checks",2021-08-08T21:11:49.217Z,162845710921700
+"Turn: 2♥, 8♠, 8♣ [9♦]",2021-08-08T21:11:47.576Z,162845710757600
+"""player2 @ jyXAN0EtRT"" checks",2021-08-08T21:11:46.768Z,162845710676800
+"""player1 @ 85m_d6hETP"" checks",2021-08-08T21:11:44.289Z,162845710428900
+"Flop:  [2♥, 8♠, 8♣]",2021-08-08T21:11:34.212Z,162845709421200
+"""player1 @ 85m_d6hETP"" calls 30.00",2021-08-08T21:11:33.402Z,162845709340200
+"""player2 @ jyXAN0EtRT"" raises to 30.00",2021-08-08T21:11:31.179Z,162845709117900
+"""player1 @ 85m_d6hETP"" posts a big blind of 10.00",2021-08-08T21:11:17.749Z,162845707774907
+"""player2 @ jyXAN0EtRT"" posts a small blind of 5.00",2021-08-08T21:11:17.749Z,162845707774906
+"Your hand is 4♦, A♠",2021-08-08T21:11:17.749Z,162845707774904
+"Player stacks: #1 ""player1 @ 85m_d6hETP"" (1000.00) | #5 ""player2 @ jyXAN0EtRT"" (1000.00)",2021-08-08T21:11:17.749Z,162845707774903
+"The player ""player2 @ jyXAN0EtRT"" joined the game with a stack of 1000.00.",2021-08-08T21:11:17.749Z,162845707774902
+"The player ""player1 @ 85m_d6hETP"" joined the game with a stack of 1000.00.",2021-08-08T21:11:17.749Z,162845707774901
+"-- starting hand #1  (No Limit Texas Hold'em) (dealer: ""player2 @ jyXAN0EtRT"") --",2021-08-08T21:11:17.749Z,162845707774900
+"The admin approved the player ""player2 @ jyXAN0EtRT"" participation with a stack of 1000.00.",2021-08-08T21:11:13.063Z,162845707306300
+"The player ""player2 @ jyXAN0EtRT"" requested a seat.",2021-08-08T21:11:06.116Z,162845706611600
+"The admin updated the player ""player1 @ 85m_d6hETP"" stack from 1010.00 to 1000.00.",2021-08-08T21:10:44.549Z,162845704454901
+"WARNING: the admin queued the stack change for the player ""player1 @ 85m_d6hETP"" reseting to 1000.00 chips in the next hand.",2021-08-08T21:10:44.549Z,162845704454900
+"The admin updated the player ""player1 @ 85m_d6hETP"" stack from 10.00 to 1010.00.",2021-08-08T21:10:32.400Z,162845703240001
+"WARNING: the admin queued the stack change for the player ""player1 @ 85m_d6hETP"" adding 1000.00 chips in the next hand.",2021-08-08T21:10:32.400Z,162845703240000
+"The game's ante was changed from 0.00 to 0.00.",2021-08-08T21:10:01.882Z,162845700188202
+"The game's big blind was changed from 0.20 to 10.00.",2021-08-08T21:10:01.882Z,162845700188201
+"The game's small blind was changed from 0.10 to 5.00.",2021-08-08T21:10:01.882Z,162845700188200
+"The admin approved the player ""player1 @ 85m_d6hETP"" participation with a stack of 1000.",2021-08-08T21:09:44.830Z,162845698483001
+"The player ""player1 @ 85m_d6hETP"" requested a seat.",2021-08-08T21:09:44.830Z,162845698483000
