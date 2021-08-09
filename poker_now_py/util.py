@@ -42,8 +42,8 @@ def slice(content: str, start:str, end: str) -> Optional[str]:
     '''
 
     try:
-        idx_start = content.index(start)
-        idx_end = content[start:].index(end) + idx_start
+        idx_start = content.index(start) + 1
+        idx_end = content[idx_start:].index(end) + idx_start
         return content[idx_start:idx_end]
     except:
         return None

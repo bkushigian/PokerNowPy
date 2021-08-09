@@ -8,7 +8,7 @@ Copyright © 2020 Say Goodnight Software. All rights reserved.
 
 from typing import List, Optional, Dict
 from util import nil_guard, first, last, hash_str_as_id
-from datetime import datetime
+from datetime import datetime, timezone
 
 from player import Player
 from hand import Hand
@@ -17,7 +17,7 @@ from seat import Seat
 
 class Game:
 
-    def __init__(self):
+    def __init__(self, rows: List[Dict[str, str]]):
     
         self.debugHandAction: bool = False
         self.showErrors: bool = True
@@ -25,6 +25,7 @@ class Game:
         self.currentHand: Optional[Hand] = None
 
         self.dealerId: Optional[str] = None
+        self.init(rows)
 
     def init(self, rows: List[Dict[str,str]]):
         # super.init()
@@ -37,20 +38,21 @@ class Game:
         else:
             print("Unsupported log format: the PokerNow.club file format has changed since this log was generated")
         
-    def isSupportedLog(at: str) -> bool:
-        format_str = "%Y-%m-%d'T'%H:%M:%S:%f%z"   # from Swift format string "yyyy-MM-dd'T'HH:mm:ss.SSSZ"
+    def isSupportedLog(self, at: str) -> bool:
+        format_str = "%Y-%m-%dT%H:%M:%S.%f%z"   # from Swift format string "yyyy-MM-dd'T'HH:mm:ss.SSSZ"
 
         try:
-            date = datetime.strptime(date_string=nil_guard(at, ""), format=format_str)
-        except:
+            date = datetime.strptime(nil_guard(at, ""), format_str)
+        except Exception as e:
+            print(e)
             raise RuntimeError("Cannot parse log's date")
             
-        oldestSupportedLog = datetime.fromtimestamp(1594731595)
+        oldestSupportedLog = datetime.fromtimestamp(1594731595, tz=timezone.utc)
         
         return date > oldestSupportedLog
     
     def parseLine(self, msg: Optional[str], at: Optional[str], order: Optional[str]):
-        format_str = "%Y-%m-%d'T'%H:%M:%S:%f%z"   # from Swift format string "yyyy-MM-dd'T'HH:mm:ss.SSSZ"
+        format_str = "%Y-%m-%dT%H:%M:%S.%f%z"   # from Swift format string "yyyy-MM-dd'T'HH:mm:ss.SSSZ"
         date = datetime.strptime(at, format_str) if at else datetime.strptime("")
         
         if msg and msg.startswith("-- starting hand "):
@@ -59,11 +61,11 @@ class Game:
             
             # for legacy logs
             dealerSeparator = " @ "
-            if unparsedDealer and unparsedDealer.contains(" # "):
+            if unparsedDealer and " # " in unparsedDealer:
                 dealerSeparator = " # "
 
             hand = Hand()
-            if msg.contains("dead button"):
+            if "dead button" in msg:
                 hand.id = hash_str_as_id(f"deadbutton-{date.timestamp() if date else 0}")
                 hand.dealer = None
             else:
@@ -93,14 +95,14 @@ class Game:
                 player = Player(admin=False, id=last(nameIdArray), stack=float(nil_guard(stackSize, "0")), name=first(nameIdArray))
                 players.append(player)
                 
-                self.currentHand and self.currentHand.seats.append(Seat(player=player, summary=f"{nil_guard(player.name, 'Unknown')} didn't show and lost", preFlopBet=False, number=seatNumberInt))
+                self.currentHand and self.currentHand.seats.append(Seat(player=player, summary=f"{nil_guard(player.name, 'Unknown')} didn't show and lost", pre_flop_bet=False, number=seatNumberInt))
                         
             self.currentHand.players = players
             dealer = first([x for x in players if x.id == self.dealerId])
             if dealer:
                 self.currentHand.dealer = dealer
         elif msg and msg.startswith("Your hand is "):
-            self.currentHand.hole = [EmojiCard(c.strip()).value for c in  msg.replace("Your hand is ", "").split(", ")]
+            self.currentHand.hole = [EmojiCard(c.strip()) for c in  msg.replace("Your hand is ", "").split(", ")]
 
             if self.debugHandAction:
                 print(f"#{nil_guard(self.currentHand.id, 0)} - hole cards: {[c.value for c in nil_guard(self.currentHand.hole, [])]}")
@@ -130,9 +132,9 @@ class Game:
 
         else:
             nameIdArray = msg and first(msg.split('" ')).split(" @ ")
-            player = first([p for p in self.currentHand.players if p.id == last(nameIdArray)])
+            player = first([p for p in self.currentHand.players if p.id == last(nameIdArray)]) if self.currentHand else None
             if player:
-                if msg and msg.contains("big blind"):
+                if msg and "big blind" in msg:
                     bigBlindSize = float(nil_guard(last(msg.split("big blind of ")), 0.0))
                     self.currentHand.big_blind_size = bigBlindSize
                     self.currentHand.big_blind.append(player)
@@ -141,14 +143,15 @@ class Game:
                         # TODO: format
                         print("#\(self.currentHand?.id ?? 0) - \(player.name ?? 'Unknown Player') posts big \(bigBlindSize)  (Pot: \(self.currentHand?.pot ?? 0))")
 
-                if msg and msg.contains("small blind"):
+                if msg and "small blind" in msg:
                     smallBlindSize = float(nil_guard(last(msg.split("small blind of ")), 0.0))
                     self.currentHand.small_blind_size = smallBlindSize
-                    if msg.contains("missing"):
+                    if "missing" in msg:
                         self.currentHand.missing_small_blinds.append(player)
                     else:
                         self.currentHand.small_blind = player
                     
                     if self.debugHandAction:
                         print("#\(self.currentHand?.id ?? 0) - \(player.name ?? 'Unknown Player') posts small \(smallBlindSize)  (Pot: \(self.currentHand?.pot ?? 0))")
-        self.currentHand.lines.append(nil_guard(msg, "unknown line"))
+        if self.currentHand:
+            self.currentHand.lines.append(nil_guard(msg, "unknown line"))
