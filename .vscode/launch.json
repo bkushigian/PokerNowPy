@@ -1,0 +1,26 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": ["ben"]
+        }, 
+
+        {
+            "name": "pn2ps",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}\\poker_now_py\\pn2ps.py",
+            "console": "integratedTerminal",
+            "args": ["ben", "--filename", "C:\\Users\\bkush\\Poker\\PokerNowPy\\resources\\pnlogs\\log2.csv", "-o", "log2.txt"]
+        }
+    ]
+}
