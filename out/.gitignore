@@ -1,0 +1,8 @@
+# This directory is a place to generate automated outputs. For convenience
+# I'm just making this a permanent part of the repo, but I don't want to
+# track any contents.
+#
+# Ignore everything
+*
+# ...except this file
+!.gitignore
