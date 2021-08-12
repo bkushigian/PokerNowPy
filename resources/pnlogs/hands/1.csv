@@ -1,0 +1,33 @@
+entry,at,order
+"-- ending hand #1 --",2021-08-08T21:11:54.283Z,162845711428302
+"""player1 @ 85m_d6hETP"" collected 60.00 from pot with Two Pair, A's & 8's (combination: A♠, A♥, 8♠, 8♣, 9♦)",2021-08-08T21:11:54.283Z,162845711428301
+"""player1 @ 85m_d6hETP"" shows a 4♦, A♠.",2021-08-08T21:11:54.283Z,162845711428300
+"""player2 @ jyXAN0EtRT"" checks",2021-08-08T21:11:53.477Z,162845711347700
+"""player1 @ 85m_d6hETP"" checks",2021-08-08T21:11:51.478Z,162845711147800
+"River: 2♥, 8♠, 8♣, 9♦ [A♥]",2021-08-08T21:11:51.034Z,162845711103400
+"""player2 @ jyXAN0EtRT"" checks",2021-08-08T21:11:50.227Z,162845711022700
+"""player1 @ 85m_d6hETP"" checks",2021-08-08T21:11:49.217Z,162845710921700
+"Turn: 2♥, 8♠, 8♣ [9♦]",2021-08-08T21:11:47.576Z,162845710757600
+"""player2 @ jyXAN0EtRT"" checks",2021-08-08T21:11:46.768Z,162845710676800
+"""player1 @ 85m_d6hETP"" checks",2021-08-08T21:11:44.289Z,162845710428900
+"Flop:  [2♥, 8♠, 8♣]",2021-08-08T21:11:34.212Z,162845709421200
+"""player1 @ 85m_d6hETP"" calls 30.00",2021-08-08T21:11:33.402Z,162845709340200
+"""player2 @ jyXAN0EtRT"" raises to 30.00",2021-08-08T21:11:31.179Z,162845709117900
+"""player1 @ 85m_d6hETP"" posts a big blind of 10.00",2021-08-08T21:11:17.749Z,162845707774907
+"""player2 @ jyXAN0EtRT"" posts a small blind of 5.00",2021-08-08T21:11:17.749Z,162845707774906
+"Your hand is 4♦, A♠",2021-08-08T21:11:17.749Z,162845707774904
+"Player stacks: #1 ""player1 @ 85m_d6hETP"" (1000.00) | #5 ""player2 @ jyXAN0EtRT"" (1000.00)",2021-08-08T21:11:17.749Z,162845707774903
+"The player ""player2 @ jyXAN0EtRT"" joined the game with a stack of 1000.00.",2021-08-08T21:11:17.749Z,162845707774902
+"The player ""player1 @ 85m_d6hETP"" joined the game with a stack of 1000.00.",2021-08-08T21:11:17.749Z,162845707774901
+"-- starting hand #1  (No Limit Texas Hold'em) (dealer: ""player2 @ jyXAN0EtRT"") --",2021-08-08T21:11:17.749Z,162845707774900
+"The admin approved the player ""player2 @ jyXAN0EtRT"" participation with a stack of 1000.00.",2021-08-08T21:11:13.063Z,162845707306300
+"The player ""player2 @ jyXAN0EtRT"" requested a seat.",2021-08-08T21:11:06.116Z,162845706611600
+"The admin updated the player ""player1 @ 85m_d6hETP"" stack from 1010.00 to 1000.00.",2021-08-08T21:10:44.549Z,162845704454901
+"WARNING: the admin queued the stack change for the player ""player1 @ 85m_d6hETP"" reseting to 1000.00 chips in the next hand.",2021-08-08T21:10:44.549Z,162845704454900
+"The admin updated the player ""player1 @ 85m_d6hETP"" stack from 10.00 to 1010.00.",2021-08-08T21:10:32.400Z,162845703240001
+"WARNING: the admin queued the stack change for the player ""player1 @ 85m_d6hETP"" adding 1000.00 chips in the next hand.",2021-08-08T21:10:32.400Z,162845703240000
+"The game's ante was changed from 0.00 to 0.00.",2021-08-08T21:10:01.882Z,162845700188202
+"The game's big blind was changed from 0.20 to 10.00.",2021-08-08T21:10:01.882Z,162845700188201
+"The game's small blind was changed from 0.10 to 5.00.",2021-08-08T21:10:01.882Z,162845700188200
+"The admin approved the player ""player1 @ 85m_d6hETP"" participation with a stack of 1000.",2021-08-08T21:09:44.830Z,162845698483001
+"The player ""player1 @ 85m_d6hETP"" requested a seat.",2021-08-08T21:09:44.830Z,162845698483000
