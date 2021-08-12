@@ -17,14 +17,14 @@ from seat import Seat
 
 class Game:
 
-    def __init__(self, rows: List[Dict[str, str]]):
+    def __init__(self, rows: List[Dict[str, str]], debug_hand_action=False):
     
-        self.debugHandAction: bool = False
-        self.showErrors: bool = True
+        self.debug_hand_action: bool = debug_hand_action
+        self.show_errors: bool = True
         self.hands: List[Hand] = []
-        self.currentHand: Optional[Hand] = None
+        self.current_hand: Optional[Hand] = None
 
-        self.dealerId: Optional[str] = None
+        self.dealier_id: Optional[str] = None
         self.init(rows)
 
     def init(self, rows: List[Dict[str,str]]):
@@ -56,8 +56,8 @@ class Game:
         date = datetime.strptime(at, format_str) if at else datetime.strptime("")
         
         if msg and msg.startswith("-- starting hand "):
-            startingHandComponents = msg.split(' (dealer: "')
-            unparsedDealer = last(startingHandComponents).replace('") --', "")
+            starting_hand_components = msg.split(' (dealer: "')
+            unparsedDealer = last(starting_hand_components).replace('") --', "")
             
             # for legacy logs
             dealerSeparator = " @ "
@@ -70,14 +70,14 @@ class Game:
                 hand.dealer = None
             else:
                 dealerNameIdArray = unparsedDealer and unparsedDealer.split(dealerSeparator)
-                self.dealerId = dealerNameIdArray and last(dealerNameIdArray)
-                hand.id = hash_str_as_id(f"{nil_guard(self.dealerId, 'error')}-{date.timestamp() if date else 0}")
+                self.dealier_id = dealerNameIdArray and last(dealerNameIdArray)
+                hand.id = hash_str_as_id(f"{nil_guard(self.dealier_id, 'error')}-{date.timestamp() if date else 0}")
                 
             hand.date = date
-            self.currentHand = hand
+            self.current_hand = hand
             self.hands.append(hand)
         elif msg and msg.startswith("-- ending hand "):
-            if self.debugHandAction:
+            if self.debug_hand_action:
                 print("----")
         elif msg and msg.startswith("Player stacks"):
             playersWithStacks = msg.replace("Player stacks: ", "").split(" | ")
@@ -95,63 +95,63 @@ class Game:
                 player = Player(admin=False, id=last(nameIdArray), stack=float(nil_guard(stackSize, "0")), name=first(nameIdArray))
                 players.append(player)
                 
-                self.currentHand and self.currentHand.seats.append(Seat(player=player, summary=f"{nil_guard(player.name, 'Unknown')} didn't show and lost", pre_flop_bet=False, number=seatNumberInt))
+                self.current_hand and self.current_hand.seats.append(Seat(player=player, summary=f"{nil_guard(player.name, 'Unknown')} didn't show and lost", pre_flop_bet=False, number=seatNumberInt))
                         
-            self.currentHand.players = players
-            dealer = first([x for x in players if x.id == self.dealerId])
+            self.current_hand.players = players
+            dealer = first([x for x in players if x.id == self.dealier_id])
             if dealer:
-                self.currentHand.dealer = dealer
+                self.current_hand.dealer = dealer
         elif msg and msg.startswith("Your hand is "):
-            self.currentHand.hole = [EmojiCard(c.strip()) for c in  msg.replace("Your hand is ", "").split(", ")]
+            self.current_hand.hole = [EmojiCard(c.strip()) for c in  msg.replace("Your hand is ", "").split(", ")]
 
-            if self.debugHandAction:
-                print(f"#{nil_guard(self.currentHand.id, 0)} - hole cards: {[c.value for c in nil_guard(self.currentHand.hole, [])]}")
+            if self.debug_hand_action:
+                print(f"#{nil_guard(self.current_hand.id, 0)} - hole cards: {[c.value for c in nil_guard(self.current_hand.hole, [])]}")
         elif msg and msg.startswith("flop"):
             line = slice(msg, start='[',  end=']')
             flop = line and [EmojiCard(c).emojiFlip() for c in line.replace("flop: ", "").split(", ")]
-            self.currentHand.flop = flop or []
+            self.current_hand.flop = flop or []
             
-            if self.debugHandAction:
-                print(f"#{nil_guard(self.currentHand.id, 0)} - flop: {[c.value for c in (self.currentHand.flop or [])]}")
+            if self.debug_hand_action:
+                print(f"#{nil_guard(self.current_hand.id, 0)} - flop: {[c.value for c in (self.current_hand.flop or [])]}")
 
         elif msg and msg.startswith("turn"):
             line = slice(msg, "[", "]")
-            self.currentHand.turn = EmojiCard(line.replace("turn: ", "")).emojiFlip()
+            self.current_hand.turn = EmojiCard(line.replace("turn: ", "")).emojiFlip()
 
-            if self.debugHandAction:
+            if self.debug_hand_action:
                 # TODO: format
-                print("#\(self.currentHand?.id ?? 0) - turn: \(self.currentHand?.turn?.rawValue ?? '?')")
+                print(f"#{nil_guard(self.current_hand and self.current_hand.id,  0)} - turn: {nil_guard(self.current_hand and self.current_hand.turn.value, '?')}")
 
         elif msg and msg.startswith("river"):
             line = slice(msg, '[', ']')
-            self.currentHand.river = EmojiCard(line.replace("river: ", "")).emojiFlip
+            self.current_hand.river = EmojiCard(line.replace("river: ", "")).emojiFlip
 
-            if self.debugHandAction:
+            if self.debug_hand_action:
                 # TODO: format
                 print("#\(self.currentHand?.id ?? 0) - river: \(self.currentHand?.river?.rawValue ?? '?')")
 
         else:
             nameIdArray = msg and first(msg.split('" ')).split(" @ ")
-            player = first([p for p in self.currentHand.players if p.id == last(nameIdArray)]) if self.currentHand else None
+            player = first([p for p in self.current_hand.players if p.id == last(nameIdArray)]) if self.current_hand else None
             if player:
                 if msg and "big blind" in msg:
                     bigBlindSize = float(nil_guard(last(msg.split("big blind of ")), 0.0))
-                    self.currentHand.big_blind_size = bigBlindSize
-                    self.currentHand.big_blind.append(player)
+                    self.current_hand.big_blind_size = bigBlindSize
+                    self.current_hand.big_blind.append(player)
 
-                    if self.debugHandAction:
+                    if self.debug_hand_action:
                         # TODO: format
                         print("#\(self.currentHand?.id ?? 0) - \(player.name ?? 'Unknown Player') posts big \(bigBlindSize)  (Pot: \(self.currentHand?.pot ?? 0))")
 
                 if msg and "small blind" in msg:
                     smallBlindSize = float(nil_guard(last(msg.split("small blind of ")), 0.0))
-                    self.currentHand.small_blind_size = smallBlindSize
+                    self.current_hand.small_blind_size = smallBlindSize
                     if "missing" in msg:
-                        self.currentHand.missing_small_blinds.append(player)
+                        self.current_hand.missing_small_blinds.append(player)
                     else:
-                        self.currentHand.small_blind = player
+                        self.current_hand.small_blind = player
                     
-                    if self.debugHandAction:
+                    if self.debug_hand_action:
                         print("#\(self.currentHand?.id ?? 0) - \(player.name ?? 'Unknown Player') posts small \(smallBlindSize)  (Pot: \(self.currentHand?.pot ?? 0))")
-        if self.currentHand:
-            self.currentHand.lines.append(nil_guard(msg, "unknown line"))
+        if self.current_hand:
+            self.current_hand.lines.append(nil_guard(msg, "unknown line"))

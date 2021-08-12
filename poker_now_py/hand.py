@@ -109,7 +109,7 @@ class Hand:
         for line in self.lines:
             if 'starting hand' in line:
                 self.uncalled_bet = 0
-                lines.append(f"PokerStars Hand #{self.id}: Hold'em No Limit ({self.small_blind_size * multiplier:.02f}/{self.big_blind_size * multiplier:.02f} USD) - {date_string} ET")
+                lines.append(f"PokerStars Hand #{self.id}: Hold'em No Limit (${self.small_blind_size * multiplier:.02f}/${self.big_blind_size * multiplier:.02f} USD) - {date_string} ET")
                 
                 small_blind_seat = 0
                 for seat in self.seats:
@@ -137,12 +137,12 @@ class Hand:
                     stackSize = stackSize and stackSize.replace(")", "")
                     stackSizeFormatted = f"{float(nil_guard(stackSize, '0.0')) * multiplier:.02f}"
 
-                    lines.append(f"Seat {seatNumberInt}: {nil_guard(nameIdArray and first(nameIdArray), 'error')} ({stackSizeFormatted} in chips)")
+                    lines.append(f"Seat {seatNumberInt}: {nil_guard(nameIdArray and first(nameIdArray), 'error')} (${stackSizeFormatted} in chips)")
                     
-                lines.append(f"{nil_guard((self.small_blind and self.small_blind.name), 'Unknown')}: posts small blind {self.small_blind_size * multiplier:.02f}")
+                lines.append(f"{nil_guard((self.small_blind and self.small_blind.name), 'Unknown')}: posts small blind ${self.small_blind_size * multiplier:.02f}")
                 
                 for big_blind in self.big_blind:
-                    lines.append(f"{nil_guard(big_blind.name, 'Unknown')}: posts big blind {self.big_blind_size * multiplier:.02f}")
+                    lines.append(f"{nil_guard(big_blind.name, 'Unknown')}: posts big blind ${self.big_blind_size * multiplier:.02f}")
             
             if "Your hand" in line:
                 lines.append("*** HOLE CARDS ***")
@@ -188,7 +188,7 @@ class Hand:
                                 straddleSize = float(nil_guard(straddleSize, "0.0")) * multiplier
                             else:
                                 straddleSize = 0.0
-                            lines.append(f"{nil_guard(player.name, 'unknown')}: raises {straddleSize - current_bet:.02f} to {straddleSize: .02f}")
+                            lines.append(f"{nil_guard(player.name, 'unknown')}: raises ${straddleSize - current_bet:.02f} to ${straddleSize: .02f}")
                             current_bet = straddleSize
                             previous_action[nil_guard(player.id, "error")] = straddleSize
 
@@ -199,13 +199,13 @@ class Hand:
 
                             raiseSize = float(last(line.replace(" and go all in", "").split("to ")) or "0.0") * multiplier
                             if is_first_action:
-                                lines.append(f"{nil_guard(player.name, 'unknown')}: bets {raiseSize:.02f}")
+                                lines.append(f"{nil_guard(player.name, 'unknown')}: bets ${raiseSize:.02f}")
                                 current_bet = raiseSize
                                 is_first_action = False
                             else:
                                 lines.append(f"{nil_guard(player.name, 'unknown')}: "
-                                             f"raises {raiseSize - current_bet:.02f} "
-                                             f"to {raiseSize:.02f}")
+                                             f"raises ${raiseSize - current_bet:.02f} "
+                                             f"to ${raiseSize:.02f}")
                                 current_bet = raiseSize
                             previous_action[nil_guard(player.id, "error")] = raiseSize
 
@@ -214,16 +214,16 @@ class Hand:
                             if index is not None:
                                 self.seats[index].preFlopBet = True
 
-                            callAmount = float(last(line.replace(" and go all in", "").split("calls ")) or "0.0")
-                            callSize = callAmount * multiplier
+                            call_amount = float(last(line.replace(" and go all in", "").split("calls ")) or "0.0")
+                            call_size = call_amount * multiplier
                             if is_first_action:
-                                lines.append(f"{nil_guard(player.name, 'unknown')}: bets {callSize:.02f}")
-                                current_bet = callSize
+                                lines.append(f"{nil_guard(player.name, 'unknown')}: bets ${call_size:.02f}")
+                                current_bet = call_size
                                 is_first_action = False
                             else:
-                                uncalledPortionOfBet = callSize - (previous_action[nil_guard(player.id, "error")] or 0.0)
-                                lines.append(f"{nil_guard(player.name, 'unknown')}: calls {uncalledPortionOfBet:.02f}")
-                            previous_action[nil_guard(player.id, "error")] = callSize
+                                uncalled_portion_of_bet = call_size - (previous_action[nil_guard(player.id, "error")] or 0.0)
+                                lines.append(f"{nil_guard(player.name, 'unknown')}: calls ${uncalled_portion_of_bet:.02f}")
+                            previous_action[nil_guard(player.id, "error")] = call_size
 
                         if 'checks' in line:
                             lines.append(f"{nil_guard(player.name, 'unknown')}: checks")
@@ -244,32 +244,32 @@ class Hand:
                             index = first([i for i,x in enumerate(self.seats) if x.player and x.player.id == player.id])
                             if index is not None:
                                 self.seats[index].showed_hand = hand_components and [EmojiCard(x).emojiFlip().value for x in hand_components]
-                                lines.append(f"{player.name is not None or 'unknown'}: "
+                                lines.append(f"{player.name or 'unknown'}: "
                                              f"shows [{' '.join([EmojiCard(x).emojiFlip().value for x in (hand_components or [])])}]")
                         
                         if 'collected ' in line:
                             # has showdown
                             if ' from pot with ' in line:
-                                winPotSize = last(line.split(" collected "))
-                                if winPotSize is not None:
-                                    winPotSize = float(nil_guard(first(winPotSize.split(" from pot with ")), "0.0")) * multiplier
+                                win_pot_size = last(line.split(" collected "))
+                                if win_pot_size is not None:
+                                    win_pot_size = float(nil_guard(first(win_pot_size.split(" from pot with ")), "0.0")) * multiplier
 
                                 # remove missing smalls -- poker stars doesnt do this?
-                                winPotSize = winPotSize - self.small_blind_size * len(self.missing_small_blinds) * multiplier
+                                win_pot_size = win_pot_size - self.small_blind_size * len(self.missing_small_blinds) * multiplier
 
-                                winDescription = last(line.split(" from pot with "))
-                                if winDescription is not None:
-                                    winDescription = nil_guard(first(winDescription.split(" (")), "error")
-                                totalPotSize = winPotSize
+                                win_description = last(line.split(" from pot with "))
+                                if win_description is not None:
+                                    win_description = nil_guard(first(win_description.split(" (")), "error")
+                                total_pot_size = win_pot_size
                                 if not self.printed_showdown:
                                     lines.append("*** SHOW DOWN ***")
                                     self.printed_showdown = True
 
-                                lines.append(f"{nil_guard(player.name, 'Unknown')} collected {winPotSize:.02f} from pot")
+                                lines.append(f"{nil_guard(player.name, 'Unknown')} collected ${win_pot_size:.02f} from pot")
                                 
                                 index = first([i for i,x in enumerate(self.seats) if x.player and x.player.id == player.id])
                                 if index is not None:
-                                    self.seats[index].summary = f"{nil_guard(player.name, 'Unknown')} showed [] and won ({winPotSize:.02f}) with {winDescription}"
+                                    self.seats[index].summary = f"{nil_guard(player.name, 'Unknown')} showed [] and won (${win_pot_size:.02f}) with {win_description}"
 
                             else:
                                 # no showdown
@@ -286,25 +286,25 @@ class Hand:
                                 if self.flop is None:
                                     preFlopAction = 0.0
                                     
-                                    for player in self.players:
-                                        preFlopAction = preFlopAction + (nil_guard(previous_action[nil_guard(player.id, "error")], 0.0))
+                                    for p in self.players:
+                                        preFlopAction = preFlopAction + (nil_guard(previous_action[nil_guard(p.id, "error")], 0.0))
                                     
                                     # catching edge case of folding around preflop
                                     if preFlopAction == float(self.big_blind_size + self.small_blind_size) * multiplier:
                                         gained_pot_size = float(self.small_blind_size) * multiplier
-                                        lines.append(f"Uncalled bet ({self.big_blind_size * multiplier:.02f}) returned to {nil_guard(player.name, 'Unknown')}")
+                                        lines.append(f"Uncalled bet (${self.big_blind_size * multiplier:.02f}) returned to {nil_guard(player.name, 'Unknown')}")
                                     else:
                                         if self.uncalled_bet > 0:
-                                            lines.append(f"Uncalled bet ({self.uncalled_bet * multiplier:.02f}) returned to {nil_guard(player.name, 'Unknown')}")
+                                            lines.append(f"Uncalled bet (${self.uncalled_bet * multiplier:.02f}) returned to {nil_guard(player.name, 'Unknown')}")
                                 else:
                                     if self.uncalled_bet > 0:
-                                        lines.append(f"Uncalled bet ({self.uncalled_bet * multiplier:.02f}) returned to {nil_guard(player.name, 'Unknown')}")
+                                        lines.append(f"Uncalled bet (${self.uncalled_bet * multiplier:.02f}) returned to {nil_guard(player.name, 'Unknown')}")
 
-                                totalPotSize = gained_pot_size
-                                lines.append(f"{nil_guard(player.name, 'Unknown')} collected {gained_pot_size:.02f} from pot")
+                                total_pot_size = gained_pot_size
+                                lines.append(f"{nil_guard(player.name, 'Unknown')} collected ${gained_pot_size:.02f} from pot")
                                 index = first([i for i,x in enumerate(self.seats) if x.player and x.player.id == player.id])
                                 if index is not None:
-                                    self.seats[index].summary = f"{nil_guard(player.name, 'Unknown')} collected ({gained_pot_size:.02f})"
+                                    self.seats[index].summary = f"{nil_guard(player.name, 'Unknown')} collected (${gained_pot_size:.02f})"
                             
             
             if line.startswith("Uncalled bet"):
@@ -355,7 +355,7 @@ class Hand:
             
             if last(self.lines) == line:
                 lines.append("*** SUMMARY ***")
-                lines.append(f"Total pot: {totalPotSize:.02f} | Rake 0")
+                lines.append(f"Total pot: ${total_pot_size:.02f} | Rake $0.00")
                 board: List[Card] = []
                 board += nil_guard(self.flop, [])
                 if self.turn: board.append(self.turn)
@@ -378,7 +378,7 @@ class Hand:
                             summary = summary.replace(nil_guard(seat.player.name, "Unknown"), f"{nil_guard(seat.player.name, 'Unknown')} (big blind)")
                     
                     if seat.showed_hand is not None and '[]' not in summary:
-                        lines.append(f"Seat {seat.number}: {summary} [{nil_guard(seat.showed_hand, 'error')}]")
+                        lines.append(f"Seat {seat.number}: {summary} [{nil_guard(' '.join(seat.showed_hand), 'error')}]")
                     else:
                         try:
                             summary = summary.replace("[]", f"[{nil_guard(' '.join(seat.showed_hand), 'error')}]")

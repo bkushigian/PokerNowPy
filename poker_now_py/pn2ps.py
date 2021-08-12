@@ -13,6 +13,7 @@ class PN2PS:
         self.parser.add_argument("--multiplier", type=float, default=1.0, help="Multiply bet amounts by given value")
         self.parser.add_argument("--name", default="DGen", type=str, help="Table name")
         self.parser.add_argument("--output", "-o", default=None, help="File to write to (instead of stdout)")
+        self.parser.add_argument("--debug", "-d", action="store_true", help="print debug output")
         args = self.parser.parse_args()
 
         self.heroname = args.heroname
@@ -22,19 +23,23 @@ class PN2PS:
         self.multiplier = args.multiplier
         self.name = args.name
         self.output_file = args.output
+        self.debug =args.debug
 
     def process_csv(self, csv_rows: List[Dict[str, str]]):
-        game = Game(csv_rows)
+        game = Game(csv_rows, debug_hand_action=self.debug)
+
 
         if self.output_file is None:
             for hand in game.hands[:self.limit]:
                 hand.printPokerStarsDescription(hero_name=self.heroname, multiplier=self.multiplier or 1.0, table_name = self.name or "DGen")
         else:
             with open(self.output_file, 'w+', encoding='utf-8') as f:
-                for hand in game.hands[:self.limit]:
+                limit = len(game.hands)
+                if self.limit > 0:
+                    limit = self.limit
+                for hand in game.hands[:limit]:
                     descr = hand.getPokerStarsDescription(hero_name=self.heroname, multiplier=self.multiplier or 1.0, table_name = self.name or "DGen")
                     f.write(descr)
-                    f.write('\n')
 
     def run(self):
         if self.filename:
