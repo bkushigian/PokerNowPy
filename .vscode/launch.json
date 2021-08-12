@@ -20,7 +20,7 @@
             "request": "launch",
             "program": "${workspaceFolder}\\poker_now_py\\pn2ps.py",
             "console": "integratedTerminal",
-            "args": ["ben", "--filename", "C:\\Users\\bkush\\Poker\\PokerNowPy\\resources\\pnlogs\\log2.csv", "-o", "log2.txt"]
+            "args": ["player1", "--debug", "--filename", "C:\\Users\\bkush\\Poker\\PokerNowPy\\resources\\pnlogs\\hands\\mwpot.csv", "-o", "out/mwpot.txt"]
         }
     ]
 }
