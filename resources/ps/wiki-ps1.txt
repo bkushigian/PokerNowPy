@@ -1,0 +1,27 @@
+PokerStars Hand #156624936552:  Hold'em No Limit ($0.05/$0.10 USD) - 2016/07/30 4:59:02 ET
+Table 'Shenzhen' 9-max Seat #3 is the button
+Seat 3: Hero ($10.05 in chips) 
+Seat 8: Alpha242 ($10.89 in chips) 
+Hero: posts small blind $0.05
+Alpha242: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to Hero [6h 7h]
+Hero: raises $0.10 to $0.20
+Alpha242: calls $0.10
+*** FLOP *** [5s Jd Jc]
+Alpha242: checks 
+Hero: bets $0.20
+Alpha242: raises $0.51 to $0.71
+Hero: calls $0.51
+*** TURN *** [5s Jd Jc] [2s]
+Alpha242: bets $1
+Hero: raises $1.60 to $2.60
+Alpha242: folds 
+Uncalled bet ($1.60) returned to Hero
+Hero collected $3.65 from pot
+Hero: doesn't show hand 
+*** SUMMARY ***
+Total pot $3.82 | Rake $0.17 
+Board [5s Jd Jc 2s]
+Seat 3: Hero (button) (small blind) collected ($3.65)
+Seat 8: Alpha242 (big blind) folded on the Turn
