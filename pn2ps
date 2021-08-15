@@ -1,14 +1,21 @@
+#!/usr/bin/python
+
 import csv
-from game import Game
 from argparse import ArgumentParser
 from typing import List, Dict, Optional
+import sys
+import os
+
+cur_dir = os.path.dirname(os.path.realpath(__file__))
+sys.path.insert(0, os.path.join(cur_dir,'poker_now_py'))
+
+from poker_now_py.game import Game
 
 class PN2PS:
     def __init__(self):
         self.parser = ArgumentParser()
         self.parser.add_argument("heroname", help="Your name in log")
-        self.parser.add_argument("--table_url", default=None, help="PokerNow Table URL to download")
-        self.parser.add_argument("--filename", default=None, help="PokerNow log filename")
+        self.parser.add_argument("filename", help="PokerNow log filename")
         self.parser.add_argument("--limit", type=int, default=-1, help="Limit amount of hands processed")
         self.parser.add_argument("--multiplier", type=float, default=1.0, help="Multiply bet amounts by given value")
         self.parser.add_argument("--name", default="DGen", type=str, help="Table name")
@@ -17,8 +24,7 @@ class PN2PS:
         args = self.parser.parse_args()
 
         self.heroname = args.heroname
-        self.table_url = args.table_url
-        self.filename = args.filename
+        self.filename = args.filename.strip('"').strip("'")
         self.limit = args.limit
         self.multiplier = args.multiplier
         self.name = args.name
