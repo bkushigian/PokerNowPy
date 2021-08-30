@@ -25,7 +25,7 @@ the root directory of this project (that is, the one containing this README file
  the following from your terminal (MacOS/Linux) or Powershell (Windows):
 
 ```
-python pn2ps.py HERONAME PATH_TO_LOG -o OUTPUT_FILE_NAME
+python pn2ps HERONAME PATH_TO_LOG -o OUTPUT_FILE_NAME
 ```
 
 + `HERONAME`: the name of Hero used in the PokerNow session. This is used to
