@@ -41,7 +41,8 @@ class Hand:
                        lines:Optional[List[str]]=None,
                        small_blind_size:float=0.0,
                        big_blind_size:float=0.0,
-                       printed_showdown:bool=False):
+                       printed_showdown:bool=False,
+                       name_map=None):
 
         self.date: Optional[datetime] = date
         self.hole: Optional[List[Card]] = hole
@@ -61,6 +62,7 @@ class Hand:
         self.small_blind_size: float = small_blind_size
         self.big_blind_size: float = big_blind_size
         self.printed_showdown: bool = printed_showdown
+        self.name_map = name_map or {}
     
     
     # requirements as set:
@@ -136,8 +138,11 @@ class Hand:
                     stackSize = last(playerWithStack.split('" ('))
                     stackSize = stackSize and stackSize.replace(")", "")
                     stackSizeFormatted = f"{float(nil_guard(stackSize, '0.0')) * multiplier:.02f}"
+                    name = first(nameIdArray)
+                    name = self.name_map.get(name, name) 
+                    print(name)
 
-                    lines.append(f"Seat {seatNumberInt}: {nil_guard(nameIdArray and first(nameIdArray), 'error')} (${stackSizeFormatted} in chips)")
+                    lines.append(f"Seat {seatNumberInt}: {name} (${stackSizeFormatted} in chips)")
                     
                 lines.append(f"{nil_guard((self.small_blind and self.small_blind.name), 'Unknown')}: posts small blind ${self.small_blind_size * multiplier:.02f}")
                 

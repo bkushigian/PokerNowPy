@@ -67,7 +67,7 @@ class Game:
             if unparsedDealer and " # " in unparsedDealer:
                 dealerSeparator = " # "
 
-            hand = Hand()
+            hand = Hand(name_map=self.name_map)
             if "dead button" in msg:
                 hand.id = hash_str_as_id(f"deadbutton-{date.timestamp() if date else 0}")
                 hand.dealer = None
