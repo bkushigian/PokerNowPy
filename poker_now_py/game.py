@@ -17,12 +17,15 @@ from seat import Seat
 
 class Game:
 
-    def __init__(self, rows: List[Dict[str, str]], debug_hand_action=False):
+    def __init__(self, rows: List[Dict[str, str]],
+                       debug_hand_action=False,
+                       name_map: Dict[str,str]=None):
     
         self.debug_hand_action: bool = debug_hand_action
         self.show_errors: bool = True
         self.hands: List[Hand] = []
         self.current_hand: Optional[Hand] = None
+        self.name_map = name_map or {}
 
         self.dealier_id: Optional[str] = None
         self.init(rows)
@@ -90,9 +93,12 @@ class Game:
                 
                 nameIdArray = first(playerWithStackNoSeat.split('\" '))
                 nameIdArray = nameIdArray and nameIdArray.replace('"', "").split(" @ ")
+                name = nameIdArray[0]
+                name = self.name_map.get(name, name)
+                pid = nameIdArray[1]
                 stackSize = last(playerWithStack.split('" (')).replace(")", "")
                 
-                player = Player(admin=False, id=last(nameIdArray), stack=float(nil_guard(stackSize, "0")), name=first(nameIdArray))
+                player = Player(admin=False, id=pid, stack=float(nil_guard(stackSize, "0")), name=name)
                 players.append(player)
                 
                 self.current_hand and self.current_hand.seats.append(Seat(player=player, summary=f"{nil_guard(player.name, 'Unknown')} didn't show and lost", pre_flop_bet=False, number=seatNumberInt))

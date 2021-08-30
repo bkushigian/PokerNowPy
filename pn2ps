@@ -18,26 +18,32 @@ class PN2PS:
         self.parser.add_argument("filename", help="PokerNow log filename")
         self.parser.add_argument("--limit", type=int, default=-1, help="Limit amount of hands processed")
         self.parser.add_argument("--multiplier", type=float, default=1.0, help="Multiply bet amounts by given value")
-        self.parser.add_argument("--name", default="DGen", type=str, help="Table name")
+        self.parser.add_argument("--tablename", default="DGen", type=str, help="Table name")
         self.parser.add_argument("--output", "-o", default=None, help="File to write to (instead of stdout)")
         self.parser.add_argument("--debug", "-d", action="store_true", help="print debug output")
+        self.parser.add_argument("--namemap", "-n", default=None, type=str, help="Map table names to database names. This is helpful when players sign in with different names. Format is \"tablename1 databasename1 tablename2 databasename2 ... tablenameN databasenameN\"")
         args = self.parser.parse_args()
 
         self.heroname = args.heroname
         self.filename = args.filename.strip('"').strip("'")
         self.limit = args.limit
         self.multiplier = args.multiplier
-        self.name = args.name
+        self.table_name = args.tablename
         self.output_file = args.output
         self.debug =args.debug
+        name_map = args.namemap and args.namemap.split()
+        if name_map:
+            assert not len(name_map) % 2
+            name_map = {name_map[i] : name_map[i+1] for i in range(0, len(name_map), 2)}
+        self.name_map = name_map
 
     def process_csv(self, csv_rows: List[Dict[str, str]]):
-        game = Game(csv_rows, debug_hand_action=self.debug)
+        game = Game(csv_rows, debug_hand_action=self.debug, name_map=self.name_map)
 
 
         if self.output_file is None:
             for hand in game.hands[:self.limit]:
-                hand.printPokerStarsDescription(hero_name=self.heroname, multiplier=self.multiplier or 1.0, table_name = self.name or "DGen")
+                hand.printPokerStarsDescription(hero_name=self.heroname, multiplier=self.multiplier or 1.0, table_name = self.table_name)
         else:
             with open(self.output_file, 'w+', encoding='utf-8') as f:
                 limit = len(game.hands)
