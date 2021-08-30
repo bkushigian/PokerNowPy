@@ -50,7 +50,7 @@ class PN2PS:
                 if self.limit > 0:
                     limit = self.limit
                 for hand in game.hands[:limit]:
-                    descr = hand.getPokerStarsDescription(hero_name=self.heroname, multiplier=self.multiplier or 1.0, table_name = self.name or "DGen")
+                    descr = hand.getPokerStarsDescription(hero_name=self.heroname, multiplier=self.multiplier or 1.0, table_name = self.table_name or "DGen")
                     f.write(descr)
 
     def run(self):
