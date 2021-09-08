@@ -40,15 +40,15 @@ class PN2PS:
     def process_csv(self, csv_rows: List[Dict[str, str]]):
         game = Game(csv_rows, debug_hand_action=self.debug, name_map=self.name_map)
 
+        limit = len(game.hands)
+        if self.limit > 0:
+            limit = self.limit
 
         if self.output_file is None:
-            for hand in game.hands[:self.limit]:
+            for hand in game.hands[:limit]:
                 hand.printPokerStarsDescription(hero_name=self.heroname, multiplier=self.multiplier or 1.0, table_name = self.table_name)
         else:
             with open(self.output_file, 'w+', encoding='utf-8') as f:
-                limit = len(game.hands)
-                if self.limit > 0:
-                    limit = self.limit
                 for hand in game.hands[:limit]:
                     descr = hand.getPokerStarsDescription(hero_name=self.heroname, multiplier=self.multiplier or 1.0, table_name = self.table_name or "DGen")
                     f.write(descr)
