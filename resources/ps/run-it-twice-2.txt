@@ -1,0 +1,32 @@
+PokerStars Hand #17124963060314: Hold'em No Limit ($10.00/$20.00 USD) - 2021/09/08 21:37:05 ET
+Table 'DGen' 10-max Seat #1 is the button
+Seat 1: player1 ($1000.00 in chips)
+Seat 10: player2 ($2000.00 in chips)
+player1: posts small blind $10.00
+player2: posts big blind $20.00
+*** HOLE CARDS ***
+Dealt to player1 [2c Kc]
+player1: raises $30.00 to $50.00
+player2: raises $100.00 to $150.00
+player1: raises $300.00 to $450.00
+player2: raises $550.00 to $1000.00
+player1: calls $550.00
+player1: shows [2c Kc]
+player2: shows [5h 9h]
+*** FIRST FLOP *** [2h Kd Th]
+*** FIRST TURN *** [2h Kd Th] [3d]
+*** FIRST RIVER *** [2h Kd Th 3d] [5s]
+*** SECOND FLOP *** [3c As 8h]
+*** SECOND TURN *** [3c As 8h] [7h]
+*** SECOND RIVER *** [3c As 8h 7h] [Ah]
+*** FIRST SHOW DOWN ***
+player1 collected $1000.00 from pot
+*** SECOND SHOW DOWN ***
+player2 collected $1000.00 from pot
+*** SUMMARY ***
+Total pot: $1000.00 | Rake $0.00
+Hand was run twice
+FIRST Board: [2h Kd Th 3d 5s]
+SECOND Board: [3c As 8h 7h Ah]
+Seat 1: player1 (small blind) (button) showed [2c Kc] and won ($1000.00) with Two Pair, K's & 2's
+Seat 10: player2 (big blind) showed [5h 9h] and won ($1000.00) with Flush, Ah High on the second run 

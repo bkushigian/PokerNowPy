@@ -1,0 +1,26 @@
+entry,at,order
+"-- ending hand #3 --",2021-09-08T21:37:56.862Z,163113707686202
+"""player2 @ jyXAN0EtRT"" collected 1000 from pot with Flush, Ah High on the second run  (combination: A♥, 9♥, 8♥, 7♥, 5♥)",2021-09-08T21:37:56.862Z,163113707686201
+"""player1 @ li0n-OAYVm"" collected 1000 from pot with Two Pair, K's & 2's (combination: K♣, K♦, 2♣, 2♥, 10♥)",2021-09-08T21:37:56.862Z,163113707686200
+"River (second run): 3♣, A♠, 8♥, 7♥ [A♥]",2021-09-08T21:37:52.848Z,163113707284800
+"Turn (second run): 3♣, A♠, 8♥ [7♥]",2021-09-08T21:37:48.832Z,163113706883200
+"Flop (second run):  [3♣, A♠, 8♥]",2021-09-08T21:37:44.802Z,163113706480200
+"River: 2♥, K♦, 10♥, 3♦ [5♠]",2021-09-08T21:37:40.786Z,163113706078600
+"Turn: 2♥, K♦, 10♥ [3♦]",2021-09-08T21:37:36.764Z,163113705676400
+"Flop:  [2♥, K♦, 10♥]",2021-09-08T21:37:32.722Z,163113705272200
+"""player2 @ jyXAN0EtRT"" shows a 5♥, 9♥.",2021-09-08T21:37:28.687Z,163113704868701
+"""player1 @ li0n-OAYVm"" shows a 2♣, K♣.",2021-09-08T21:37:28.687Z,163113704868700
+"All players in hand choose to run it twice.",2021-09-08T21:37:27.881Z,163113704788101
+"""player2 @ jyXAN0EtRT"" chooses to  run it twice.",2021-09-08T21:37:27.881Z,163113704788100
+"""player1 @ li0n-OAYVm"" chooses to  run it twice.",2021-09-08T21:37:26.073Z,163113704607300
+"Remaining players decide whether to run it twice.",2021-09-08T21:37:26.035Z,163113704603501
+"""player1 @ li0n-OAYVm"" calls 1000 and go all in",2021-09-08T21:37:26.035Z,163113704603500
+"""player2 @ jyXAN0EtRT"" raises to 1000 and go all in",2021-09-08T21:37:23.911Z,163113704391100
+"""player1 @ li0n-OAYVm"" raises to 450",2021-09-08T21:37:18.922Z,163113703892200
+"""player2 @ jyXAN0EtRT"" raises to 150",2021-09-08T21:37:15.904Z,163113703590400
+"""player1 @ li0n-OAYVm"" raises to 50",2021-09-08T21:37:12.423Z,163113703242300
+"""player2 @ jyXAN0EtRT"" posts a big blind of 20",2021-09-08T21:37:05.952Z,163113702595205
+"""player1 @ li0n-OAYVm"" posts a small blind of 10",2021-09-08T21:37:05.952Z,163113702595204
+"Your hand is 2♣, K♣",2021-09-08T21:37:05.952Z,163113702595202
+"Player stacks: #1 ""player1 @ li0n-OAYVm"" (1000) | #10 ""player2 @ jyXAN0EtRT"" (2000)",2021-09-08T21:37:05.952Z,163113702595201
+"-- starting hand #3  (No Limit Texas Hold'em) (dealer: ""player1 @ li0n-OAYVm"") --",2021-09-08T21:37:05.952Z,163113702595200

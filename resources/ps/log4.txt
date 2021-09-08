@@ -1,0 +1,2579 @@
+PokerStars Hand #11975658080569: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 00:27:14 ET
+Table 'DGen' 10-max Seat #5 is the button
+Seat 1: ben ($10.00 in chips)
+Seat 3: pack2loud ($10.01 in chips)
+Seat 5: Jumbo ($10.00 in chips)
+Seat 9: ElitenessPhil ($10.00 in chips)
+ElitenessPhil: posts small blind $0.05
+ben: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [Ks 4h]
+pack2loud: folds
+Jumbo: folds
+ElitenessPhil: calls $0.05
+ben: checks
+*** FLOP *** [Ac 7s 9c]
+ElitenessPhil: bets 0.30
+ben: folds
+Uncalled bet ($0.30) returned to ElitenessPhil
+ElitenessPhil collected $0.20 from pot
+*** SUMMARY ***
+Total pot: $0.20 | Rake $0.00
+Board: [Ac 7s 9c]
+Seat 1: ben (big blind) folded on the Flop
+Seat 3: pack2loud folded before Flop (didn't bet)
+Seat 5: Jumbo (button) folded before Flop (didn't bet)
+Seat 9: ElitenessPhil (small blind) collected ($0.20)
+PokerStars Hand #12143047075507: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 00:29:05 ET
+Table 'DGen' 10-max Seat #9 is the button
+Seat 1: ben ($9.90 in chips)
+Seat 3: pack2loud ($10.01 in chips)
+Seat 5: Jumbo ($10.00 in chips)
+Seat 9: ElitenessPhil ($10.10 in chips)
+ben: posts small blind $0.05
+pack2loud: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [9h 3c]
+Jumbo: raises $0.12 to $0.22
+ElitenessPhil: calls $0.22
+ben: folds
+pack2loud: calls $0.12
+*** FLOP *** [Th Qd 8s]
+pack2loud: checks
+Jumbo: checks
+ElitenessPhil: checks
+*** TURN *** [Th Qd 8s] [8h]
+pack2loud: checks
+Jumbo: checks
+ElitenessPhil: bets 0.20
+pack2loud: calls $0.20
+Jumbo: calls $0.20
+*** RIVER *** [Th Qd 8s 8h] [Qc]
+pack2loud: checks
+Jumbo: bets 0.98
+ElitenessPhil: folds
+pack2loud: calls $0.98
+pack2loud: shows [Kd Ts]
+*** SHOW DOWN ***
+pack2loud collected $3.27 from pot
+Jumbo: shows [3d Jd]
+*** SUMMARY ***
+Total pot: $3.27 | Rake $0.00
+Board: [Th Qd 8s 8h Qc]
+Seat 1: ben (small blind) folded before Flop (didn't bet)
+Seat 3: pack2loud (big blind) showed [Kd Ts] and won ($3.27) with Two Pair, Q's & 10's
+Seat 5: Jumbo didn't show and lost [3d Jd]
+Seat 9: ElitenessPhil (button) folded on the River
+PokerStars Hand #3940872377579: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 00:30:59 ET
+Table 'DGen' 10-max Seat #1 is the button
+Seat 1: ben ($9.85 in chips)
+Seat 3: pack2loud ($11.88 in chips)
+Seat 5: Jumbo ($8.60 in chips)
+Seat 9: ElitenessPhil ($9.68 in chips)
+pack2loud: posts small blind $0.05
+Jumbo: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [Qh 4s]
+ElitenessPhil: calls $0.10
+ben: folds
+pack2loud: calls $0.05
+Jumbo: checks
+*** FLOP *** [Qs 5d Qc]
+pack2loud: checks
+Jumbo: checks
+ElitenessPhil: checks
+*** TURN *** [Qs 5d Qc] [Jd]
+pack2loud: checks
+Jumbo: checks
+ElitenessPhil: checks
+*** RIVER *** [Qs 5d Qc Jd] [Ad]
+pack2loud: checks
+Jumbo: bets 0.45
+ElitenessPhil: folds
+pack2loud: folds
+Uncalled bet ($0.45) returned to Jumbo
+Jumbo collected $0.30 from pot
+ben: shows [Qh 4s]
+*** SUMMARY ***
+Total pot: $0.30 | Rake $0.00
+Board: [Qs 5d Qc Jd Ad]
+Seat 1: ben (button) folded before Flop (didn't bet) [Qh 4s]
+Seat 3: pack2loud (small blind) folded on the River
+Seat 5: Jumbo (big blind) collected ($0.30)
+Seat 9: ElitenessPhil folded on the River
+PokerStars Hand #7398791840868: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 00:32:24 ET
+Table 'DGen' 10-max Seat #3 is the button
+Seat 1: ben ($9.85 in chips)
+Seat 3: pack2loud ($11.78 in chips)
+Seat 5: Jumbo ($8.80 in chips)
+Seat 9: ElitenessPhil ($9.58 in chips)
+Jumbo: posts small blind $0.05
+ElitenessPhil: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [5d 6s]
+ben: folds
+pack2loud: calls $0.10
+Jumbo: folds
+ElitenessPhil: raises $0.20 to $0.30
+pack2loud: calls $0.20
+*** FLOP *** [6d 4d Ks]
+ElitenessPhil: checks
+pack2loud: checks
+*** TURN *** [6d 4d Ks] [Jc]
+ElitenessPhil: checks
+pack2loud: checks
+*** RIVER *** [6d 4d Ks Jc] [Qs]
+ElitenessPhil: bets 0.10
+pack2loud: calls $0.10
+pack2loud: shows [7s 7d]
+*** SHOW DOWN ***
+pack2loud collected $0.85 from pot
+ElitenessPhil: shows [As 8d]
+*** SUMMARY ***
+Total pot: $0.85 | Rake $0.00
+Board: [6d 4d Ks Jc Qs]
+Seat 1: ben folded before Flop (didn't bet)
+Seat 3: pack2loud (button) showed [7s 7d] and won ($0.85) with Pair, 7's
+Seat 5: Jumbo (small blind) folded before Flop (didn't bet)
+Seat 9: ElitenessPhil (big blind) didn't show and lost [As 8d]
+PokerStars Hand #10322482079310: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 00:34:26 ET
+Table 'DGen' 10-max Seat #5 is the button
+Seat 1: ben ($10.00 in chips)
+Seat 3: pack2loud ($12.23 in chips)
+Seat 5: Jumbo ($8.75 in chips)
+Seat 9: ElitenessPhil ($9.18 in chips)
+ElitenessPhil: posts small blind $0.05
+ben: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [2h 6c]
+pack2loud: folds
+Jumbo: folds
+ElitenessPhil: calls $0.05
+ben: checks
+*** FLOP *** [3s As Kd]
+ElitenessPhil: checks
+ben: bets 0.10
+ElitenessPhil: calls $0.10
+*** TURN *** [3s As Kd] [Td]
+ElitenessPhil: checks
+ben: bets 0.30
+ElitenessPhil: folds
+Uncalled bet ($0.30) returned to ben
+ben collected $0.40 from pot
+ben: shows [2h 6c]
+*** SUMMARY ***
+Total pot: $0.40 | Rake $0.00
+Board: [3s As Kd Td]
+Seat 1: ben (big blind) collected ($0.40) [2h 6c]
+Seat 3: pack2loud folded before Flop (didn't bet)
+Seat 5: Jumbo (button) folded before Flop (didn't bet)
+Seat 9: ElitenessPhil (small blind) folded on the Turn
+PokerStars Hand #7419954194919: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 00:35:28 ET
+Table 'DGen' 10-max Seat #9 is the button
+Seat 1: ben ($10.20 in chips)
+Seat 3: pack2loud ($12.23 in chips)
+Seat 5: Jumbo ($8.75 in chips)
+Seat 9: ElitenessPhil ($8.98 in chips)
+ben: posts small blind $0.05
+pack2loud: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [Js 3d]
+Jumbo: raises $0.12 to $0.22
+ElitenessPhil: calls $0.22
+ben: folds
+pack2loud: calls $0.12
+*** FLOP *** [2h 7c Kd]
+pack2loud: folds
+Jumbo: bets 0.32
+ElitenessPhil: folds
+Uncalled bet ($0.32) returned to Jumbo
+Jumbo collected $0.71 from pot
+*** SUMMARY ***
+Total pot: $0.71 | Rake $0.00
+Board: [2h 7c Kd]
+Seat 1: ben (small blind) folded before Flop (didn't bet)
+Seat 3: pack2loud (big blind) folded on the Flop
+Seat 5: Jumbo collected ($0.71)
+Seat 9: ElitenessPhil (button) folded on the Flop
+PokerStars Hand #1122440021750: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 00:36:16 ET
+Table 'DGen' 10-max Seat #1 is the button
+Seat 1: ben ($10.15 in chips)
+Seat 3: pack2loud ($12.01 in chips)
+Seat 5: Jumbo ($9.24 in chips)
+Seat 9: ElitenessPhil ($8.76 in chips)
+pack2loud: posts small blind $0.05
+Jumbo: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [8s Qs]
+ElitenessPhil: calls $0.10
+ben: raises $0.55 to $0.65
+pack2loud: folds
+Jumbo: folds
+ElitenessPhil: calls $0.55
+*** FLOP *** [4h 8h Kc]
+ElitenessPhil: checks
+ben: checks
+*** TURN *** [4h 8h Kc] [Jh]
+ElitenessPhil: checks
+ben: bets 0.40
+ElitenessPhil: raises $0.40 to $0.80
+ben: calls $0.40
+*** RIVER *** [4h 8h Kc Jh] [Ah]
+ElitenessPhil: checks
+ben: checks
+ben: shows [8s Qs]
+*** SHOW DOWN ***
+ben collected $3.05 from pot
+ElitenessPhil: shows [9d Qc]
+*** SUMMARY ***
+Total pot: $3.05 | Rake $0.00
+Board: [4h 8h Kc Jh Ah]
+Seat 1: ben (button) showed [8s Qs] and won ($3.05) with Pair, 8's
+Seat 3: pack2loud (small blind) folded before Flop (didn't bet)
+Seat 5: Jumbo (big blind) folded before Flop (didn't bet)
+Seat 9: ElitenessPhil didn't show and lost [9d Qc]
+PokerStars Hand #5287683952389: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 00:37:39 ET
+Table 'DGen' 10-max Seat #3 is the button
+Seat 1: ben ($11.75 in chips)
+Seat 3: pack2loud ($11.96 in chips)
+Seat 5: Jumbo ($9.14 in chips)
+Seat 9: ElitenessPhil ($7.31 in chips)
+Jumbo: posts small blind $0.05
+ElitenessPhil: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [9d 7h]
+ben: folds
+pack2loud: calls $0.10
+Jumbo: calls $0.05
+ElitenessPhil: checks
+*** FLOP *** [As 8c Qh]
+Jumbo: checks
+ElitenessPhil: bets 0.10
+pack2loud: folds
+Jumbo: folds
+Uncalled bet ($0.10) returned to ElitenessPhil
+ElitenessPhil collected $0.30 from pot
+*** SUMMARY ***
+Total pot: $0.30 | Rake $0.00
+Board: [As 8c Qh]
+Seat 1: ben folded before Flop (didn't bet)
+Seat 3: pack2loud (button) folded on the Flop
+Seat 5: Jumbo (small blind) folded on the Flop
+Seat 9: ElitenessPhil (big blind) collected ($0.30)
+PokerStars Hand #16091502979578: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 00:38:47 ET
+Table 'DGen' 10-max Seat #5 is the button
+Seat 1: ben ($11.75 in chips)
+Seat 3: pack2loud ($11.86 in chips)
+Seat 5: Jumbo ($9.04 in chips)
+Seat 9: ElitenessPhil ($7.51 in chips)
+ElitenessPhil: posts small blind $0.05
+ben: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [Tc 6c]
+pack2loud: raises $0.12 to $0.22
+Jumbo: folds
+ElitenessPhil: calls $0.17
+ben: calls $0.12
+*** FLOP *** [5s 7d 9h]
+ElitenessPhil: checks
+ben: checks
+pack2loud: checks
+*** TURN *** [5s 7d 9h] [6d]
+ElitenessPhil: checks
+ben: checks
+pack2loud: bets 0.10
+ElitenessPhil: calls $0.10
+ben: calls $0.10
+*** RIVER *** [5s 7d 9h 6d] [As]
+ElitenessPhil: bets 0.30
+ben: folds
+pack2loud: calls $0.30
+pack2loud: shows [Qd Qc]
+*** SHOW DOWN ***
+pack2loud collected $1.56 from pot
+ElitenessPhil: shows [Jd 6s]
+*** SUMMARY ***
+Total pot: $1.56 | Rake $0.00
+Board: [5s 7d 9h 6d As]
+Seat 1: ben (big blind) folded on the River
+Seat 3: pack2loud showed [Qd Qc] and won ($1.56) with Pair, Q's
+Seat 5: Jumbo (button) folded before Flop (didn't bet)
+Seat 9: ElitenessPhil (small blind) didn't show and lost [Jd 6s]
+PokerStars Hand #4521130546930: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 00:40:03 ET
+Table 'DGen' 10-max Seat #9 is the button
+Seat 1: ben ($11.43 in chips)
+Seat 3: pack2loud ($12.80 in chips)
+Seat 5: Jumbo ($9.04 in chips)
+Seat 6: alsoben ($5.00 in chips)
+Seat 9: ElitenessPhil ($6.89 in chips)
+ben: posts small blind $0.05
+pack2loud: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [Qs 5d]
+Jumbo: raises $0.12 to $0.22
+alsoben: folds
+ElitenessPhil: calls $0.22
+ben: folds
+pack2loud: calls $0.12
+*** FLOP *** [Js 6s 4c]
+pack2loud: checks
+Jumbo: checks
+ElitenessPhil: checks
+*** TURN *** [Js 6s 4c] [Ks]
+pack2loud: bets 0.10
+Jumbo: calls $0.10
+ElitenessPhil: calls $0.10
+*** RIVER *** [Js 6s 4c Ks] [Ts]
+pack2loud: checks
+Jumbo: checks
+ElitenessPhil: bets 0.52
+pack2loud: calls $0.52
+Jumbo: folds
+ElitenessPhil: shows [3h 8s]
+*** SHOW DOWN ***
+ElitenessPhil collected $2.05 from pot
+pack2loud: shows [Jc Ac]
+ben: shows [Qs 5d]
+*** SUMMARY ***
+Total pot: $2.05 | Rake $0.00
+Board: [Js 6s 4c Ks Ts]
+Seat 1: ben (small blind) folded before Flop (didn't bet) [Qs 5d]
+Seat 3: pack2loud (big blind) didn't show and lost [Jc Ac]
+Seat 5: Jumbo folded on the River
+Seat 6: alsoben folded before Flop (didn't bet)
+Seat 9: ElitenessPhil (button) showed [3h 8s] and won ($2.05) with Flush, Ks High
+PokerStars Hand #6375434850075: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 00:41:55 ET
+Table 'DGen' 10-max Seat #1 is the button
+Seat 1: ben ($11.38 in chips)
+Seat 3: pack2loud ($11.96 in chips)
+Seat 5: Jumbo ($8.72 in chips)
+Seat 6: alsoben ($5.00 in chips)
+Seat 9: ElitenessPhil ($8.10 in chips)
+pack2loud: posts small blind $0.05
+Jumbo: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [Qc Kd]
+alsoben: folds
+ElitenessPhil: calls $0.10
+ben: raises $0.50 to $0.60
+pack2loud: calls $0.55
+Jumbo: folds
+ElitenessPhil: calls $0.50
+*** FLOP *** [Kc 4d Jd]
+pack2loud: checks
+ElitenessPhil: checks
+ben: bets 0.95
+pack2loud: folds
+ElitenessPhil: calls $0.95
+*** TURN *** [Kc 4d Jd] [Qh]
+ElitenessPhil: bets 0.30
+ben: raises $2.20 to $2.50
+ElitenessPhil: calls $2.20
+*** RIVER *** [Kc 4d Jd Qh] [3d]
+ElitenessPhil: checks
+ben: checks
+ben: shows [Qc Kd]
+*** SHOW DOWN ***
+ben collected $8.80 from pot
+ElitenessPhil: shows [Jc Ad]
+*** SUMMARY ***
+Total pot: $8.80 | Rake $0.00
+Board: [Kc 4d Jd Qh 3d]
+Seat 1: ben (button) showed [Qc Kd] and won ($8.80) with Two Pair, K's & Q's
+Seat 3: pack2loud (small blind) folded on the Flop
+Seat 5: Jumbo (big blind) folded before Flop (didn't bet)
+Seat 6: alsoben folded before Flop (didn't bet)
+Seat 9: ElitenessPhil didn't show and lost [Jc Ad]
+PokerStars Hand #4620666780034: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 00:43:49 ET
+Table 'DGen' 10-max Seat #3 is the button
+Seat 1: ben ($16.13 in chips)
+Seat 3: pack2loud ($11.36 in chips)
+Seat 5: Jumbo ($8.62 in chips)
+Seat 6: alsoben ($5.00 in chips)
+Seat 9: ElitenessPhil ($4.05 in chips)
+Jumbo: posts small blind $0.05
+alsoben: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [Qs 6s]
+ElitenessPhil: calls $0.10
+ben: raises $0.50 to $0.60
+pack2loud: calls $0.60
+Jumbo: calls $0.55
+alsoben: calls $0.50
+ElitenessPhil: folds
+*** FLOP *** [7s Qh 9d]
+Jumbo: checks
+alsoben: checks
+ben: bets 0.60
+pack2loud: folds
+Jumbo: calls $0.60
+alsoben: folds
+*** TURN *** [7s Qh 9d] [Kh]
+Jumbo: checks
+ben: checks
+*** RIVER *** [7s Qh 9d Kh] [Ac]
+Jumbo: checks
+ben: checks
+ben: shows [Qs 6s]
+*** SHOW DOWN ***
+ben collected $3.70 from pot
+Jumbo: shows [8h 7h]
+*** SUMMARY ***
+Total pot: $3.70 | Rake $0.00
+Board: [7s Qh 9d Kh Ac]
+Seat 1: ben showed [Qs 6s] and won ($3.70) with Pair, Q's
+Seat 3: pack2loud (button) folded on the Flop
+Seat 5: Jumbo (small blind) didn't show and lost [8h 7h]
+Seat 6: alsoben (big blind) folded on the Flop
+Seat 9: ElitenessPhil folded before Flop (didn't bet)
+PokerStars Hand #9558639935987: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 00:45:54 ET
+Table 'DGen' 10-max Seat #5 is the button
+Seat 1: ben ($18.63 in chips)
+Seat 3: pack2loud ($10.76 in chips)
+Seat 5: Jumbo ($7.42 in chips)
+Seat 6: alsoben ($4.40 in chips)
+Seat 9: ElitenessPhil ($3.95 in chips)
+alsoben: posts small blind $0.05
+ElitenessPhil: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [As 2c]
+ben: folds
+pack2loud: raises $0.12 to $0.22
+Jumbo: folds
+alsoben: calls $0.17
+ElitenessPhil: calls $0.12
+*** FLOP *** [Qd Kh 9s]
+alsoben: bets 0.49
+ElitenessPhil: folds
+pack2loud: calls $0.49
+*** TURN *** [Qd Kh 9s] [5c]
+alsoben: bets 1.64
+pack2loud: calls $1.64
+*** RIVER *** [Qd Kh 9s 5c] [7d]
+alsoben: checks
+pack2loud: bets 0.47
+alsoben: raises $1.58 to $2.05
+pack2loud: calls $1.58
+pack2loud: shows [Qh Qs]
+*** SHOW DOWN ***
+pack2loud collected $9.02 from pot
+alsoben: shows [Jd Ks]
+*** SUMMARY ***
+Total pot: $9.02 | Rake $0.00
+Board: [Qd Kh 9s 5c 7d]
+Seat 1: ben folded before Flop (didn't bet)
+Seat 3: pack2loud showed [Qh Qs] and won ($9.02) with Three of a Kind, Q's
+Seat 5: Jumbo (button) folded before Flop (didn't bet)
+Seat 6: alsoben (small blind) didn't show and lost [Jd Ks]
+Seat 9: ElitenessPhil (big blind) folded on the Flop
+PokerStars Hand #5607360636897: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 00:47:34 ET
+Table 'DGen' 10-max Seat #5 is the button
+Seat 1: ben ($18.63 in chips)
+Seat 3: pack2loud ($15.38 in chips)
+Seat 5: Jumbo ($7.42 in chips)
+Seat 9: ElitenessPhil ($3.73 in chips)
+ElitenessPhil: posts small blind $0.05
+ben: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [9h 9d]
+pack2loud: calls $0.10
+Jumbo: folds
+ElitenessPhil: calls $0.05
+ben: raises $0.50 to $0.60
+pack2loud: folds
+ElitenessPhil: calls $0.50
+*** FLOP *** [Qd 5c As]
+ElitenessPhil: bets 0.40
+ben: calls $0.40
+*** TURN *** [Qd 5c As] [2s]
+ElitenessPhil: bets 0.93
+ben: folds
+Uncalled bet ($0.93) returned to ElitenessPhil
+ElitenessPhil collected $2.10 from pot
+*** SUMMARY ***
+Total pot: $2.10 | Rake $0.00
+Board: [Qd 5c As 2s]
+Seat 1: ben (big blind) folded on the Turn
+Seat 3: pack2loud folded before Flop (didn't bet)
+Seat 5: Jumbo (button) folded before Flop (didn't bet)
+Seat 9: ElitenessPhil (small blind) collected ($2.10)
+PokerStars Hand #11522206812188: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 00:48:48 ET
+Table 'DGen' 10-max Seat #9 is the button
+Seat 1: ben ($17.63 in chips)
+Seat 3: pack2loud ($15.28 in chips)
+Seat 5: Jumbo ($7.42 in chips)
+Seat 6: alsoben ($5.00 in chips)
+Seat 9: ElitenessPhil ($4.83 in chips)
+ben: posts small blind $0.05
+pack2loud: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [Js Qd]
+Jumbo: folds
+alsoben: calls $0.10
+ElitenessPhil: calls $0.10
+ben: calls $0.05
+pack2loud: checks
+*** FLOP *** [Ah Ac 7h]
+ben: checks
+pack2loud: bets 0.33
+alsoben: folds
+ElitenessPhil: folds
+ben: folds
+Uncalled bet ($0.33) returned to pack2loud
+pack2loud collected $0.40 from pot
+pack2loud: shows [Kc Kd]
+*** SUMMARY ***
+Total pot: $0.40 | Rake $0.00
+Board: [Ah Ac 7h]
+Seat 1: ben (small blind) folded on the Flop
+Seat 3: pack2loud (big blind) collected ($0.40) [Kc Kd]
+Seat 5: Jumbo folded before Flop (didn't bet)
+Seat 6: alsoben folded on the Flop
+Seat 9: ElitenessPhil (button) folded on the Flop
+PokerStars Hand #6967143094606: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 00:49:55 ET
+Table 'DGen' 10-max Seat #1 is the button
+Seat 1: ben ($17.53 in chips)
+Seat 3: pack2loud ($15.58 in chips)
+Seat 5: Jumbo ($7.42 in chips)
+Seat 6: alsoben ($4.90 in chips)
+Seat 9: ElitenessPhil ($4.73 in chips)
+pack2loud: posts small blind $0.05
+Jumbo: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [As Ts]
+alsoben: folds
+ElitenessPhil: calls $0.10
+ben: raises $0.50 to $0.60
+pack2loud: calls $0.55
+Jumbo: calls $0.50
+ElitenessPhil: calls $0.50
+*** FLOP *** [Qc 8c 9h]
+pack2loud: checks
+Jumbo: checks
+ElitenessPhil: checks
+ben: checks
+*** TURN *** [Qc 8c 9h] [5s]
+pack2loud: checks
+Jumbo: checks
+ElitenessPhil: bets 0.20
+ben: calls $0.20
+pack2loud: folds
+Jumbo: raises $1.50 to $1.70
+ElitenessPhil: calls $1.50
+ben: folds
+*** RIVER *** [Qc 8c 9h 5s] [Tc]
+Jumbo: bets 2.43
+ElitenessPhil: calls $2.43
+Jumbo: shows [5h Qh]
+*** SHOW DOWN ***
+Jumbo collected $10.86 from pot
+ElitenessPhil: shows [9d 8s]
+*** SUMMARY ***
+Total pot: $10.86 | Rake $0.00
+Board: [Qc 8c 9h 5s Tc]
+Seat 1: ben (button) folded on the Turn
+Seat 3: pack2loud (small blind) folded on the Turn
+Seat 5: Jumbo (big blind) showed [5h Qh] and won ($10.86) with Two Pair, Q's & 5's
+Seat 6: alsoben folded before Flop (didn't bet)
+Seat 9: ElitenessPhil didn't show and lost [9d 8s]
+PokerStars Hand #14134310757433: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 00:52:29 ET
+Table 'DGen' 10-max Seat #3 is the button
+Seat 1: ben ($16.73 in chips)
+Seat 3: pack2loud ($14.98 in chips)
+Seat 5: Jumbo ($13.55 in chips)
+Seat 6: alsoben ($4.90 in chips)
+Jumbo: posts small blind $0.05
+alsoben: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [Ac 3s]
+ben: folds
+pack2loud: folds
+Jumbo: calls $0.05
+alsoben: checks
+*** FLOP *** [9h 5h Qh]
+Jumbo: bets 0.10
+alsoben: calls $0.10
+*** TURN *** [9h 5h Qh] [7s]
+Jumbo: bets 0.30
+alsoben: calls $0.30
+*** RIVER *** [9h 5h Qh 7s] [Td]
+Jumbo: bets 0.50
+alsoben: calls $0.50
+alsoben: shows [5c 7h]
+*** SHOW DOWN ***
+alsoben collected $2.00 from pot
+Jumbo: shows [6d Jh]
+*** SUMMARY ***
+Total pot: $2.00 | Rake $0.00
+Board: [9h 5h Qh 7s Td]
+Seat 1: ben folded before Flop (didn't bet)
+Seat 3: pack2loud (button) folded before Flop (didn't bet)
+Seat 5: Jumbo (small blind) didn't show and lost [6d Jh]
+Seat 6: alsoben (big blind) showed [5c 7h] and won ($2.00) with Two Pair, 7's & 5's
+PokerStars Hand #7369323480093: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 00:54:12 ET
+Table 'DGen' 10-max Seat #5 is the button
+Seat 1: ben ($16.73 in chips)
+Seat 3: pack2loud ($14.98 in chips)
+Seat 5: Jumbo ($12.55 in chips)
+Seat 6: alsoben ($5.90 in chips)
+Seat 9: ElitenessPhil ($10.00 in chips)
+alsoben: posts small blind $0.05
+ElitenessPhil: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [8h Ah]
+ben: raises $0.15 to $0.25
+pack2loud: folds
+Jumbo: folds
+alsoben: calls $0.20
+ElitenessPhil: calls $0.15
+*** FLOP *** [Jd Qs 8s]
+alsoben: checks
+ElitenessPhil: checks
+ben: checks
+*** TURN *** [Jd Qs 8s] [Qd]
+alsoben: checks
+ElitenessPhil: checks
+ben: checks
+*** RIVER *** [Jd Qs 8s Qd] [Js]
+alsoben: checks
+ElitenessPhil: checks
+ben: checks
+ben: shows [8h Ah]
+*** SHOW DOWN ***
+ben collected $0.75 from pot
+alsoben: shows [5h 4h]
+ElitenessPhil: shows [8c 9c]
+*** SUMMARY ***
+Total pot: $0.75 | Rake $0.00
+Board: [Jd Qs 8s Qd Js]
+Seat 1: ben showed [8h Ah] and won ($0.75) with Two Pair, Q's & J's
+Seat 3: pack2loud folded before Flop (didn't bet)
+Seat 5: Jumbo (button) folded before Flop (didn't bet)
+Seat 6: alsoben (small blind) didn't show and lost [5h 4h]
+Seat 9: ElitenessPhil (big blind) didn't show and lost [8c 9c]
+PokerStars Hand #12620541770977: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 00:55:35 ET
+Table 'DGen' 10-max Seat #6 is the button
+Seat 1: ben ($17.23 in chips)
+Seat 3: pack2loud ($14.98 in chips)
+Seat 5: Jumbo ($12.55 in chips)
+Seat 6: alsoben ($5.65 in chips)
+Seat 9: ElitenessPhil ($9.75 in chips)
+ElitenessPhil: posts small blind $0.05
+ben: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [Ah Qs]
+pack2loud: calls $0.10
+Jumbo: folds
+alsoben: folds
+ElitenessPhil: calls $0.05
+ben: raises $0.60 to $0.70
+pack2loud: calls $0.60
+ElitenessPhil: calls $0.60
+*** FLOP *** [2s 5d As]
+ElitenessPhil: checks
+ben: bets 0.95
+pack2loud: calls $0.95
+ElitenessPhil: folds
+*** TURN *** [2s 5d As] [Td]
+ben: checks
+pack2loud: checks
+*** RIVER *** [2s 5d As Td] [Qh]
+ben: bets 4.30
+pack2loud: calls $4.30
+ben: shows [Ah Qs]
+*** SHOW DOWN ***
+ben collected $12.60 from pot
+pack2loud: shows [Ac 3c]
+*** SUMMARY ***
+Total pot: $12.60 | Rake $0.00
+Board: [2s 5d As Td Qh]
+Seat 1: ben (big blind) showed [Ah Qs] and won ($12.60) with Two Pair, A's & Q's
+Seat 3: pack2loud didn't show and lost [Ac 3c]
+Seat 5: Jumbo folded before Flop (didn't bet)
+Seat 6: alsoben (button) folded before Flop (didn't bet)
+Seat 9: ElitenessPhil (small blind) folded on the Flop
+PokerStars Hand #6491175767665: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 00:57:29 ET
+Table 'DGen' 10-max Seat #9 is the button
+Seat 1: ben ($23.88 in chips)
+Seat 3: pack2loud ($9.03 in chips)
+Seat 5: Jumbo ($12.55 in chips)
+Seat 6: alsoben ($5.65 in chips)
+Seat 9: ElitenessPhil ($9.05 in chips)
+ben: posts small blind $0.05
+pack2loud: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [5c 4c]
+Jumbo: folds
+alsoben: calls $0.10
+ElitenessPhil: calls $0.10
+ben: calls $0.05
+pack2loud: checks
+*** FLOP *** [4h 2d 8c]
+ben: checks
+pack2loud: checks
+alsoben: checks
+ElitenessPhil: checks
+*** TURN *** [4h 2d 8c] [Th]
+ben: checks
+pack2loud: checks
+alsoben: bets 0.30
+ElitenessPhil: calls $0.30
+ben: folds
+pack2loud: folds
+*** RIVER *** [4h 2d 8c Th] [3d]
+alsoben: checks
+ElitenessPhil: bets 0.50
+alsoben: calls $0.50
+ElitenessPhil: shows [5d Ts]
+*** SHOW DOWN ***
+ElitenessPhil collected $2.00 from pot
+*** SUMMARY ***
+Total pot: $2.00 | Rake $0.00
+Board: [4h 2d 8c Th 3d]
+Seat 1: ben (small blind) folded on the Turn
+Seat 3: pack2loud (big blind) folded on the Turn
+Seat 5: Jumbo folded before Flop (didn't bet)
+Seat 6: alsoben didn't show and lost
+Seat 9: ElitenessPhil (button) showed [5d Ts] and won ($2.00) with Pair, 10's
+PokerStars Hand #2926140684832: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 00:59:25 ET
+Table 'DGen' 10-max Seat #1 is the button
+Seat 1: ben ($23.78 in chips)
+Seat 3: pack2loud ($8.93 in chips)
+Seat 5: Jumbo ($12.55 in chips)
+Seat 6: alsoben ($4.75 in chips)
+Seat 9: ElitenessPhil ($10.15 in chips)
+pack2loud: posts small blind $0.05
+Jumbo: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [Jd Qc]
+alsoben: raises $0.25 to $0.35
+ElitenessPhil: calls $0.35
+ben: folds
+pack2loud: folds
+Jumbo: calls $0.25
+*** FLOP *** [5d Kh Kc]
+Jumbo: checks
+alsoben: bets 1.10
+ElitenessPhil: folds
+Jumbo: calls $1.10
+*** TURN *** [5d Kh Kc] [Qd]
+Jumbo: checks
+alsoben: checks
+*** RIVER *** [5d Kh Kc Qd] [6c]
+Jumbo: bets 1.37
+alsoben: calls $1.37
+Jumbo: shows [4h Kd]
+*** SHOW DOWN ***
+Jumbo collected $6.04 from pot
+*** SUMMARY ***
+Total pot: $6.04 | Rake $0.00
+Board: [5d Kh Kc Qd 6c]
+Seat 1: ben (button) folded before Flop (didn't bet)
+Seat 3: pack2loud (small blind) folded before Flop (didn't bet)
+Seat 5: Jumbo (big blind) showed [4h Kd] and won ($6.04) with Three of a Kind, K's
+Seat 6: alsoben didn't show and lost
+Seat 9: ElitenessPhil folded on the Flop
+PokerStars Hand #10593178405241: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 01:01:00 ET
+Table 'DGen' 10-max Seat #3 is the button
+Seat 1: ben ($23.78 in chips)
+Seat 3: pack2loud ($8.88 in chips)
+Seat 5: Jumbo ($15.77 in chips)
+Seat 6: alsoben ($1.93 in chips)
+Seat 9: ElitenessPhil ($9.80 in chips)
+Jumbo: posts small blind $0.05
+alsoben: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [Ac 8c]
+ElitenessPhil: calls $0.10
+ben: raises $0.45 to $0.55
+pack2loud: calls $0.55
+Jumbo: folds
+alsoben: raises $1.38 to $1.93
+ElitenessPhil: calls $1.83
+ben: folds
+pack2loud: calls $1.38
+*** FLOP *** [Qh 6h Ts]
+ElitenessPhil: checks
+pack2loud: checks
+*** TURN *** [Qh 6h Ts] [Qd]
+ElitenessPhil: checks
+pack2loud: checks
+*** RIVER *** [Qh 6h Ts Qd] [6d]
+ElitenessPhil: checks
+pack2loud: checks
+alsoben: shows [Jh Js]
+*** SHOW DOWN ***
+alsoben collected $6.39 from pot
+pack2loud: shows [5h 5d]
+*** SUMMARY ***
+Total pot: $6.39 | Rake $0.00
+Board: [Qh 6h Ts Qd 6d]
+Seat 1: ben folded before Flop (didn't bet)
+Seat 3: pack2loud (button) didn't show and lost [5h 5d]
+Seat 5: Jumbo (small blind) folded before Flop (didn't bet)
+Seat 6: alsoben (big blind) showed [Jh Js] and won ($6.39) with Two Pair, Q's & J's
+Seat 9: ElitenessPhil didn't show and lost
+PokerStars Hand #8753104431939: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 01:03:02 ET
+Table 'DGen' 10-max Seat #5 is the button
+Seat 1: ben ($23.23 in chips)
+Seat 3: pack2loud ($6.95 in chips)
+Seat 4: Madison ($5.00 in chips)
+Seat 5: Jumbo ($15.72 in chips)
+Seat 6: alsoben ($6.39 in chips)
+Seat 9: ElitenessPhil ($7.87 in chips)
+alsoben: posts small blind $0.05
+ElitenessPhil: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [Ad Kd]
+ben: raises $0.15 to $0.25
+pack2loud: folds
+Madison: calls $0.25
+Jumbo: folds
+alsoben: calls $0.20
+ElitenessPhil: calls $0.15
+*** FLOP *** [7h 4h As]
+alsoben: checks
+ElitenessPhil: bets 0.20
+ben: raises $0.70 to $0.90
+Madison: folds
+alsoben: folds
+ElitenessPhil: folds
+Uncalled bet ($0.70) returned to ben
+ben collected $1.40 from pot
+*** SUMMARY ***
+Total pot: $1.40 | Rake $0.00
+Board: [7h 4h As]
+Seat 1: ben collected ($1.40)
+Seat 3: pack2loud folded before Flop (didn't bet)
+Seat 4: Madison folded on the Flop
+Seat 5: Jumbo (button) folded before Flop (didn't bet)
+Seat 6: alsoben (small blind) folded on the Flop
+Seat 9: ElitenessPhil (big blind) folded on the Flop
+PokerStars Hand #2210906387766: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 01:04:10 ET
+Table 'DGen' 10-max Seat #6 is the button
+Seat 1: ben ($24.18 in chips)
+Seat 3: pack2loud ($6.95 in chips)
+Seat 4: Madison ($4.75 in chips)
+Seat 5: Jumbo ($15.72 in chips)
+Seat 6: alsoben ($6.14 in chips)
+Seat 9: ElitenessPhil ($7.42 in chips)
+ElitenessPhil: posts small blind $0.05
+ben: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [Tc 5d]
+pack2loud: folds
+Madison: calls $0.10
+Jumbo: raises $0.26 to $0.36
+alsoben: raises $0.72 to $1.08
+ElitenessPhil: folds
+ben: folds
+Madison: calls $0.98
+Jumbo: calls $0.72
+*** FLOP *** [Js 6s Th]
+Madison: checks
+Jumbo: checks
+alsoben: bets 1.01
+Madison: folds
+Jumbo: calls $1.01
+*** TURN *** [Js 6s Th] [Ah]
+Jumbo: checks
+alsoben: bets 2.70
+Jumbo: folds
+Uncalled bet ($2.70) returned to alsoben
+alsoben collected $5.41 from pot
+alsoben: shows [Jd Jh]
+*** SUMMARY ***
+Total pot: $5.41 | Rake $0.00
+Board: [Js 6s Th Ah]
+Seat 1: ben (big blind) folded before Flop (didn't bet)
+Seat 3: pack2loud folded before Flop (didn't bet)
+Seat 4: Madison folded on the Flop
+Seat 5: Jumbo folded on the Turn
+Seat 6: alsoben (button) collected ($5.41) [Jd Jh]
+Seat 9: ElitenessPhil (small blind) folded before Flop (didn't bet)
+PokerStars Hand #6120819542199: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 01:06:31 ET
+Table 'DGen' 10-max Seat #9 is the button
+Seat 1: ben ($24.08 in chips)
+Seat 3: pack2loud ($6.95 in chips)
+Seat 4: Madison ($3.67 in chips)
+Seat 5: Jumbo ($13.63 in chips)
+Seat 6: alsoben ($9.46 in chips)
+Seat 9: ElitenessPhil ($7.37 in chips)
+ben: posts small blind $0.05
+pack2loud: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [4c Jc]
+Madison: folds
+Jumbo: folds
+alsoben: folds
+ElitenessPhil: raises $0.30 to $0.40
+ben: folds
+pack2loud: folds
+Uncalled bet ($0.30) returned to ElitenessPhil
+ElitenessPhil collected $0.25 from pot
+*** SUMMARY ***
+Total pot: $0.25 | Rake $0.00
+Seat 1: ben (small blind) folded before Flop (didn't bet)
+Seat 3: pack2loud (big blind) folded before Flop (didn't bet)
+Seat 4: Madison folded before Flop (didn't bet)
+Seat 5: Jumbo folded before Flop (didn't bet)
+Seat 6: alsoben folded before Flop (didn't bet)
+Seat 9: ElitenessPhil (button) collected ($0.25)
+PokerStars Hand #8806034658094: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 01:07:00 ET
+Table 'DGen' 10-max Seat #1 is the button
+Seat 1: ben ($24.03 in chips)
+Seat 3: pack2loud ($6.85 in chips)
+Seat 4: Madison ($3.67 in chips)
+Seat 5: Jumbo ($13.63 in chips)
+Seat 6: alsoben ($9.46 in chips)
+Seat 9: ElitenessPhil ($7.52 in chips)
+pack2loud: posts small blind $0.05
+Madison: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [Ac 7d]
+Jumbo: raises $0.12 to $0.22
+alsoben: raises $0.29 to $0.51
+ElitenessPhil: folds
+ben: folds
+pack2loud: calls $0.46
+Madison: folds
+Jumbo: calls $0.29
+*** FLOP *** [7h 4c Qs]
+pack2loud: checks
+Jumbo: checks
+alsoben: bets 0.81
+pack2loud: folds
+Jumbo: calls $0.81
+*** TURN *** [7h 4c Qs] [Kc]
+Jumbo: checks
+alsoben: checks
+*** RIVER *** [7h 4c Qs Kc] [2h]
+Jumbo: bets 2.43
+alsoben: folds
+Uncalled bet ($2.43) returned to Jumbo
+Jumbo collected $3.25 from pot
+Jumbo: shows [5s 7s]
+*** SUMMARY ***
+Total pot: $3.25 | Rake $0.00
+Board: [7h 4c Qs Kc 2h]
+Seat 1: ben (button) folded before Flop (didn't bet)
+Seat 3: pack2loud (small blind) folded on the Flop
+Seat 4: Madison (big blind) folded before Flop (didn't bet)
+Seat 5: Jumbo collected ($3.25) [5s 7s]
+Seat 6: alsoben folded on the River
+Seat 9: ElitenessPhil folded before Flop (didn't bet)
+PokerStars Hand #8334242392700: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 01:08:41 ET
+Table 'DGen' 10-max Seat #3 is the button
+Seat 1: ben ($24.03 in chips)
+Seat 3: pack2loud ($6.34 in chips)
+Seat 4: Madison ($3.57 in chips)
+Seat 5: Jumbo ($15.56 in chips)
+Seat 6: alsoben ($8.14 in chips)
+Seat 9: ElitenessPhil ($7.52 in chips)
+Madison: posts small blind $0.05
+Jumbo: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [8h 9s]
+alsoben: folds
+ElitenessPhil: calls $0.10
+ben: calls $0.10
+pack2loud: calls $0.10
+Madison: calls $0.05
+Jumbo: checks
+*** FLOP *** [3h 7c Kc]
+Madison: checks
+Jumbo: checks
+ElitenessPhil: bets 0.40
+ben: folds
+pack2loud: folds
+Madison: folds
+Jumbo: folds
+Uncalled bet ($0.40) returned to ElitenessPhil
+ElitenessPhil collected $0.50 from pot
+*** SUMMARY ***
+Total pot: $0.50 | Rake $0.00
+Board: [3h 7c Kc]
+Seat 1: ben folded on the Flop
+Seat 3: pack2loud (button) folded on the Flop
+Seat 4: Madison (small blind) folded on the Flop
+Seat 5: Jumbo (big blind) folded on the Flop
+Seat 6: alsoben folded before Flop (didn't bet)
+Seat 9: ElitenessPhil collected ($0.50)
+PokerStars Hand #15450417647716: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 01:10:25 ET
+Table 'DGen' 10-max Seat #4 is the button
+Seat 1: ben ($23.93 in chips)
+Seat 3: pack2loud ($6.24 in chips)
+Seat 4: Madison ($3.47 in chips)
+Seat 5: Jumbo ($15.46 in chips)
+Seat 6: alsoben ($8.14 in chips)
+Seat 9: ElitenessPhil ($7.92 in chips)
+Jumbo: posts small blind $0.05
+alsoben: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [6d 7h]
+ElitenessPhil: calls $0.10
+ben: calls $0.10
+pack2loud: calls $0.10
+Madison: folds
+Jumbo: calls $0.05
+alsoben: checks
+*** FLOP *** [8c 3d 4h]
+Jumbo: checks
+alsoben: checks
+ElitenessPhil: bets 0.40
+ben: calls $0.40
+pack2loud: folds
+Jumbo: folds
+alsoben: folds
+*** TURN *** [8c 3d 4h] [Ks]
+ElitenessPhil: bets 0.20
+ben: raises $0.55 to $0.75
+ElitenessPhil: folds
+Uncalled bet ($0.55) returned to ben
+ben collected $1.70 from pot
+*** SUMMARY ***
+Total pot: $1.70 | Rake $0.00
+Board: [8c 3d 4h Ks]
+Seat 1: ben collected ($1.70)
+Seat 3: pack2loud folded on the Flop
+Seat 4: Madison (button) folded before Flop (didn't bet)
+Seat 5: Jumbo (small blind) folded on the Flop
+Seat 6: alsoben (big blind) folded on the Flop
+Seat 9: ElitenessPhil folded on the Turn
+PokerStars Hand #15786376745503: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 01:12:25 ET
+Table 'DGen' 10-max Seat #5 is the button
+Seat 1: ben ($24.93 in chips)
+Seat 3: pack2loud ($6.14 in chips)
+Seat 4: Madison ($3.47 in chips)
+Seat 5: Jumbo ($15.36 in chips)
+Seat 6: alsoben ($8.04 in chips)
+Seat 9: ElitenessPhil ($7.22 in chips)
+alsoben: posts small blind $0.05
+ElitenessPhil: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [Js 8c]
+ben: folds
+pack2loud: calls $0.10
+Madison: calls $0.10
+Jumbo: folds
+alsoben: raises $0.40 to $0.50
+ElitenessPhil: calls $0.40
+pack2loud: calls $0.40
+Madison: calls $0.40
+*** FLOP *** [3d Qc 6s]
+alsoben: checks
+ElitenessPhil: checks
+pack2loud: checks
+Madison: checks
+*** TURN *** [3d Qc 6s] [6h]
+alsoben: bets 0.48
+ElitenessPhil: folds
+pack2loud: calls $0.48
+Madison: folds
+*** RIVER *** [3d Qc 6s 6h] [2s]
+alsoben: checks
+pack2loud: checks
+pack2loud: shows [2c 2h]
+*** SHOW DOWN ***
+pack2loud collected $2.96 from pot
+alsoben: shows [Ks Kd]
+*** SUMMARY ***
+Total pot: $2.96 | Rake $0.00
+Board: [3d Qc 6s 6h 2s]
+Seat 1: ben folded before Flop (didn't bet)
+Seat 3: pack2loud showed [2c 2h] and won ($2.96) with Full House, 2's over 6's
+Seat 4: Madison folded on the Turn
+Seat 5: Jumbo (button) folded before Flop (didn't bet)
+Seat 6: alsoben (small blind) didn't show and lost [Ks Kd]
+Seat 9: ElitenessPhil (big blind) folded on the Turn
+PokerStars Hand #16708508974245: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 01:13:52 ET
+Table 'DGen' 10-max Seat #6 is the button
+Seat 1: ben ($24.93 in chips)
+Seat 3: pack2loud ($8.12 in chips)
+Seat 4: Madison ($2.97 in chips)
+Seat 5: Jumbo ($15.36 in chips)
+Seat 6: alsoben ($7.06 in chips)
+Seat 9: ElitenessPhil ($6.72 in chips)
+ElitenessPhil: posts small blind $0.05
+ben: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [Ac Ts]
+pack2loud: calls $0.10
+Madison: folds
+Jumbo: calls $0.10
+alsoben: raises $0.33 to $0.43
+ElitenessPhil: calls $0.38
+ben: calls $0.33
+pack2loud: calls $0.33
+Jumbo: calls $0.33
+*** FLOP *** [Js 4d 8d]
+ElitenessPhil: bets 0.20
+ben: folds
+pack2loud: calls $0.20
+Jumbo: folds
+alsoben: raises $2.06 to $2.26
+ElitenessPhil: folds
+pack2loud: calls $2.06
+*** TURN *** [Js 4d 8d] [3s]
+pack2loud: checks
+alsoben: bets 4.37
+pack2loud: calls $4.37
+pack2loud: shows [2d 6d]
+alsoben: shows [Kh Kc]
+*** FIRST RIVER *** [Js 4d 8d 3s] [9s]
+*** SECOND RIVER *** [Js 4d 8d 3s] [2h]
+*** FIRST SHOW DOWN ***
+alsoben collected $7.81 from pot
+*** SECOND SHOW DOWN ***
+alsoben collected $7.80 from pot
+*** SUMMARY ***
+Total pot: $7.80 | Rake $0.00
+Hand was run twice
+FIRST Board: [Js 4d 8d 3s 9s]
+SECOND Board: [Js 4d 8d 3s 2h]
+Seat 1: ben (big blind) folded on the Flop
+Seat 3: pack2loud didn't show and lost [2d 6d]
+Seat 4: Madison folded before Flop (didn't bet)
+Seat 5: Jumbo folded on the Flop
+Seat 6: alsoben (button) showed [Kh Kc] and won ($7.80) with Pair, K's on the second run 
+Seat 9: ElitenessPhil (small blind) folded on the Flop
+PokerStars Hand #3715032035926: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 01:16:21 ET
+Table 'DGen' 10-max Seat #9 is the button
+Seat 1: ben ($24.50 in chips)
+Seat 3: pack2loud ($1.06 in chips)
+Seat 4: Madison ($2.97 in chips)
+Seat 5: Jumbo ($14.93 in chips)
+Seat 6: alsoben ($15.61 in chips)
+Seat 9: ElitenessPhil ($6.09 in chips)
+ben: posts small blind $0.05
+pack2loud: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [3c 9h]
+Madison: calls $0.10
+Jumbo: folds
+alsoben: folds
+ElitenessPhil: calls $0.10
+ben: folds
+pack2loud: raises $0.96 to $1.06
+Madison: calls $0.96
+ElitenessPhil: folds
+pack2loud: shows [Ah Th]
+Madison: shows [Tc 4c]
+*** FLOP *** [8s 6c 4s]
+*** TURN *** [8s 6c 4s] [As]
+*** RIVER *** [8s 6c 4s As] [6d]
+*** SHOW DOWN ***
+pack2loud collected $2.27 from pot
+*** SUMMARY ***
+Total pot: $2.27 | Rake $0.00
+Board: [8s 6c 4s As 6d]
+Seat 1: ben (small blind) folded before Flop (didn't bet)
+Seat 3: pack2loud (big blind) showed [Ah Th] and won ($2.27) with Two Pair, A's & 6's
+Seat 4: Madison didn't show and lost [Tc 4c]
+Seat 5: Jumbo folded before Flop (didn't bet)
+Seat 6: alsoben folded before Flop (didn't bet)
+Seat 9: ElitenessPhil (button) folded before Flop (didn't bet)
+PokerStars Hand #14380012576331: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 01:17:23 ET
+Table 'DGen' 10-max Seat #1 is the button
+Seat 1: ben ($24.45 in chips)
+Seat 3: pack2loud ($2.27 in chips)
+Seat 4: Madison ($1.91 in chips)
+Seat 5: Jumbo ($14.93 in chips)
+Seat 6: alsoben ($15.61 in chips)
+Seat 9: ElitenessPhil ($5.99 in chips)
+pack2loud: posts small blind $0.05
+Madison: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [Td 2h]
+Jumbo: raises $0.18 to $0.28
+alsoben: folds
+ElitenessPhil: raises $0.18 to $0.46
+ben: folds
+pack2loud: calls $0.41
+Madison: folds
+Jumbo: calls $0.18
+*** FLOP *** [2d 3s 3d]
+pack2loud: checks
+Jumbo: checks
+ElitenessPhil: checks
+*** TURN *** [2d 3s 3d] [8d]
+pack2loud: checks
+Jumbo: bets 0.74
+ElitenessPhil: folds
+pack2loud: folds
+Uncalled bet ($0.74) returned to Jumbo
+Jumbo collected $1.48 from pot
+*** SUMMARY ***
+Total pot: $1.48 | Rake $0.00
+Board: [2d 3s 3d 8d]
+Seat 1: ben (button) folded before Flop (didn't bet)
+Seat 3: pack2loud (small blind) folded on the Turn
+Seat 4: Madison (big blind) folded before Flop (didn't bet)
+Seat 5: Jumbo collected ($1.48)
+Seat 6: alsoben folded before Flop (didn't bet)
+Seat 9: ElitenessPhil folded on the Turn
+PokerStars Hand #15643225933299: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 01:18:38 ET
+Table 'DGen' 10-max Seat #3 is the button
+Seat 1: ben ($24.45 in chips)
+Seat 3: pack2loud ($1.81 in chips)
+Seat 4: Madison ($1.81 in chips)
+Seat 5: Jumbo ($15.95 in chips)
+Seat 6: alsoben ($15.61 in chips)
+Seat 9: ElitenessPhil ($5.53 in chips)
+Madison: posts small blind $0.05
+Jumbo: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [8c As]
+alsoben: calls $0.10
+ElitenessPhil: calls $0.10
+ben: calls $0.10
+pack2loud: folds
+Madison: calls $0.05
+Jumbo: checks
+*** FLOP *** [7d Qs 9h]
+Madison: bets 0.38
+Jumbo: calls $0.38
+alsoben: folds
+ElitenessPhil: folds
+ben: folds
+*** TURN *** [7d Qs 9h] [6d]
+Madison: checks
+Jumbo: checks
+*** RIVER *** [7d Qs 9h 6d] [7c]
+Madison: checks
+Jumbo: checks
+Madison: shows [2d 9s]
+*** SHOW DOWN ***
+Madison collected $1.26 from pot
+*** SUMMARY ***
+Total pot: $1.26 | Rake $0.00
+Board: [7d Qs 9h 6d 7c]
+Seat 1: ben folded on the Flop
+Seat 3: pack2loud (button) folded before Flop (didn't bet)
+Seat 4: Madison (small blind) showed [2d 9s] and won ($1.26) with Two Pair, 9's & 7's
+Seat 5: Jumbo (big blind) didn't show and lost
+Seat 6: alsoben folded on the Flop
+Seat 9: ElitenessPhil folded on the Flop
+PokerStars Hand #4542527201514: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 01:19:58 ET
+Table 'DGen' 10-max Seat #4 is the button
+Seat 1: ben ($24.35 in chips)
+Seat 3: pack2loud ($1.81 in chips)
+Seat 4: Madison ($2.59 in chips)
+Seat 5: Jumbo ($15.47 in chips)
+Seat 6: alsoben ($15.51 in chips)
+Seat 9: ElitenessPhil ($5.43 in chips)
+Jumbo: posts small blind $0.05
+alsoben: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [5d Jh]
+ElitenessPhil: calls $0.10
+ben: folds
+pack2loud: calls $0.10
+Madison: folds
+Jumbo: folds
+alsoben: checks
+*** FLOP *** [3h Ts Kd]
+alsoben: bets 0.35
+ElitenessPhil: folds
+pack2loud: folds
+Uncalled bet ($0.35) returned to alsoben
+alsoben collected $0.35 from pot
+alsoben: shows [Tc Qh]
+*** SUMMARY ***
+Total pot: $0.35 | Rake $0.00
+Board: [3h Ts Kd]
+Seat 1: ben folded before Flop (didn't bet)
+Seat 3: pack2loud folded on the Flop
+Seat 4: Madison (button) folded before Flop (didn't bet)
+Seat 5: Jumbo (small blind) folded before Flop (didn't bet)
+Seat 6: alsoben (big blind) collected ($0.35) [Tc Qh]
+Seat 9: ElitenessPhil folded on the Flop
+PokerStars Hand #1821371098443: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 01:20:36 ET
+Table 'DGen' 10-max Seat #5 is the button
+Seat 1: ben ($24.35 in chips)
+Seat 3: pack2loud ($1.71 in chips)
+Seat 4: Madison ($2.59 in chips)
+Seat 5: Jumbo ($15.42 in chips)
+Seat 6: alsoben ($15.76 in chips)
+Seat 9: ElitenessPhil ($5.33 in chips)
+alsoben: posts small blind $0.05
+ElitenessPhil: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [Qs Kc]
+ben: raises $0.15 to $0.25
+pack2loud: folds
+Madison: folds
+Jumbo: folds
+alsoben: calls $0.20
+ElitenessPhil: calls $0.15
+*** FLOP *** [Js 7d As]
+alsoben: checks
+ElitenessPhil: checks
+ben: checks
+*** TURN *** [Js 7d As] [6c]
+alsoben: checks
+ElitenessPhil: checks
+ben: bets 0.47
+alsoben: folds
+ElitenessPhil: raises $1.63 to $2.10
+ben: folds
+Uncalled bet ($1.63) returned to ElitenessPhil
+ElitenessPhil collected $1.69 from pot
+*** SUMMARY ***
+Total pot: $1.69 | Rake $0.00
+Board: [Js 7d As 6c]
+Seat 1: ben folded on the Turn
+Seat 3: pack2loud folded before Flop (didn't bet)
+Seat 4: Madison folded before Flop (didn't bet)
+Seat 5: Jumbo (button) folded before Flop (didn't bet)
+Seat 6: alsoben (small blind) folded on the Turn
+Seat 9: ElitenessPhil (big blind) collected ($1.69)
+PokerStars Hand #2799505900863: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 01:23:01 ET
+Table 'DGen' 10-max Seat #6 is the button
+Seat 1: ben ($23.63 in chips)
+Seat 3: pack2loud ($1.71 in chips)
+Seat 4: Madison ($2.59 in chips)
+Seat 5: Jumbo ($15.42 in chips)
+Seat 6: alsoben ($15.51 in chips)
+Seat 9: ElitenessPhil ($6.30 in chips)
+ElitenessPhil: posts small blind $0.05
+ben: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [As 4d]
+pack2loud: calls $0.10
+Madison: folds
+Jumbo: folds
+alsoben: calls $0.10
+ElitenessPhil: raises $0.40 to $0.50
+ben: folds
+pack2loud: calls $0.40
+alsoben: calls $0.40
+*** FLOP *** [Tc Jd 6d]
+ElitenessPhil: checks
+pack2loud: checks
+alsoben: bets 0.80
+ElitenessPhil: calls $0.80
+pack2loud: calls $0.80
+*** TURN *** [Tc Jd 6d] [Kd]
+ElitenessPhil: bets 0.60
+pack2loud: calls $0.41
+alsoben: calls $0.60
+*** RIVER *** [Tc Jd 6d Kd] [5h]
+ElitenessPhil: bets 1.02
+alsoben: calls $1.02
+ElitenessPhil: shows [Kh Ad]
+*** SHOW DOWN ***
+ElitenessPhil collected $5.23 from pot
+ElitenessPhil collected $2.42 from pot
+pack2loud: shows [Js 8s]
+*** SUMMARY ***
+Total pot: $2.42 | Rake $0.00
+Board: [Tc Jd 6d Kd 5h]
+Seat 1: ben (big blind) folded before Flop (didn't bet)
+Seat 3: pack2loud didn't show and lost [Js 8s]
+Seat 4: Madison folded before Flop (didn't bet)
+Seat 5: Jumbo folded before Flop (didn't bet)
+Seat 6: alsoben (button) didn't show and lost
+Seat 9: ElitenessPhil (small blind) showed [Kh Ad] and won ($2.42) with Pair, K's
+PokerStars Hand #7598581373333: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 01:25:21 ET
+Table 'DGen' 10-max Seat #9 is the button
+Seat 1: ben ($23.53 in chips)
+Seat 4: Madison ($2.59 in chips)
+Seat 5: Jumbo ($15.42 in chips)
+Seat 6: alsoben ($12.59 in chips)
+Seat 9: ElitenessPhil ($11.03 in chips)
+ben: posts small blind $0.05
+Madison: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [8s 9s]
+Jumbo: folds
+alsoben: folds
+ElitenessPhil: calls $0.10
+ben: raises $0.50 to $0.60
+Madison: folds
+ElitenessPhil: calls $0.50
+*** FLOP *** [4s 8d Jd]
+ben: bets 0.40
+ElitenessPhil: folds
+Uncalled bet ($0.40) returned to ben
+ben collected $1.30 from pot
+Jumbo: shows [8c 4h]
+*** SUMMARY ***
+Total pot: $1.30 | Rake $0.00
+Board: [4s 8d Jd]
+Seat 1: ben (small blind) collected ($1.30)
+Seat 4: Madison (big blind) folded before Flop (didn't bet)
+Seat 5: Jumbo folded before Flop (didn't bet) [8c 4h]
+Seat 6: alsoben folded before Flop (didn't bet)
+Seat 9: ElitenessPhil (button) folded on the Flop
+PokerStars Hand #7719226590854: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 01:26:32 ET
+Table 'DGen' 10-max Seat #1 is the button
+Seat 1: ben ($24.23 in chips)
+Seat 4: Madison ($2.49 in chips)
+Seat 5: Jumbo ($15.42 in chips)
+Seat 6: alsoben ($12.59 in chips)
+Seat 9: ElitenessPhil ($10.43 in chips)
+Madison: posts small blind $0.05
+Jumbo: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [2s Tc]
+alsoben: folds
+ElitenessPhil: calls $0.10
+ben: folds
+Madison: folds
+Jumbo: checks
+*** FLOP *** [Ks 5c 7s]
+Jumbo: checks
+ElitenessPhil: checks
+*** TURN *** [Ks 5c 7s] [4h]
+Jumbo: bets 0.25
+ElitenessPhil: calls $0.25
+*** RIVER *** [Ks 5c 7s 4h] [3h]
+Jumbo: checks
+ElitenessPhil: bets 0.72
+Jumbo: folds
+Uncalled bet ($0.72) returned to ElitenessPhil
+ElitenessPhil collected $0.75 from pot
+*** SUMMARY ***
+Total pot: $0.75 | Rake $0.00
+Board: [Ks 5c 7s 4h 3h]
+Seat 1: ben (button) folded before Flop (didn't bet)
+Seat 4: Madison (small blind) folded before Flop (didn't bet)
+Seat 5: Jumbo (big blind) folded on the River
+Seat 6: alsoben folded before Flop (didn't bet)
+Seat 9: ElitenessPhil collected ($0.75)
+PokerStars Hand #11303572912219: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 01:27:42 ET
+Table 'DGen' 10-max Seat #4 is the button
+Seat 1: ben ($24.23 in chips)
+Seat 4: Madison ($2.44 in chips)
+Seat 5: Jumbo ($15.07 in chips)
+Seat 6: alsoben ($12.59 in chips)
+Seat 9: ElitenessPhil ($10.83 in chips)
+Jumbo: posts small blind $0.05
+alsoben: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [2d 2h]
+ElitenessPhil: calls $0.10
+ben: calls $0.10
+Madison: folds
+Jumbo: calls $0.05
+alsoben: checks
+*** FLOP *** [3c 9c Kh]
+Jumbo: checks
+alsoben: checks
+ElitenessPhil: checks
+ben: checks
+*** TURN *** [3c 9c Kh] [5h]
+Jumbo: checks
+alsoben: checks
+ElitenessPhil: checks
+ben: checks
+*** RIVER *** [3c 9c Kh 5h] [7d]
+Jumbo: checks
+alsoben: checks
+ElitenessPhil: checks
+ben: checks
+Jumbo: shows [3h As]
+*** SHOW DOWN ***
+Jumbo collected $0.40 from pot
+ben: shows [2d 2h]
+alsoben: shows [Ah 8d]
+ElitenessPhil: shows [6s Jh]
+*** SUMMARY ***
+Total pot: $0.40 | Rake $0.00
+Board: [3c 9c Kh 5h 7d]
+Seat 1: ben didn't show and lost [2d 2h]
+Seat 4: Madison (button) folded before Flop (didn't bet)
+Seat 5: Jumbo (small blind) showed [3h As] and won ($0.40) with Pair, 3's
+Seat 6: alsoben (big blind) didn't show and lost [Ah 8d]
+Seat 9: ElitenessPhil didn't show and lost [6s Jh]
+PokerStars Hand #5283797921405: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 01:28:52 ET
+Table 'DGen' 10-max Seat #5 is the button
+Seat 1: ben ($24.13 in chips)
+Seat 4: Madison ($2.44 in chips)
+Seat 5: Jumbo ($15.37 in chips)
+Seat 6: alsoben ($12.49 in chips)
+Seat 9: ElitenessPhil ($10.73 in chips)
+alsoben: posts small blind $0.05
+ElitenessPhil: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [Ah 7c]
+ben: folds
+Madison: calls $0.10
+Jumbo: raises $0.26 to $0.36
+alsoben: calls $0.31
+ElitenessPhil: calls $0.26
+Madison: calls $0.26
+*** FLOP *** [Ts 6d 6s]
+alsoben: checks
+ElitenessPhil: bets 0.20
+Madison: calls $0.20
+Jumbo: calls $0.20
+alsoben: folds
+*** TURN *** [Ts 6d 6s] [4c]
+ElitenessPhil: bets 0.10
+Madison: calls $0.10
+Jumbo: raises $1.75 to $1.85
+ElitenessPhil: folds
+Madison: folds
+Uncalled bet ($1.75) returned to Jumbo
+Jumbo collected $2.34 from pot
+*** SUMMARY ***
+Total pot: $2.34 | Rake $0.00
+Board: [Ts 6d 6s 4c]
+Seat 1: ben folded before Flop (didn't bet)
+Seat 4: Madison folded on the Turn
+Seat 5: Jumbo (button) collected ($2.34)
+Seat 6: alsoben (small blind) folded on the Flop
+Seat 9: ElitenessPhil (big blind) folded on the Turn
+PokerStars Hand #18213590030679: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 01:30:53 ET
+Table 'DGen' 10-max Seat #6 is the button
+Seat 1: ben ($24.13 in chips)
+Seat 4: Madison ($1.78 in chips)
+Seat 5: Jumbo ($17.05 in chips)
+Seat 6: alsoben ($12.13 in chips)
+Seat 9: ElitenessPhil ($10.07 in chips)
+ElitenessPhil: posts small blind $0.05
+ben: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [8h 9d]
+Madison: raises $1.02 to $1.12
+Jumbo: folds
+alsoben: folds
+ElitenessPhil: folds
+ben: folds
+Uncalled bet ($1.02) returned to Madison
+Madison collected $0.25 from pot
+*** SUMMARY ***
+Total pot: $0.25 | Rake $0.00
+Seat 1: ben (big blind) folded before Flop (didn't bet)
+Seat 4: Madison collected ($0.25)
+Seat 5: Jumbo folded before Flop (didn't bet)
+Seat 6: alsoben (button) folded before Flop (didn't bet)
+Seat 9: ElitenessPhil (small blind) folded before Flop (didn't bet)
+PokerStars Hand #7554443247734: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 01:31:32 ET
+Table 'DGen' 10-max Seat #9 is the button
+Seat 1: ben ($24.03 in chips)
+Seat 4: Madison ($1.93 in chips)
+Seat 5: Jumbo ($17.05 in chips)
+Seat 6: alsoben ($12.13 in chips)
+Seat 9: ElitenessPhil ($10.02 in chips)
+ben: posts small blind $0.05
+Madison: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [4h 8s]
+Jumbo: folds
+alsoben: calls $0.10
+ElitenessPhil: calls $0.10
+ben: folds
+Madison: checks
+*** FLOP *** [Kd 9s Td]
+Madison: checks
+alsoben: checks
+ElitenessPhil: checks
+*** TURN *** [Kd 9s Td] [Ts]
+Madison: checks
+alsoben: checks
+ElitenessPhil: checks
+*** RIVER *** [Kd 9s Td Ts] [5c]
+Madison: checks
+alsoben: checks
+ElitenessPhil: bets 0.50
+Madison: folds
+alsoben: folds
+Uncalled bet ($0.50) returned to ElitenessPhil
+ElitenessPhil collected $0.35 from pot
+*** SUMMARY ***
+Total pot: $0.35 | Rake $0.00
+Board: [Kd 9s Td Ts 5c]
+Seat 1: ben (small blind) folded before Flop (didn't bet)
+Seat 4: Madison (big blind) folded on the River
+Seat 5: Jumbo folded before Flop (didn't bet)
+Seat 6: alsoben folded on the River
+Seat 9: ElitenessPhil (button) collected ($0.35)
+PokerStars Hand #7756798810409: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 01:33:05 ET
+Table 'DGen' 10-max Seat #1 is the button
+Seat 1: ben ($23.98 in chips)
+Seat 4: Madison ($1.83 in chips)
+Seat 5: Jumbo ($17.05 in chips)
+Seat 6: alsoben ($12.03 in chips)
+Seat 9: ElitenessPhil ($10.27 in chips)
+Madison: posts small blind $0.05
+Jumbo: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [Td Qh]
+alsoben: folds
+ElitenessPhil: calls $0.10
+ben: raises $0.50 to $0.60
+Madison: folds
+Jumbo: folds
+ElitenessPhil: folds
+Uncalled bet ($0.50) returned to ben
+ben collected $0.35 from pot
+*** SUMMARY ***
+Total pot: $0.35 | Rake $0.00
+Seat 1: ben (button) collected ($0.35)
+Seat 4: Madison (small blind) folded before Flop (didn't bet)
+Seat 5: Jumbo (big blind) folded before Flop (didn't bet)
+Seat 6: alsoben folded before Flop (didn't bet)
+Seat 9: ElitenessPhil folded before Flop (didn't bet)
+PokerStars Hand #16594072474650: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 01:33:35 ET
+Table 'DGen' 10-max Seat #4 is the button
+Seat 1: ben ($24.23 in chips)
+Seat 4: Madison ($1.78 in chips)
+Seat 5: Jumbo ($16.95 in chips)
+Seat 6: alsoben ($12.03 in chips)
+Seat 9: ElitenessPhil ($10.17 in chips)
+Jumbo: posts small blind $0.05
+alsoben: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [Jc 9h]
+ElitenessPhil: calls $0.10
+ben: folds
+Madison: calls $0.10
+Jumbo: folds
+alsoben: checks
+*** FLOP *** [7h Kh Qh]
+alsoben: checks
+ElitenessPhil: folds
+Madison: bets 0.51
+alsoben: folds
+Uncalled bet ($0.51) returned to Madison
+Madison collected $0.35 from pot
+*** SUMMARY ***
+Total pot: $0.35 | Rake $0.00
+Board: [7h Kh Qh]
+Seat 1: ben folded before Flop (didn't bet)
+Seat 4: Madison (button) collected ($0.35)
+Seat 5: Jumbo (small blind) folded before Flop (didn't bet)
+Seat 6: alsoben (big blind) folded on the Flop
+Seat 9: ElitenessPhil folded on the Flop
+PokerStars Hand #15466425890321: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 01:34:52 ET
+Table 'DGen' 10-max Seat #5 is the button
+Seat 1: ben ($24.23 in chips)
+Seat 4: Madison ($2.03 in chips)
+Seat 5: Jumbo ($16.90 in chips)
+Seat 6: alsoben ($11.93 in chips)
+Seat 9: ElitenessPhil ($10.07 in chips)
+alsoben: posts small blind $0.05
+ElitenessPhil: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [Td 4h]
+ben: folds
+Madison: folds
+Jumbo: calls $0.10
+alsoben: calls $0.05
+ElitenessPhil: raises $0.10 to $0.20
+Jumbo: calls $0.10
+alsoben: calls $0.10
+*** FLOP *** [Th 5d 6s]
+alsoben: checks
+ElitenessPhil: checks
+Jumbo: checks
+*** TURN *** [Th 5d 6s] [Jc]
+alsoben: checks
+ElitenessPhil: checks
+Jumbo: checks
+*** RIVER *** [Th 5d 6s Jc] [Qh]
+alsoben: checks
+ElitenessPhil: bets 0.60
+Jumbo: calls $0.60
+alsoben: folds
+ElitenessPhil: shows [8d 9d]
+*** SHOW DOWN ***
+ElitenessPhil collected $1.80 from pot
+*** SUMMARY ***
+Total pot: $1.80 | Rake $0.00
+Board: [Th 5d 6s Jc Qh]
+Seat 1: ben folded before Flop (didn't bet)
+Seat 4: Madison folded before Flop (didn't bet)
+Seat 5: Jumbo (button) didn't show and lost
+Seat 6: alsoben (small blind) folded on the River
+Seat 9: ElitenessPhil (big blind) showed [8d 9d] and won ($1.80) with Straight, Q High
+PokerStars Hand #17103958282458: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 01:36:49 ET
+Table 'DGen' 10-max Seat #6 is the button
+Seat 1: ben ($24.23 in chips)
+Seat 4: Madison ($2.03 in chips)
+Seat 5: Jumbo ($16.10 in chips)
+Seat 6: alsoben ($11.73 in chips)
+Seat 9: ElitenessPhil ($11.07 in chips)
+ElitenessPhil: posts small blind $0.05
+ben: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [Jd 4h]
+Madison: calls $0.10
+Jumbo: raises $0.26 to $0.36
+alsoben: folds
+ElitenessPhil: calls $0.31
+ben: folds
+Madison: calls $0.26
+*** FLOP *** [7d Jc Qh]
+ElitenessPhil: checks
+Madison: checks
+Jumbo: bets 0.59
+ElitenessPhil: folds
+Madison: folds
+Uncalled bet ($0.59) returned to Jumbo
+Jumbo collected $1.18 from pot
+*** SUMMARY ***
+Total pot: $1.18 | Rake $0.00
+Board: [7d Jc Qh]
+Seat 1: ben (big blind) folded before Flop (didn't bet)
+Seat 4: Madison folded on the Flop
+Seat 5: Jumbo collected ($1.18)
+Seat 6: alsoben (button) folded before Flop (didn't bet)
+Seat 9: ElitenessPhil (small blind) folded on the Flop
+PokerStars Hand #3941650306150: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 01:38:15 ET
+Table 'DGen' 10-max Seat #9 is the button
+Seat 1: ben ($24.13 in chips)
+Seat 4: Madison ($1.67 in chips)
+Seat 5: Jumbo ($16.92 in chips)
+Seat 6: alsoben ($11.73 in chips)
+Seat 9: ElitenessPhil ($10.71 in chips)
+ben: posts small blind $0.05
+Madison: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [5d 9h]
+Jumbo: raises $0.12 to $0.22
+alsoben: raises $0.29 to $0.51
+ElitenessPhil: folds
+ben: folds
+Madison: folds
+Jumbo: calls $0.29
+*** FLOP *** [Ac Qc Kd]
+Jumbo: checks
+alsoben: checks
+*** TURN *** [Ac Qc Kd] [Jd]
+Jumbo: bets 0.87
+alsoben: raises $0.87 to $1.74
+Jumbo: calls $0.87
+*** RIVER *** [Ac Qc Kd Jd] [Ah]
+Jumbo: checks
+alsoben: bets 9.48
+Jumbo: folds
+Uncalled bet ($9.48) returned to alsoben
+alsoben collected $4.65 from pot
+*** SUMMARY ***
+Total pot: $4.65 | Rake $0.00
+Board: [Ac Qc Kd Jd Ah]
+Seat 1: ben (small blind) folded before Flop (didn't bet)
+Seat 4: Madison (big blind) folded before Flop (didn't bet)
+Seat 5: Jumbo folded on the River
+Seat 6: alsoben collected ($4.65)
+Seat 9: ElitenessPhil (button) folded before Flop (didn't bet)
+PokerStars Hand #8381150997973: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 01:39:28 ET
+Table 'DGen' 10-max Seat #1 is the button
+Seat 1: ben ($24.08 in chips)
+Seat 4: Madison ($1.57 in chips)
+Seat 5: Jumbo ($14.67 in chips)
+Seat 6: alsoben ($14.13 in chips)
+Seat 9: ElitenessPhil ($10.71 in chips)
+Madison: posts small blind $0.05
+Jumbo: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [8s 8h]
+alsoben: folds
+ElitenessPhil: calls $0.10
+ben: raises $0.55 to $0.65
+Madison: calls $0.60
+Jumbo: folds
+ElitenessPhil: folds
+*** FLOP *** [8c 6c 3c]
+Madison: bets 0.69
+ben: calls $0.69
+*** TURN *** [8c 6c 3c] [Ks]
+Madison: checks
+ben: bets 0.23
+Madison: calls $0.23
+ben: shows [8s 8h]
+Madison: shows [6h Ad]
+*** FIRST RIVER *** [8c 6c 3c Ks] [Tc]
+*** SECOND RIVER *** [8c 6c 3c Ks] [7c]
+*** FIRST SHOW DOWN ***
+ben collected $1.67 from pot
+*** SECOND SHOW DOWN ***
+ben collected $1.67 from pot
+Jumbo: shows [5s Ac]
+*** SUMMARY ***
+Total pot: $1.67 | Rake $0.00
+Hand was run twice
+FIRST Board: [8c 6c 3c Ks Tc]
+SECOND Board: [8c 6c 3c Ks 7c]
+Seat 1: ben (button) showed [8s 8h] and won ($1.67) with Three of a Kind, 8's on the second run 
+Seat 4: Madison (small blind) didn't show and lost [6h Ad]
+Seat 5: Jumbo (big blind) folded before Flop (didn't bet) [5s Ac]
+Seat 6: alsoben folded before Flop (didn't bet)
+Seat 9: ElitenessPhil folded before Flop (didn't bet)
+PokerStars Hand #3064889987965: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 01:41:27 ET
+Table 'DGen' 10-max Seat #1 is the button
+Seat 1: ben ($25.85 in chips)
+Seat 5: Jumbo ($14.57 in chips)
+Seat 6: alsoben ($14.13 in chips)
+Seat 9: ElitenessPhil ($10.61 in chips)
+Jumbo: posts small blind $0.05
+alsoben: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [5d Kd]
+ElitenessPhil: raises $0.30 to $0.40
+ben: calls $0.40
+Jumbo: calls $0.35
+alsoben: raises $0.80 to $1.20
+ElitenessPhil: calls $0.80
+ben: folds
+Jumbo: calls $0.80
+*** FLOP *** [5c Qs Jh]
+Jumbo: checks
+alsoben: bets 2.00
+ElitenessPhil: folds
+Jumbo: folds
+Uncalled bet ($2.00) returned to alsoben
+alsoben collected $4.00 from pot
+alsoben: shows [Ah Kh]
+*** SUMMARY ***
+Total pot: $4.00 | Rake $0.00
+Board: [5c Qs Jh]
+Seat 1: ben (button) folded before Flop (didn't bet)
+Seat 5: Jumbo (small blind) folded on the Flop
+Seat 6: alsoben (big blind) collected ($4.00) [Ah Kh]
+Seat 9: ElitenessPhil folded on the Flop
+PokerStars Hand #6275915795962: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 01:42:30 ET
+Table 'DGen' 10-max Seat #5 is the button
+Seat 1: ben ($25.45 in chips)
+Seat 5: Jumbo ($13.37 in chips)
+Seat 6: alsoben ($16.93 in chips)
+Seat 9: ElitenessPhil ($9.41 in chips)
+alsoben: posts small blind $0.05
+ElitenessPhil: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [Qh 5s]
+ben: folds
+Jumbo: folds
+alsoben: calls $0.05
+ElitenessPhil: checks
+*** FLOP *** [8c 7c 4d]
+alsoben: bets 0.15
+ElitenessPhil: calls $0.15
+*** TURN *** [8c 7c 4d] [3s]
+alsoben: bets 0.50
+ElitenessPhil: folds
+Uncalled bet ($0.50) returned to alsoben
+alsoben collected $0.50 from pot
+*** SUMMARY ***
+Total pot: $0.50 | Rake $0.00
+Board: [8c 7c 4d 3s]
+Seat 1: ben folded before Flop (didn't bet)
+Seat 5: Jumbo (button) folded before Flop (didn't bet)
+Seat 6: alsoben (small blind) collected ($0.50)
+Seat 9: ElitenessPhil (big blind) folded on the Turn
+PokerStars Hand #15574875243304: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 01:43:19 ET
+Table 'DGen' 10-max Seat #6 is the button
+Seat 1: ben ($25.45 in chips)
+Seat 5: Jumbo ($13.37 in chips)
+Seat 6: alsoben ($17.18 in chips)
+Seat 9: ElitenessPhil ($9.16 in chips)
+ElitenessPhil: posts small blind $0.05
+ben: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [Qs 8h]
+Jumbo: folds
+alsoben: calls $0.10
+ElitenessPhil: calls $0.05
+ben: checks
+*** FLOP *** [Js Tc 6c]
+ElitenessPhil: bets 0.50
+ben: folds
+alsoben: calls $0.50
+*** TURN *** [Js Tc 6c] [4h]
+ElitenessPhil: bets 0.30
+alsoben: calls $0.30
+*** RIVER *** [Js Tc 6c 4h] [5s]
+ElitenessPhil: bets 0.85
+alsoben: folds
+Uncalled bet ($0.85) returned to ElitenessPhil
+ElitenessPhil collected $1.90 from pot
+*** SUMMARY ***
+Total pot: $1.90 | Rake $0.00
+Board: [Js Tc 6c 4h 5s]
+Seat 1: ben (big blind) folded on the Flop
+Seat 5: Jumbo folded before Flop (didn't bet)
+Seat 6: alsoben (button) folded on the River
+Seat 9: ElitenessPhil (small blind) collected ($1.90)
+PokerStars Hand #5950562090233: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 01:44:50 ET
+Table 'DGen' 10-max Seat #9 is the button
+Seat 1: ben ($25.35 in chips)
+Seat 5: Jumbo ($13.37 in chips)
+Seat 6: alsoben ($16.28 in chips)
+Seat 9: ElitenessPhil ($10.16 in chips)
+ben: posts small blind $0.05
+Jumbo: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [Ks Qc]
+alsoben: raises $0.45 to $0.55
+ElitenessPhil: calls $0.55
+ben: calls $0.50
+Jumbo: calls $0.45
+*** FLOP *** [9h 6h Jd]
+ben: checks
+Jumbo: checks
+alsoben: bets 1.10
+ElitenessPhil: folds
+ben: calls $1.10
+Jumbo: folds
+*** TURN *** [9h 6h Jd] [Ah]
+ben: checks
+alsoben: checks
+*** RIVER *** [9h 6h Jd Ah] [Qd]
+ben: checks
+alsoben: checks
+ben: shows [Ks Qc]
+*** SHOW DOWN ***
+ben collected $4.40 from pot
+Jumbo: shows [9d Ac]
+*** SUMMARY ***
+Total pot: $4.40 | Rake $0.00
+Board: [9h 6h Jd Ah Qd]
+Seat 1: ben (small blind) showed [Ks Qc] and won ($4.40) with Pair, Q's
+Seat 5: Jumbo (big blind) folded on the Flop [9d Ac]
+Seat 6: alsoben didn't show and lost
+Seat 9: ElitenessPhil (button) folded on the Flop
+PokerStars Hand #13089955371104: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 01:45:55 ET
+Table 'DGen' 10-max Seat #1 is the button
+Seat 1: ben ($28.10 in chips)
+Seat 5: Jumbo ($12.82 in chips)
+Seat 6: alsoben ($14.63 in chips)
+Seat 9: ElitenessPhil ($9.61 in chips)
+Jumbo: posts small blind $0.05
+alsoben: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [Ah 7s]
+ElitenessPhil: calls $0.10
+ben: calls $0.10
+Jumbo: calls $0.05
+alsoben: checks
+*** FLOP *** [2c 6c 4d]
+Jumbo: checks
+alsoben: checks
+ElitenessPhil: checks
+ben: checks
+*** TURN *** [2c 6c 4d] [9h]
+Jumbo: bets 0.20
+alsoben: folds
+ElitenessPhil: raises $1.77 to $1.97
+ben: folds
+Jumbo: calls $1.77
+*** RIVER *** [2c 6c 4d 9h] [Td]
+Jumbo: checks
+ElitenessPhil: bets 3.06
+Jumbo: calls $3.06
+Jumbo: shows [2s 6d]
+*** SHOW DOWN ***
+Jumbo collected $5.23 from pot
+ElitenessPhil: shows [2d 6h]
+ElitenessPhil collected $5.23 from pot
+*** SUMMARY ***
+Total pot: $5.23 | Rake $0.00
+Board: [2c 6c 4d 9h Td]
+Seat 1: ben (button) folded on the Turn
+Seat 5: Jumbo (small blind) showed [2s 6d] and won ($5.23) with Two Pair, 6's & 2's
+Seat 6: alsoben (big blind) folded on the Turn
+Seat 9: ElitenessPhil showed [2d 6h] and won ($5.23) with Two Pair, 6's & 2's
+PokerStars Hand #17624744778667: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 01:47:34 ET
+Table 'DGen' 10-max Seat #5 is the button
+Seat 1: ben ($28.00 in chips)
+Seat 5: Jumbo ($12.92 in chips)
+Seat 6: alsoben ($14.53 in chips)
+Seat 9: ElitenessPhil ($9.71 in chips)
+alsoben: posts small blind $0.05
+ElitenessPhil: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [6h Qd]
+ben: folds
+Jumbo: raises $0.18 to $0.28
+alsoben: folds
+ElitenessPhil: calls $0.18
+*** FLOP *** [6c Ts 5c]
+ElitenessPhil: checks
+Jumbo: checks
+*** TURN *** [6c Ts 5c] [Kc]
+ElitenessPhil: checks
+Jumbo: checks
+*** RIVER *** [6c Ts 5c Kc] [As]
+ElitenessPhil: checks
+Jumbo: checks
+ElitenessPhil: shows [Jc 4d]
+*** SHOW DOWN ***
+ElitenessPhil collected $0.61 from pot
+*** SUMMARY ***
+Total pot: $0.61 | Rake $0.00
+Board: [6c Ts 5c Kc As]
+Seat 1: ben folded before Flop (didn't bet)
+Seat 5: Jumbo (button) didn't show and lost
+Seat 6: alsoben (small blind) folded before Flop (didn't bet)
+Seat 9: ElitenessPhil (big blind) showed [Jc 4d] and won ($0.61) with A High
+PokerStars Hand #6620040953794: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 01:48:27 ET
+Table 'DGen' 10-max Seat #6 is the button
+Seat 1: ben ($28.00 in chips)
+Seat 5: Jumbo ($12.64 in chips)
+Seat 6: alsoben ($14.48 in chips)
+Seat 9: ElitenessPhil ($10.04 in chips)
+ElitenessPhil: posts small blind $0.05
+ben: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [5s Tc]
+Jumbo: calls $0.10
+alsoben: raises $0.26 to $0.36
+ElitenessPhil: calls $0.31
+ben: folds
+Jumbo: calls $0.26
+*** FLOP *** [5c 3c 2c]
+ElitenessPhil: checks
+Jumbo: checks
+alsoben: checks
+*** TURN *** [5c 3c 2c] [2h]
+ElitenessPhil: checks
+Jumbo: bets 0.59
+alsoben: folds
+ElitenessPhil: folds
+Uncalled bet ($0.59) returned to Jumbo
+Jumbo collected $1.18 from pot
+Jumbo: shows [2s Ks]
+alsoben: shows [Qd As]
+*** SUMMARY ***
+Total pot: $1.18 | Rake $0.00
+Board: [5c 3c 2c 2h]
+Seat 1: ben (big blind) folded before Flop (didn't bet)
+Seat 5: Jumbo collected ($1.18) [2s Ks]
+Seat 6: alsoben (button) folded on the Turn [Qd As]
+Seat 9: ElitenessPhil (small blind) folded on the Turn
+PokerStars Hand #15814415272604: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 01:49:21 ET
+Table 'DGen' 10-max Seat #9 is the button
+Seat 1: ben ($27.90 in chips)
+Seat 5: Jumbo ($13.46 in chips)
+Seat 6: alsoben ($14.12 in chips)
+Seat 9: ElitenessPhil ($9.68 in chips)
+ben: posts small blind $0.05
+Jumbo: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [6d Jd]
+alsoben: raises $0.18 to $0.28
+ElitenessPhil: calls $0.28
+ben: folds
+Jumbo: calls $0.18
+*** FLOP *** [9s 2s 5s]
+Jumbo: checks
+alsoben: checks
+ElitenessPhil: bets 0.50
+Jumbo: calls $0.50
+alsoben: folds
+*** TURN *** [9s 2s 5s] [4c]
+Jumbo: checks
+ElitenessPhil: bets 0.99
+Jumbo: folds
+Uncalled bet ($0.99) returned to ElitenessPhil
+ElitenessPhil collected $1.89 from pot
+Jumbo: shows [7d 8s]
+*** SUMMARY ***
+Total pot: $1.89 | Rake $0.00
+Board: [9s 2s 5s 4c]
+Seat 1: ben (small blind) folded before Flop (didn't bet)
+Seat 5: Jumbo (big blind) folded on the Turn [7d 8s]
+Seat 6: alsoben folded on the Flop
+Seat 9: ElitenessPhil (button) collected ($1.89)
+PokerStars Hand #6990741945186: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 01:50:15 ET
+Table 'DGen' 10-max Seat #1 is the button
+Seat 1: ben ($27.85 in chips)
+Seat 5: Jumbo ($12.68 in chips)
+Seat 6: alsoben ($13.84 in chips)
+Seat 9: ElitenessPhil ($10.79 in chips)
+Jumbo: posts small blind $0.05
+alsoben: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [8s Ah]
+ElitenessPhil: calls $0.10
+ben: raises $0.50 to $0.60
+Jumbo: calls $0.55
+alsoben: folds
+ElitenessPhil: raises $0.50 to $1.10
+ben: calls $0.50
+Jumbo: calls $0.50
+*** FLOP *** [2s Js Jh]
+Jumbo: checks
+ElitenessPhil: checks
+ben: checks
+*** TURN *** [2s Js Jh] [6c]
+Jumbo: checks
+ElitenessPhil: checks
+ben: checks
+*** RIVER *** [2s Js Jh 6c] [3d]
+Jumbo: checks
+ElitenessPhil: checks
+ben: checks
+Jumbo: shows [9d 9s]
+*** SHOW DOWN ***
+Jumbo collected $3.40 from pot
+*** SUMMARY ***
+Total pot: $3.40 | Rake $0.00
+Board: [2s Js Jh 6c 3d]
+Seat 1: ben (button) didn't show and lost
+Seat 5: Jumbo (small blind) showed [9d 9s] and won ($3.40) with Two Pair, J's & 9's
+Seat 6: alsoben (big blind) folded before Flop (didn't bet)
+Seat 9: ElitenessPhil didn't show and lost
+PokerStars Hand #6271669462033: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 01:51:13 ET
+Table 'DGen' 10-max Seat #5 is the button
+Seat 1: ben ($26.75 in chips)
+Seat 5: Jumbo ($14.98 in chips)
+Seat 6: alsoben ($13.74 in chips)
+Seat 9: ElitenessPhil ($9.69 in chips)
+alsoben: posts small blind $0.05
+ElitenessPhil: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [Jd Qs]
+ben: raises $0.20 to $0.30
+Jumbo: folds
+alsoben: folds
+ElitenessPhil: calls $0.20
+*** FLOP *** [4h 2s 7c]
+ElitenessPhil: checks
+ben: bets 0.30
+ElitenessPhil: folds
+Uncalled bet ($0.30) returned to ben
+ben collected $0.65 from pot
+*** SUMMARY ***
+Total pot: $0.65 | Rake $0.00
+Board: [4h 2s 7c]
+Seat 1: ben collected ($0.65)
+Seat 5: Jumbo (button) folded before Flop (didn't bet)
+Seat 6: alsoben (small blind) folded before Flop (didn't bet)
+Seat 9: ElitenessPhil (big blind) folded on the Flop
+PokerStars Hand #1121734874204: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 01:51:52 ET
+Table 'DGen' 10-max Seat #6 is the button
+Seat 1: ben ($27.10 in chips)
+Seat 5: Jumbo ($14.98 in chips)
+Seat 6: alsoben ($13.69 in chips)
+Seat 9: ElitenessPhil ($9.39 in chips)
+ElitenessPhil: posts small blind $0.05
+ben: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [9h Jd]
+Jumbo: folds
+alsoben: folds
+ElitenessPhil: raises $0.40 to $0.50
+ben: folds
+Uncalled bet ($0.40) returned to ElitenessPhil
+ElitenessPhil collected $0.20 from pot
+*** SUMMARY ***
+Total pot: $0.20 | Rake $0.00
+Seat 1: ben (big blind) folded before Flop (didn't bet)
+Seat 5: Jumbo folded before Flop (didn't bet)
+Seat 6: alsoben (button) folded before Flop (didn't bet)
+Seat 9: ElitenessPhil (small blind) collected ($0.20)
+PokerStars Hand #18030604745543: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 01:52:17 ET
+Table 'DGen' 10-max Seat #9 is the button
+Seat 1: ben ($27.00 in chips)
+Seat 5: Jumbo ($14.98 in chips)
+Seat 6: alsoben ($13.69 in chips)
+Seat 9: ElitenessPhil ($9.49 in chips)
+ben: posts small blind $0.05
+Jumbo: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [8d 6h]
+alsoben: folds
+ElitenessPhil: calls $0.10
+ben: folds
+Jumbo: checks
+*** FLOP *** [2h 6d 5h]
+Jumbo: checks
+ElitenessPhil: bets 0.30
+Jumbo: folds
+Uncalled bet ($0.30) returned to ElitenessPhil
+ElitenessPhil collected $0.25 from pot
+Jumbo: shows [8s 2d]
+ElitenessPhil: shows [2s 9c]
+*** SUMMARY ***
+Total pot: $0.25 | Rake $0.00
+Board: [2h 6d 5h]
+Seat 1: ben (small blind) folded before Flop (didn't bet)
+Seat 5: Jumbo (big blind) folded on the Flop [8s 2d]
+Seat 6: alsoben folded before Flop (didn't bet)
+Seat 9: ElitenessPhil (button) collected ($0.25) [2s 9c]
+PokerStars Hand #3339057127502: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 01:52:46 ET
+Table 'DGen' 10-max Seat #1 is the button
+Seat 1: ben ($26.95 in chips)
+Seat 5: Jumbo ($14.88 in chips)
+Seat 6: alsoben ($13.69 in chips)
+Seat 9: ElitenessPhil ($9.64 in chips)
+Jumbo: posts small blind $0.05
+alsoben: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [7d Kd]
+ElitenessPhil: calls $0.10
+ben: raises $0.55 to $0.65
+Jumbo: folds
+alsoben: folds
+ElitenessPhil: folds
+Uncalled bet ($0.55) returned to ben
+ben collected $0.35 from pot
+*** SUMMARY ***
+Total pot: $0.35 | Rake $0.00
+Seat 1: ben (button) collected ($0.35)
+Seat 5: Jumbo (small blind) folded before Flop (didn't bet)
+Seat 6: alsoben (big blind) folded before Flop (didn't bet)
+Seat 9: ElitenessPhil folded before Flop (didn't bet)
+PokerStars Hand #15403991658665: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 01:53:19 ET
+Table 'DGen' 10-max Seat #5 is the button
+Seat 1: ben ($27.20 in chips)
+Seat 5: Jumbo ($14.83 in chips)
+Seat 6: alsoben ($13.59 in chips)
+Seat 9: ElitenessPhil ($9.54 in chips)
+alsoben: posts small blind $0.05
+ElitenessPhil: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [Js 9h]
+ben: raises $0.15 to $0.25
+Jumbo: calls $0.25
+alsoben: calls $0.20
+ElitenessPhil: calls $0.15
+*** FLOP *** [Ac Th Qc]
+alsoben: bets 0.50
+ElitenessPhil: calls $0.50
+ben: calls $0.50
+Jumbo: folds
+*** TURN *** [Ac Th Qc] [5c]
+alsoben: bets 1.25
+ElitenessPhil: folds
+ben: folds
+Uncalled bet ($1.25) returned to alsoben
+alsoben collected $2.50 from pot
+*** SUMMARY ***
+Total pot: $2.50 | Rake $0.00
+Board: [Ac Th Qc 5c]
+Seat 1: ben folded on the Turn
+Seat 5: Jumbo (button) folded on the Flop
+Seat 6: alsoben (small blind) collected ($2.50)
+Seat 9: ElitenessPhil (big blind) folded on the Turn
+PokerStars Hand #12338940509275: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 01:54:49 ET
+Table 'DGen' 10-max Seat #6 is the button
+Seat 1: ben ($26.45 in chips)
+Seat 5: Jumbo ($14.58 in chips)
+Seat 6: alsoben ($15.34 in chips)
+Seat 9: ElitenessPhil ($8.79 in chips)
+ElitenessPhil: posts small blind $0.05
+ben: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [6h Jc]
+Jumbo: folds
+alsoben: folds
+ElitenessPhil: calls $0.05
+ben: checks
+*** FLOP *** [9s Kc 9c]
+ElitenessPhil: checks
+ben: bets 0.20
+ElitenessPhil: folds
+Uncalled bet ($0.20) returned to ben
+ben collected $0.20 from pot
+*** SUMMARY ***
+Total pot: $0.20 | Rake $0.00
+Board: [9s Kc 9c]
+Seat 1: ben (big blind) collected ($0.20)
+Seat 5: Jumbo folded before Flop (didn't bet)
+Seat 6: alsoben (button) folded before Flop (didn't bet)
+Seat 9: ElitenessPhil (small blind) folded on the Flop
+PokerStars Hand #7690083674601: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 01:55:26 ET
+Table 'DGen' 10-max Seat #9 is the button
+Seat 1: ben ($26.55 in chips)
+Seat 5: Jumbo ($14.58 in chips)
+Seat 6: alsoben ($15.34 in chips)
+Seat 9: ElitenessPhil ($8.69 in chips)
+ben: posts small blind $0.05
+Jumbo: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [4d Qs]
+alsoben: folds
+ElitenessPhil: calls $0.10
+ben: folds
+Jumbo: checks
+*** FLOP *** [5h 2c 7h]
+Jumbo: checks
+ElitenessPhil: checks
+*** TURN *** [5h 2c 7h] [Js]
+Jumbo: checks
+ElitenessPhil: bets 0.50
+Jumbo: folds
+Uncalled bet ($0.50) returned to ElitenessPhil
+ElitenessPhil collected $0.25 from pot
+*** SUMMARY ***
+Total pot: $0.25 | Rake $0.00
+Board: [5h 2c 7h Js]
+Seat 1: ben (small blind) folded before Flop (didn't bet)
+Seat 5: Jumbo (big blind) folded on the Turn
+Seat 6: alsoben folded before Flop (didn't bet)
+Seat 9: ElitenessPhil (button) collected ($0.25)
+PokerStars Hand #17258272100787: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 01:56:14 ET
+Table 'DGen' 10-max Seat #1 is the button
+Seat 1: ben ($26.50 in chips)
+Seat 5: Jumbo ($14.48 in chips)
+Seat 6: alsoben ($15.34 in chips)
+Seat 9: ElitenessPhil ($8.84 in chips)
+Jumbo: posts small blind $0.05
+alsoben: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [Ks 2s]
+ElitenessPhil: calls $0.10
+ben: raises $0.55 to $0.65
+Jumbo: folds
+alsoben: folds
+ElitenessPhil: folds
+Uncalled bet ($0.55) returned to ben
+ben collected $0.35 from pot
+*** SUMMARY ***
+Total pot: $0.35 | Rake $0.00
+Seat 1: ben (button) collected ($0.35)
+Seat 5: Jumbo (small blind) folded before Flop (didn't bet)
+Seat 6: alsoben (big blind) folded before Flop (didn't bet)
+Seat 9: ElitenessPhil folded before Flop (didn't bet)
+PokerStars Hand #8845837710540: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 01:56:39 ET
+Table 'DGen' 10-max Seat #5 is the button
+Seat 1: ben ($26.75 in chips)
+Seat 5: Jumbo ($14.43 in chips)
+Seat 6: alsoben ($15.24 in chips)
+Seat 9: ElitenessPhil ($8.74 in chips)
+alsoben: posts small blind $0.05
+ElitenessPhil: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [5s Jh]
+ben: folds
+Jumbo: raises $0.18 to $0.28
+alsoben: folds
+ElitenessPhil: calls $0.18
+*** FLOP *** [7c Kd 2c]
+ElitenessPhil: bets 0.40
+Jumbo: calls $0.40
+*** TURN *** [7c Kd 2c] [5c]
+ElitenessPhil: checks
+Jumbo: checks
+*** RIVER *** [7c Kd 2c 5c] [Tc]
+ElitenessPhil: bets 0.96
+Jumbo: folds
+Uncalled bet ($0.96) returned to ElitenessPhil
+ElitenessPhil collected $1.41 from pot
+Jumbo: shows [Ts As]
+*** SUMMARY ***
+Total pot: $1.41 | Rake $0.00
+Board: [7c Kd 2c 5c Tc]
+Seat 1: ben folded before Flop (didn't bet)
+Seat 5: Jumbo (button) folded on the River [Ts As]
+Seat 6: alsoben (small blind) folded before Flop (didn't bet)
+Seat 9: ElitenessPhil (big blind) collected ($1.41)
+PokerStars Hand #13262154159682: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 01:57:44 ET
+Table 'DGen' 10-max Seat #6 is the button
+Seat 1: ben ($26.75 in chips)
+Seat 5: Jumbo ($13.75 in chips)
+Seat 6: alsoben ($15.19 in chips)
+Seat 9: ElitenessPhil ($9.47 in chips)
+ElitenessPhil: posts small blind $0.05
+ben: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [8c Jd]
+Jumbo: raises $0.25 to $0.35
+alsoben: calls $0.35
+ElitenessPhil: calls $0.30
+ben: folds
+*** FLOP *** [As 2h Ad]
+ElitenessPhil: checks
+Jumbo: checks
+alsoben: checks
+*** TURN *** [As 2h Ad] [Js]
+ElitenessPhil: checks
+Jumbo: bets 0.57
+alsoben: folds
+ElitenessPhil: folds
+Uncalled bet ($0.57) returned to Jumbo
+Jumbo collected $1.15 from pot
+Jumbo: shows [6d 6s]
+ElitenessPhil: shows [9d 5c]
+alsoben: shows [3c 9c]
+*** SUMMARY ***
+Total pot: $1.15 | Rake $0.00
+Board: [As 2h Ad Js]
+Seat 1: ben (big blind) folded before Flop (didn't bet)
+Seat 5: Jumbo collected ($1.15) [6d 6s]
+Seat 6: alsoben (button) folded on the Turn [3c 9c]
+Seat 9: ElitenessPhil (small blind) folded on the Turn [9d 5c]
+PokerStars Hand #13315732023884: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 01:58:46 ET
+Table 'DGen' 10-max Seat #9 is the button
+Seat 1: ben ($26.65 in chips)
+Seat 5: Jumbo ($14.55 in chips)
+Seat 6: alsoben ($14.84 in chips)
+Seat 9: ElitenessPhil ($9.12 in chips)
+ben: posts small blind $0.05
+Jumbo: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [Ac Jd]
+alsoben: calls $0.10
+ElitenessPhil: raises $0.10 to $0.20
+ben: raises $0.60 to $0.80
+Jumbo: folds
+alsoben: calls $0.70
+ElitenessPhil: calls $0.60
+*** FLOP *** [4d 2d 8s]
+ben: checks
+alsoben: checks
+ElitenessPhil: bets 0.99
+ben: folds
+alsoben: folds
+Uncalled bet ($0.99) returned to ElitenessPhil
+ElitenessPhil collected $2.50 from pot
+ElitenessPhil: shows [Qd 5h]
+*** SUMMARY ***
+Total pot: $2.50 | Rake $0.00
+Board: [4d 2d 8s]
+Seat 1: ben (small blind) folded on the Flop
+Seat 5: Jumbo (big blind) folded before Flop (didn't bet)
+Seat 6: alsoben folded on the Flop
+Seat 9: ElitenessPhil (button) collected ($2.50) [Qd 5h]
+PokerStars Hand #8850744020567: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 01:59:46 ET
+Table 'DGen' 10-max Seat #1 is the button
+Seat 1: ben ($25.85 in chips)
+Seat 5: Jumbo ($14.45 in chips)
+Seat 6: alsoben ($14.04 in chips)
+Seat 9: ElitenessPhil ($10.82 in chips)
+Jumbo: posts small blind $0.05
+alsoben: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [Td Qh]
+ElitenessPhil: calls $0.10
+ben: raises $0.50 to $0.60
+Jumbo: folds
+alsoben: folds
+ElitenessPhil: calls $0.50
+*** FLOP *** [9d 6h 4h]
+ElitenessPhil: checks
+ben: bets 0.70
+ElitenessPhil: folds
+Uncalled bet ($0.70) returned to ben
+ben collected $1.35 from pot
+*** SUMMARY ***
+Total pot: $1.35 | Rake $0.00
+Board: [9d 6h 4h]
+Seat 1: ben (button) collected ($1.35)
+Seat 5: Jumbo (small blind) folded before Flop (didn't bet)
+Seat 6: alsoben (big blind) folded before Flop (didn't bet)
+Seat 9: ElitenessPhil folded on the Flop
+PokerStars Hand #6938159556170: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 02:00:50 ET
+Table 'DGen' 10-max Seat #5 is the button
+Seat 1: ben ($26.60 in chips)
+Seat 5: Jumbo ($14.40 in chips)
+Seat 6: alsoben ($13.94 in chips)
+Seat 9: ElitenessPhil ($10.22 in chips)
+alsoben: posts small blind $0.05
+ElitenessPhil: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [Ad 5h]
+ben: raises $0.15 to $0.25
+Jumbo: calls $0.25
+alsoben: folds
+ElitenessPhil: calls $0.15
+*** FLOP *** [Jh 3c 7h]
+ElitenessPhil: checks
+ben: checks
+Jumbo: checks
+*** TURN *** [Jh 3c 7h] [7s]
+ElitenessPhil: bets 0.50
+ben: folds
+Jumbo: folds
+Uncalled bet ($0.50) returned to ElitenessPhil
+ElitenessPhil collected $0.80 from pot
+*** SUMMARY ***
+Total pot: $0.80 | Rake $0.00
+Board: [Jh 3c 7h 7s]
+Seat 1: ben folded on the Turn
+Seat 5: Jumbo (button) folded on the Turn
+Seat 6: alsoben (small blind) folded before Flop (didn't bet)
+Seat 9: ElitenessPhil (big blind) collected ($0.80)
+PokerStars Hand #2924205469298: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 02:01:52 ET
+Table 'DGen' 10-max Seat #6 is the button
+Seat 1: ben ($26.35 in chips)
+Seat 5: Jumbo ($14.15 in chips)
+Seat 6: alsoben ($13.89 in chips)
+Seat 9: ElitenessPhil ($10.77 in chips)
+ElitenessPhil: posts small blind $0.05
+ben: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [Jh 6h]
+Jumbo: folds
+alsoben: folds
+ElitenessPhil: calls $0.05
+ben: checks
+*** FLOP *** [5d Ad Kd]
+ElitenessPhil: checks
+ben: checks
+*** TURN *** [5d Ad Kd] [8s]
+ElitenessPhil: bets 0.30
+ben: raises $0.60 to $0.90
+ElitenessPhil: calls $0.60
+*** RIVER *** [5d Ad Kd 8s] [As]
+ElitenessPhil: bets 1.08
+ben: folds
+Uncalled bet ($1.08) returned to ElitenessPhil
+ElitenessPhil collected $2.00 from pot
+ElitenessPhil: shows [5c Th]
+*** SUMMARY ***
+Total pot: $2.00 | Rake $0.00
+Board: [5d Ad Kd 8s As]
+Seat 1: ben (big blind) folded on the River
+Seat 5: Jumbo folded before Flop (didn't bet)
+Seat 6: alsoben (button) folded before Flop (didn't bet)
+Seat 9: ElitenessPhil (small blind) collected ($2.00) [5c Th]
+PokerStars Hand #6763821688879: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 02:03:02 ET
+Table 'DGen' 10-max Seat #9 is the button
+Seat 1: ben ($25.35 in chips)
+Seat 5: Jumbo ($14.15 in chips)
+Seat 6: alsoben ($13.89 in chips)
+Seat 9: ElitenessPhil ($11.77 in chips)
+ben: posts small blind $0.05
+Jumbo: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [Qh 7d]
+alsoben: folds
+ElitenessPhil: calls $0.10
+ben: raises $0.22 to $0.32
+Jumbo: calls $0.22
+ElitenessPhil: calls $0.22
+*** FLOP *** [3h 6c 9c]
+ben: bets 0.72
+Jumbo: folds
+ElitenessPhil: calls $0.72
+*** TURN *** [3h 6c 9c] [Js]
+ben: checks
+ElitenessPhil: bets 0.94
+ben: folds
+Uncalled bet ($0.94) returned to ElitenessPhil
+ElitenessPhil collected $2.40 from pot
+alsoben: shows [Jh 2s]
+ben: shows [Qh 7d]
+ElitenessPhil: shows [Jc 6s]
+Jumbo: shows [Jd Kd]
+*** SUMMARY ***
+Total pot: $2.40 | Rake $0.00
+Board: [3h 6c 9c Js]
+Seat 1: ben (small blind) folded on the Turn [Qh 7d]
+Seat 5: Jumbo (big blind) folded on the Flop [Jd Kd]
+Seat 6: alsoben folded before Flop (didn't bet) [Jh 2s]
+Seat 9: ElitenessPhil (button) collected ($2.40) [Jc 6s]
+PokerStars Hand #12468495280790: Hold'em No Limit ($0.05/$0.10 USD) - 2021/08/30 02:05:06 ET
+Table 'DGen' 10-max Seat #1 is the button
+Seat 1: ben ($24.31 in chips)
+Seat 5: Jumbo ($13.83 in chips)
+Seat 6: alsoben ($13.89 in chips)
+Seat 9: ElitenessPhil ($13.13 in chips)
+Jumbo: posts small blind $0.05
+alsoben: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to player1 [8h 5c]
+ElitenessPhil: folds
+*** SUMMARY ***
+Total pot: $0.00 | Rake $0.00
+Seat 1: ben (button) didn't show and lost
+Seat 5: Jumbo (small blind) didn't show and lost
+Seat 6: alsoben (big blind) didn't show and lost
+Seat 9: ElitenessPhil folded before Flop (didn't bet)

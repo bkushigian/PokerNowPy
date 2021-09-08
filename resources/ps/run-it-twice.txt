@@ -1,0 +1,71 @@
+PokerStars Hand #95447816739: Hold'em No Limit ($1/$2 - $40 Cap - USD) - 2013/03/12 20:15:33 ART [2013/03/12 19:15:33 ET]
+Table 'Amor II' 2-max Seat #1 is the button
+Seat 1: BlueNowhere4 ($121.24 in chips)
+Seat 2: Hero ($151.87 in chips)
+BlueNowhere4: posts small blind $1
+Hero : posts big blind $2
+*** HOLE CARDS ***
+Dealt to Hero [8d Qs]
+BlueNowhere4: raises $2 to $4
+Hero : calls $2
+*** FLOP *** [5h 2c 9d]
+Hero : checks
+BlueNowhere4: bets $3.36
+Hero : raises $5.48 to $8.84
+BlueNowhere4: calls $5.48
+*** TURN *** [5h 2c 9d] [2d]
+Hero : bets $27.16 and has reached the $40 cap
+BlueNowhere4: calls $27.16 and has reached the $40 cap
+*** FIRST RIVER *** [5h 2c 9d 2d] [Qh]
+*** SECOND RIVER *** [5h 2c 9d 2d] [Qd]
+*** FIRST SHOW DOWN ***
+Hero : shows [8d Qs] (two pair, Queens and Deuces)
+BlueNowhere4: shows [9s 6d] (two pair, Nines and Deuces)
+Hero collected $39.75 from pot
+*** SECOND SHOW DOWN ***
+Hero : shows [8d Qs] (two pair, Queens and Deuces)
+BlueNowhere4: shows [9s 6d] (two pair, Nines and Deuces)
+Hero collected $39.75 from pot
+*** SUMMARY ***
+Total pot $80 | Rake $0.50
+Hand was run twice
+FIRST Board [5h 2c 9d 2d Qh]
+SECOND Board [5h 2c 9d 2d Qd]
+Seat 1: BlueNowhere4 (button) (small blind) showed [9s 6d] and lost with two pair, Nines and Deuces, and lost with two pair, Nines and Deuces
+Seat 2: Hero (big blind) showed [8d Qs] and won ($39.75) with two pair, Queens and Deuces, and won ($39.75) with two pair, Queens and Deuces
+
+PokerStars Hand #95440190422: Hold'em No Limit ($1/$2 - $40 Cap - USD) - 2013/03/12 17:48:30 ART [2013/03/12 16:48:30 ET]
+Table 'Praxidike V' 2-max Seat #1 is the button
+Seat 1: BlueNowhere4 ($209.58 in chips)
+Seat 2: Hero ($97.70 in chips)
+BlueNowhere4: posts small blind $1
+Hero : posts big blind $2
+*** HOLE CARDS ***
+Dealt to Hero [3d Kd]
+BlueNowhere4: raises $2 to $4
+Hero : calls $2
+*** FLOP *** [4c 5d 7d]
+Hero : checks
+BlueNowhere4: bets $3.36
+Hero : raises $9.48 to $12.84
+BlueNowhere4: raises $23.16 to $36 and has reached the $40 cap
+Hero : calls $23.16 and has reached the $40 cap
+*** FIRST TURN *** [4c 5d 7d] [9d]
+*** FIRST RIVER *** [4c 5d 7d 9d] [Td]
+*** SECOND TURN *** [4c 5d 7d] [Ah]
+*** SECOND RIVER *** [4c 5d 7d Ah] [2d]
+*** FIRST SHOW DOWN ***
+Hero : shows [3d Kd] (a flush, King high)
+BlueNowhere4: shows [Jd Jc] (a flush, Jack high)
+Hero collected $39.75 from pot
+*** SECOND SHOW DOWN ***
+Hero : shows [3d Kd] (a flush, King high)
+BlueNowhere4: shows [Jd Jc] (a pair of Jacks)
+Hero collected $39.75 from pot
+*** SUMMARY ***
+Total pot $80 | Rake $0.50
+Hand was run twice
+FIRST Board [4c 5d 7d 9d Td]
+SECOND Board [4c 5d 7d Ah 2d]
+Seat 1: BlueNowhere4 (button) (small blind) showed [Jd Jc] and lost with a flush, Jack high, and lost with a pair of Jacks
+Seat 2: Hero (big blind) showed [3d Kd] and won ($39.75) with a flush, King high, and won ($39.75) with a flush, King high
