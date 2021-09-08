@@ -49,6 +49,10 @@ class Hand:
         self.river: Optional[Card] = river
         self.turn: Optional[Card] = turn
         self.flop: Optional[List[Card]] = flop
+        self.second_flop: Optional[List[Card]] = None
+        self.second_turn: Optional[Card] = None
+        self.second_river: Optional[Card] = None
+        self.ran_it_twice: bool = False
         self.pot: float = pot
         self.uncalled_bet: float = uncalled_bet
         self.id: int = id
@@ -108,6 +112,8 @@ class Hand:
         current_bet = float(self.big_blind_size) * multiplier
         total_pot_size = 0.0
         street_description = "before Flop"
+        printed_showdown = False
+        printed_second_showdown = False
         for line in self.lines:
             if 'starting hand' in line:
                 self.uncalled_bet = 0
@@ -140,7 +146,6 @@ class Hand:
                     stackSizeFormatted = f"{float(nil_guard(stackSize, '0.0')) * multiplier:.02f}"
                     name = first(nameIdArray)
                     name = self.name_map.get(name, name) 
-                    print(name)
 
                     lines.append(f"Seat {seatNumberInt}: {name} (${stackSizeFormatted} in chips)")
                     
@@ -266,9 +271,12 @@ class Hand:
                                 if win_description is not None:
                                     win_description = nil_guard(first(win_description.split(" (")), "error")
                                 total_pot_size = win_pot_size
-                                if not self.printed_showdown:
-                                    lines.append("*** SHOW DOWN ***")
-                                    self.printed_showdown = True
+                                if not printed_showdown:
+                                    lines.append(f"*** {'FIRST ' if self.ran_it_twice else ''}SHOW DOWN ***")
+                                    printed_showdown = True
+                                if not printed_second_showdown and "on the second run" in line:
+                                        lines.append("*** SECOND SHOW DOWN ***")
+                                        printed_second_showdown = True
 
                                 lines.append(f"{nil_guard(player.name, 'Unknown')} collected ${win_pot_size:.02f} from pot")
                                 
@@ -321,21 +329,33 @@ class Hand:
                 except:
                     self.uncalled_bet = 0.0
             
-            if line.startswith("flop:") or line.startswith("Flop:"):
+            if line.lower().startswith("all players in hand choose to run it twice."):
+                self.ran_it_twice = True
+
+            if line.lower().startswith("flop:"):
                 self.flop = [EmojiCard(c) for c in slice(line, '[', ']').split(', ')]
-                lines.append(f"*** FLOP *** [{nil_guard(' '.join([x.emojiFlip().value for x in (self.flop or [])]), 'error')}]")
+                lines.append(f"*** {'FIRST ' if self.ran_it_twice else ''}FLOP *** [{nil_guard(' '.join([x.emojiFlip().value for x in (self.flop or [])]), 'error')}]")
                 is_first_action = True
                 current_bet = 0
                 for player in self.players:
                     previous_action[nil_guard(player.id, "error")] = 0.0
                 street_description = "on the Flop"
 
-            if line.startswith("turn:") or line.startswith("Turn:"):
+            if line.lower().startswith("flop (second run):"):
+                self.second_flop = [EmojiCard(c) for c in slice(line, '[', ']').split(', ')]
+                lines.append(f"*** SECOND FLOP *** [{nil_guard(' '.join([x.emojiFlip().value for x in (self.second_flop or [])]), 'error')}]")
+                is_first_action = True
+                current_bet = 0
+                for player in self.players:
+                    previous_action[nil_guard(player.id, "error")] = 0.0
+                street_description = "on the Flop"
+
+            if line.lower().startswith("turn:"):
                 try:
                     self.turn = EmojiCard(slice(line, '[', ']'))
                 except:
                     self.turn = EmojiCard.error
-                lines.append(f"*** TURN *** [{nil_guard(' '.join(x.emojiFlip().value for x in (self.flop or [])), 'error')}] "
+                lines.append(f"*** {'FIRST ' if self.ran_it_twice else ''}TURN *** [{nil_guard(' '.join(x.emojiFlip().value for x in (self.flop or [])), 'error')}] "
                              f"[{nil_guard(self.turn and self.turn.emojiFlip().value, 'error')}]")
                 is_first_action = True
                 current_bet = 0
@@ -343,12 +363,27 @@ class Hand:
                     previous_action[nil_guard(player.id, "error")] = 0
                 street_description = "on the Turn"
 
-            if line.startswith("river:") or line.startswith("River:"):
+            if line.lower().startswith("turn (second run):"):
+                try:
+                    self.second_turn = EmojiCard(slice(line, '[', ']'))
+                except:
+                    self.second_turn = EmojiCard.error
+                # Get the most recent flop
+                flop = self.second_flop or self.flop
+                lines.append(f"*** SECOND TURN *** [{' '.join(x.emojiFlip().value for x in flop)}] "
+                             f"[{nil_guard(self.second_turn and self.second_turn.emojiFlip().value, 'error')}]")
+                is_first_action = True
+                current_bet = 0
+                for player in self.players:
+                    previous_action[nil_guard(player.id, "error")] = 0
+                street_description = "on the Turn"
+
+            if line.lower().startswith("river:"):
                 try:
                     self.river = EmojiCard(slice(line, '[', ']'))
                 except:
                     self.river = EmojiCard.error
-                lines.append(f"*** RIVER *** [{nil_guard(' '.join(x.emojiFlip().value for x in self.flop), 'error')} "
+                lines.append(f"*** {'FIRST ' if self.ran_it_twice else ''}RIVER *** [{nil_guard(' '.join(x.emojiFlip().value for x in self.flop), 'error')} "
                              f"{nil_guard(self.turn and self.turn.emojiFlip().value, 'error')}] "
                              f"[{nil_guard(self.river and self.river.emojiFlip().value, 'error')}]")
                 is_first_action = True
@@ -358,16 +393,44 @@ class Hand:
 
                 street_description = "on the River"
             
+            if line.lower().startswith("river (second run):"):
+                try:
+                    self.second_river = EmojiCard(slice(line, '[', ']'))
+                except:
+                    self.second_river = EmojiCard.error
+                # Get the most recent flop and turn
+                flop = self.second_flop or self.flop
+                turn = self.second_turn or self.turn
+                lines.append(f"*** SECOND RIVER *** [{' '.join(x.emojiFlip().value for x in flop)} "
+                             f"{nil_guard(turn and turn.emojiFlip().value, 'error')}] "
+                             f"[{nil_guard(self.second_river and self.second_river.emojiFlip().value, 'error')}]")
+                is_first_action = True
+                current_bet = 0
+                for player in self.players:
+                    previous_action[nil_guard(player.id, "error")] = 0.0
+
+                street_description = "on the River"
+
             if last(self.lines) == line:
                 lines.append("*** SUMMARY ***")
                 lines.append(f"Total pot: ${total_pot_size:.02f} | Rake $0.00")
+                if self.ran_it_twice:
+                    lines.append("Hand was run twice")
                 board: List[Card] = []
                 board += nil_guard(self.flop, [])
                 if self.turn: board.append(self.turn)
                 if self.river: board.append(self.river)
                 
                 if len(board) > 0:
-                    lines.append(f"Board: [{' '.join([x.emojiFlip().value for x in board])}]")
+                    lines.append(f"{'FIRST ' if self.ran_it_twice else ''}Board: [{' '.join([x.emojiFlip().value for x in board])}]")
+                
+                if self.ran_it_twice:
+                    board = []
+                    board += self.second_flop or self.flop
+                    board.append(self.second_turn or self.turn)
+                    board.append(self.second_river or self.riiver)
+                    lines.append(f"SECOND Board: [{' '.join([x.emojiFlip().value for x in board])}]")
+
 
                 for seat in self.seats:
                     summary = seat.summary
