@@ -24,48 +24,30 @@ def last(l:List[object]):
     return l[-1] if l else None
 
 class Hand:
-    def __init__(self, date:Optional[datetime]=None,
-                       hole:Optional[List[Card]]=None,
-                       river:Optional[Card]=None,
-                       turn:Optional[Card]=None,
-                       flop:Optional[List[Card]]=None,
-                       pot:float=0.0,
-                       uncalled_bet:float=0.0,
-                       id:int=0,
-                       dealer:Optional[Player]=None,
-                       missing_small_blinds:Optional[List[Player]]=None,
-                       small_blind:Optional[Player]=None,
-                       big_blind:Optional[List[Player]]=None,
-                       players:Optional[List[Player]]=None,
-                       seats:Optional[List[Seat]]=None,
-                       lines:Optional[List[str]]=None,
-                       small_blind_size:float=0.0,
-                       big_blind_size:float=0.0,
-                       printed_showdown:bool=False,
-                       name_map=None):
+    def __init__(self, name_map=None):
 
-        self.date: Optional[datetime] = date
-        self.hole: Optional[List[Card]] = hole
-        self.river: Optional[Card] = river
-        self.turn: Optional[Card] = turn
-        self.flop: Optional[List[Card]] = flop
+        self.date: Optional[datetime] = None
+        self.hole: Optional[List[Card]] = None
+        self.river: Optional[Card] = None
+        self.turn: Optional[Card] = None
+        self.flop: Optional[List[Card]] = None
         self.second_flop: Optional[List[Card]] = None
         self.second_turn: Optional[Card] = None
         self.second_river: Optional[Card] = None
         self.ran_it_twice: bool = False
-        self.pot: float = pot
-        self.uncalled_bet: float = uncalled_bet
-        self.id: int = id
-        self.dealer: Optional[Player] = dealer
-        self.missing_small_blinds: List[Player] = missing_small_blinds or []
-        self.small_blind: Optional[Player] = small_blind
-        self.big_blind: List[Player] = big_blind or []
-        self.players: List[Player] = players or []
-        self.seats: List[Seat] = seats or []
-        self.lines: List[str] = lines or []
-        self.small_blind_size: float = small_blind_size
-        self.big_blind_size: float = big_blind_size
-        self.printed_showdown: bool = printed_showdown
+        self.pot: float = 0.0
+        self.uncalled_bet: float = 0.0
+        self.id: int = 0
+        self.dealer: Optional[Player] = None
+        self.missing_small_blinds: List[Player] = []
+        self.small_blind: Optional[Player] = None
+        self.big_blind: List[Player] = []
+        self.players: List[Player] = []
+        self.seats: List[Seat] = []
+        self.lines: List[str] = []
+        self.small_blind_size: float = 0.0
+        self.big_blind_size: float = 0.0
+        self.printed_showdown: bool = False
         self.name_map = name_map or {}
     
     
