@@ -252,7 +252,7 @@ class Hand:
                                 win_description = last(line.split(" from pot with "))
                                 if win_description is not None:
                                     win_description = nil_guard(first(win_description.split(" (")), "error")
-                                total_pot_size = win_pot_size
+                                total_pot_size += win_pot_size
                                 if not printed_showdown:
                                     lines.append(f"*** {'FIRST ' if self.ran_it_twice else ''}SHOW DOWN ***")
                                     printed_showdown = True
@@ -260,22 +260,28 @@ class Hand:
                                         lines.append("*** SECOND SHOW DOWN ***")
                                         printed_second_showdown = True
 
-                                lines.append(f"{nil_guard(player.name, 'Unknown')} collected ${win_pot_size:.02f} from pot")
+                                playername = nil_guard(player.name, 'Unknown')
+                                amt_won = f"{win_pot_size:.02f}"
+                                lines.append(f"{playername} collected ${amt_won} from pot")
                                 
                                 index = first([i for i,x in enumerate(self.seats) if x.player and x.player.id == player.id])
-                                if index is not None:
+                                assert index is not None
+                                if self.seats[index].summary:
+                                    self.seats[index].summary += f", and won (${win_pot_size:.02f}) with {win_description}"
+                                    pass
+                                else:
                                     self.seats[index].summary = f"{nil_guard(player.name, 'Unknown')} showed [] and won (${win_pot_size:.02f}) with {win_description}"
 
                             else:
                                 # no showdown
-                                gained_pot_size = last(line.split(" collected "))
-                                if gained_pot_size is not None:
-                                    gained_pot_size = float(nil_guard(first(gained_pot_size.split(" from pot")), "0.0")) * multiplier
+                                win_pot_size = last(line.split(" collected "))
+                                if win_pot_size is not None:
+                                    win_pot_size = float(nil_guard(first(win_pot_size.split(" from pot")), "0.0")) * multiplier
                                 else:
-                                    gained_pot_size = 0.0
+                                    win_pot_size = 0.0
 
                                 # remove missing smalls -- poker stars doesnt do this?
-                                gained_pot_size = gained_pot_size - self.small_blind_size * len(self.missing_small_blinds) * multiplier
+                                win_pot_size = win_pot_size - self.small_blind_size * len(self.missing_small_blinds) * multiplier
 
                                 
                                 if self.flop is None:
@@ -286,7 +292,7 @@ class Hand:
                                     
                                     # catching edge case of folding around preflop
                                     if preFlopAction == float(self.big_blind_size + self.small_blind_size) * multiplier:
-                                        gained_pot_size = float(self.small_blind_size) * multiplier
+                                        win_pot_size = float(self.small_blind_size) * multiplier
                                         lines.append(f"Uncalled bet (${self.big_blind_size * multiplier:.02f}) returned to {nil_guard(player.name, 'Unknown')}")
                                     else:
                                         if self.uncalled_bet > 0:
@@ -295,11 +301,13 @@ class Hand:
                                     if self.uncalled_bet > 0:
                                         lines.append(f"Uncalled bet (${self.uncalled_bet * multiplier:.02f}) returned to {nil_guard(player.name, 'Unknown')}")
 
-                                total_pot_size = gained_pot_size
-                                lines.append(f"{nil_guard(player.name, 'Unknown')} collected ${gained_pot_size:.02f} from pot")
+                                total_pot_size += win_pot_size
+                                playername = nil_guard(player.name, 'Unknown')
+                                amt_won = f"{win_pot_size:.02f}"
+                                lines.append(f"{playername} collected ${amt_won} from pot")
                                 index = first([i for i,x in enumerate(self.seats) if x.player and x.player.id == player.id])
                                 if index is not None:
-                                    self.seats[index].summary = f"{nil_guard(player.name, 'Unknown')} collected (${gained_pot_size:.02f})"
+                                    self.seats[index].summary = f"{nil_guard(player.name, 'Unknown')} collected (${win_pot_size:.02f})"
                             
             
             if line.startswith("Uncalled bet"):

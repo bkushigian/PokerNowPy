@@ -150,6 +150,8 @@ class Game:
                         print("#\(self.currentHand?.id ?? 0) - \(player.name ?? 'Unknown Player') posts big \(bigBlindSize)  (Pot: \(self.currentHand?.pot ?? 0))")
 
                 if msg and "small blind" in msg:
+                    if "and go all in" in msg:
+                        msg = msg.split('and go all in')[0]
                     smallBlindSize = float(nil_guard(last(msg.split("small blind of ")), 0.0))
                     self.current_hand.small_blind_size = smallBlindSize
                     if "missing" in msg:
