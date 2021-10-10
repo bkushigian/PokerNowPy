@@ -22,6 +22,7 @@ class PN2PS:
         self.parser.add_argument("--output", "-o", default=None, help="File to write to (instead of stdout)")
         self.parser.add_argument("--debug", "-d", action="store_true", help="print debug output")
         self.parser.add_argument("--namemap", "-n", default=None, type=str, help="Map table names to database names. This is helpful when players sign in with different names. Format is \"tablename1 databasename1 tablename2 databasename2 ... tablenameN databasenameN\"")
+        self.parser.add_argument("--stdout", "-s", action="store_true", help="Print results to stdout instead of writing to file")
         args = self.parser.parse_args()
 
         self.heroname = args.heroname
@@ -30,12 +31,16 @@ class PN2PS:
         self.multiplier = args.multiplier
         self.table_name = args.tablename
         self.output_file = args.output
-        self.debug =args.debug
+        if args.output is None:
+            self.output_file = f'{os.path.splitext(self.filename)[0]}.txt'
+
+        self.debug = args.debug
         name_map = args.namemap and args.namemap.split()
         if name_map:
             assert not len(name_map) % 2
             name_map = {name_map[i] : name_map[i+1] for i in range(0, len(name_map), 2)}
         self.name_map = name_map
+        self.stdout = args.stdout
 
     def process_csv(self, csv_rows: List[Dict[str, str]]):
         game = Game(csv_rows, debug_hand_action=self.debug, name_map=self.name_map)
@@ -44,13 +49,13 @@ class PN2PS:
         if self.limit > 0:
             limit = self.limit
 
-        if self.output_file is None:
+        if self.stdout:
             for hand in game.hands[:limit]:
-                hand.printPokerStarsDescription(hero_name=self.heroname, multiplier=self.multiplier or 1.0, table_name = self.table_name)
+                hand.printPokerStarsDescription(hero_name=self.heroname, multiplier=self.multiplier or 1.0, table_name=self.table_name)
         else:
             with open(self.output_file, 'w+', encoding='utf-8') as f:
                 for hand in game.hands[:limit]:
-                    descr = hand.getPokerStarsDescription(hero_name=self.heroname, multiplier=self.multiplier or 1.0, table_name = self.table_name or "DGen")
+                    descr = hand.getPokerStarsDescription(hero_name=self.heroname, multiplier=self.multiplier or 1.0, table_name=self.table_name or "DGen")
                     f.write(descr)
 
     def run(self):
