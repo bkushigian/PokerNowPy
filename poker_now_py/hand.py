@@ -24,7 +24,7 @@ def last(l:List[object]):
     return l[-1] if l else None
 
 class Hand:
-    def __init__(self, name_map=None):
+    def __init__(self, name_map=None, num_seats=10):
 
         self.date: Optional[datetime] = None
         self.hole: Optional[List[Card]] = None
@@ -49,6 +49,7 @@ class Hand:
         self.big_blind_size: float = 0.0
         self.printed_showdown: bool = False
         self.name_map = name_map or {}
+        self.num_seats = num_seats
     
     
     # requirements as set:
@@ -111,7 +112,7 @@ class Hand:
                     if (self.dealer and self.dealer.id) == (seat.player and seat.player.id):
                         dealer_seat = seat.number
                 
-                lines.append(f"Table '{table_name}' 10-max Seat #{dealer_seat} is the button")
+                lines.append(f"Table '{table_name}' {self.num_seats}-max Seat #{dealer_seat} is the button")
                         
             if 'Player stacks:' in line:
                 playersWithStacks = line.replace("Player stacks: ","").split(" | ")

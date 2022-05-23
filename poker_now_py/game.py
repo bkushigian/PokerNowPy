@@ -19,7 +19,8 @@ class Game:
 
     def __init__(self, rows: List[Dict[str, str]],
                        debug_hand_action=False,
-                       name_map: Dict[str,str]=None):
+                       name_map: Dict[str,str]=None,
+                       num_seats=10):
     
         self.debug_hand_action: bool = debug_hand_action
         self.show_errors: bool = True
@@ -28,6 +29,7 @@ class Game:
         self.name_map = name_map or {}
 
         self.dealier_id: Optional[str] = None
+        self.num_seats = num_seats
         self.init(rows)
 
     def init(self, rows: List[Dict[str,str]]):
@@ -67,7 +69,7 @@ class Game:
             if unparsedDealer and " # " in unparsedDealer:
                 dealerSeparator = " # "
 
-            hand = Hand(name_map=self.name_map)
+            hand = Hand(name_map=self.name_map, num_seats=self.num_seats)
             if "dead button" in msg:
                 hand.id = hash_str_as_id(f"deadbutton-{date.timestamp() if date else 0}")
                 hand.dealer = None
