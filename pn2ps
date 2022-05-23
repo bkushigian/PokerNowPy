@@ -23,6 +23,7 @@ class PN2PS:
         self.parser.add_argument("--debug", "-d", action="store_true", help="print debug output")
         self.parser.add_argument("--namemap", "-n", default=None, type=str, help="Map table names to database names. This is helpful when players sign in with different names. Format is \"tablename1 databasename1 tablename2 databasename2 ... tablenameN databasenameN\"")
         self.parser.add_argument("--stdout", "-s", action="store_true", help="Print results to stdout instead of writing to file")
+        self.parser.add_argument("--seats", help="number of seats at table (default 10)", default=10, type=int)
         args = self.parser.parse_args()
 
         self.heroname = args.heroname
@@ -31,6 +32,7 @@ class PN2PS:
         self.multiplier = args.multiplier
         self.table_name = args.tablename
         self.output_file = args.output
+        self.seats = args.seats
         if args.output is None:
             self.output_file = f'{os.path.splitext(self.filename)[0]}.txt'
 
@@ -43,7 +45,7 @@ class PN2PS:
         self.stdout = args.stdout
 
     def process_csv(self, csv_rows: List[Dict[str, str]]):
-        game = Game(csv_rows, debug_hand_action=self.debug, name_map=self.name_map)
+        game = Game(csv_rows, debug_hand_action=self.debug, name_map=self.name_map, num_seats=self.seats)
 
         limit = len(game.hands)
         if self.limit > 0:
