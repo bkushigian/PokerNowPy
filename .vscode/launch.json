@@ -4,6 +4,7 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        
 
         {
             "name": "Python: Current File",
@@ -11,16 +12,25 @@
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal",
-            "args": ["ben"]
+            "args": ["PLAYER", "..."]
         }, 
 
         {
             "name": "pn2ps",
             "type": "python",
             "request": "launch",
-            "program": "${workspaceFolder}\\poker_now_py\\pn2ps.py",
+            "program": "${workspaceFolder}\\pn2ps",
             "console": "integratedTerminal",
-            "args": ["player1", "--debug", "--filename", "C:\\Users\\bkush\\Poker\\PokerNowPy\\resources\\pnlogs\\hands\\mwpot.csv", "-o", "out/mwpot.txt"]
-        }
+            "args": ["PLAYER", "..."]
+        },
+
+        {
+            "name": "Run On Current PNLog",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}\\pn2ps",
+            "console": "integratedTerminal",
+            "args": ["PLAYER", "..."]
+        },
     ]
 }
