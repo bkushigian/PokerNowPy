@@ -24,6 +24,7 @@ class PN2PS:
         self.parser.add_argument("--namemap", "-n", default=None, type=str, help="Map table names to database names. This is helpful when players sign in with different names. Format is \"tablename1 databasename1 tablename2 databasename2 ... tablenameN databasenameN\"")
         self.parser.add_argument("--stdout", "-s", action="store_true", help="Print results to stdout instead of writing to file")
         self.parser.add_argument("--seats", help="number of seats at table (default 10)", default=10, type=int)
+        self.parser.add_argument("--site", default="pokerstars", help="specify which site to output hhs for: default is 'pokerstars', and 'swc' is also available")
         args = self.parser.parse_args()
 
         self.heroname = args.heroname
@@ -33,6 +34,9 @@ class PN2PS:
         self.table_name = args.tablename
         self.output_file = args.output
         self.seats = args.seats
+        self.site = args.site.lower()
+        print("Site:", self.site)
+
         if args.output is None:
             self.output_file = f'{os.path.splitext(self.filename)[0]}.txt'
 
@@ -57,7 +61,10 @@ class PN2PS:
         else:
             with open(self.output_file, 'w+', encoding='utf-8') as f:
                 for hand in game.hands[:limit]:
-                    descr = hand.getPokerStarsDescription(hero_name=self.heroname, multiplier=self.multiplier or 1.0, table_name=self.table_name or "DGen")
+                    if self.site == "swc":
+                        descr = hand.getSwCDescription(hero_name=self.heroname, multiplier=self.multiplier or 1.0, table_name=self.table_name or "DGen")
+                    else:
+                        descr = hand.getPokerStarsDescription(hero_name=self.heroname, multiplier=self.multiplier or 1.0, table_name=self.table_name or "DGen")
                     f.write(descr)
 
     def run(self):
