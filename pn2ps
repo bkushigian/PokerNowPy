@@ -40,7 +40,7 @@ class PN2PS:
         name_map = args.namemap and args.namemap.split()
         if name_map:
             assert not len(name_map) % 2
-            name_map = {name_map[i] : name_map[i+1] for i in range(0, len(name_map), 2)}
+            name_map = {name_map[i].replace("[[SPACE]]", " ") : name_map[i+1].replace("[[SPACE]]", " ") for i in range(0, len(name_map), 2)}
         self.name_map = name_map
         self.stdout = args.stdout
 
@@ -73,7 +73,7 @@ def read_csv_as_dict(file: str) -> Optional[List[Dict[str, str]]]:
     with open(file, 'r', encoding='utf-8') as f:
         try:
             return list(csv.DictReader(f))
-        except:
+        except RuntimeError as e:
             return None
 
 if __name__ == '__main__':
