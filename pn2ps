@@ -15,11 +15,10 @@ class PN2PS:
     def __init__(self):
         self.parser = ArgumentParser()
         self.parser.add_argument("heroname", help="Your name in log")
-        self.parser.add_argument("filename", help="PokerNow log filename")
+        self.parser.add_argument("filenames", nargs='+', help="PokerNow log file(s)")
         self.parser.add_argument("--limit", type=int, default=-1, help="Limit amount of hands processed")
         self.parser.add_argument("--multiplier", type=float, default=1.0, help="Multiply bet amounts by given value")
         self.parser.add_argument("--tablename", default="DGen", type=str, help="Table name")
-        self.parser.add_argument("--output", "-o", default=None, help="File to write to (instead of stdout)")
         self.parser.add_argument("--debug", "-d", action="store_true", help="print debug output")
         self.parser.add_argument("--namemap", "-n", default=None, type=str, help="Map table names to database names. This is helpful when players sign in with different names. Format is \"tablename1 databasename1 tablename2 databasename2 ... tablenameN databasenameN\"")
         self.parser.add_argument("--stdout", "-s", action="store_true", help="Print results to stdout instead of writing to file")
@@ -28,17 +27,13 @@ class PN2PS:
         args = self.parser.parse_args()
 
         self.heroname = args.heroname
-        self.filename = args.filename.strip('"').strip("'")
+        self.filenames = [fname.strip('"').strip("'") for fname in args.filenames]
         self.limit = args.limit
         self.multiplier = args.multiplier
         self.table_name = args.tablename
-        self.output_file = args.output
         self.seats = args.seats
         self.site = args.site.lower()
         print("Site:", self.site)
-
-        if args.output is None:
-            self.output_file = f'{os.path.splitext(self.filename)[0]}.txt'
 
         self.debug = args.debug
         name_map = args.namemap and args.namemap.split()
@@ -48,7 +43,10 @@ class PN2PS:
         self.name_map = name_map
         self.stdout = args.stdout
 
-    def process_csv(self, csv_rows: List[Dict[str, str]]):
+    def process_csv(self, filename: str):
+        csv_rows: List[Dict[str, str]] = read_csv_as_dict(filename)
+        output_file = f'{os.path.splitext(filename)[0]}.txt'
+
         game = Game(csv_rows, debug_hand_action=self.debug, name_map=self.name_map, num_seats=self.seats)
 
         limit = len(game.hands)
@@ -58,22 +56,20 @@ class PN2PS:
         if self.stdout:
             for hand in game.hands[:limit]:
                 hand.printPokerStarsDescription(hero_name=self.heroname, multiplier=self.multiplier or 1.0, table_name=self.table_name)
+                print("\n\n")
         else:
-            with open(self.output_file, 'w+', encoding='utf-8') as f:
+            with open(output_file, 'w+', encoding='utf-8') as f:
                 for hand in game.hands[:limit]:
                     if self.site == "swc":
                         descr = hand.getSwCDescription(hero_name=self.heroname, multiplier=self.multiplier or 1.0, table_name=self.table_name or "DGen")
                     else:
                         descr = hand.getPokerStarsDescription(hero_name=self.heroname, multiplier=self.multiplier or 1.0, table_name=self.table_name or "DGen")
                     f.write(descr)
+                    f.write("\n\n")
 
     def run(self):
-        if self.filename:
-            self.process_csv(read_csv_as_dict(self.filename))
-        elif self.table_url:
-            raise RuntimeError("table url is not implemented")
-        else:
-            print("No log data provided...please specify --filename")
+        for filename in self.filenames:
+            self.process_csv(filename)
 
 
 def read_csv_as_dict(file: str) -> Optional[List[Dict[str, str]]]:
