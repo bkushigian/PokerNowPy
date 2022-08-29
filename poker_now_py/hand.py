@@ -38,6 +38,7 @@ class Hand:
         self.pot: float = 0.0
         self.uncalled_bet: float = 0.0
         self.id: int = 0
+        self.pn_hand_number = -1
         self.dealer: Optional[Player] = None
         self.missing_small_blinds: List[Player] = []
         self.small_blind: Optional[Player] = None
@@ -419,7 +420,7 @@ class Hand:
                     board = []
                     board += self.second_flop or self.flop
                     board.append(self.second_turn or self.turn)
-                    board.append(self.second_river or self.riiver)
+                    board.append(self.second_river or self.river)
                     lines.append(f"SECOND Board: [{' '.join([x.emojiFlip().value for x in board])}]")
 
 
@@ -801,7 +802,7 @@ class Hand:
                     board = []
                     board += self.second_flop or self.flop
                     board.append(self.second_turn or self.turn)
-                    board.append(self.second_river or self.riiver)
+                    board.append(self.second_river or self.river)
                     lines.append(f"SECOND Board: [{' '.join([x.emojiFlip().value for x in board])}]")
 
 

@@ -62,6 +62,7 @@ class Game:
         
         if msg and msg.startswith("-- starting hand "):
             starting_hand_components = msg.split(' (dealer: "')
+            hand_number = starting_hand_components[0].split("#")[1].split()[0]
             unparsedDealer = last(starting_hand_components).replace('") --', "")
             
             # for legacy logs
@@ -78,6 +79,7 @@ class Game:
                 self.dealier_id = dealerNameIdArray and last(dealerNameIdArray)
                 hand.id = hash_str_as_id(f"{nil_guard(self.dealier_id, 'error')}-{date.timestamp() if date else 0}")
                 
+            hand.pn_hand_number = hand_number
             hand.date = date
             self.current_hand = hand
             self.hands.append(hand)
