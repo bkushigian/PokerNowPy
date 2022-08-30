@@ -23,7 +23,8 @@ class PN2PS:
         self.parser.add_argument("--namemap", "-n", default=None, type=str, help="Map table names to database names. This is helpful when players sign in with different names. Format is \"tablename1 databasename1 tablename2 databasename2 ... tablenameN databasenameN\"")
         self.parser.add_argument("--stdout", "-s", action="store_true", help="Print results to stdout instead of writing to file")
         self.parser.add_argument("--seats", help="number of seats at table (default 10)", default=10, type=int)
-        self.parser.add_argument("--site", default="pokerstars", help="specify which site to output hhs for: default is 'pokerstars', and 'swc' is also available")
+        self.parser.add_argument("--site", default="pokerstars", help="specify which site format for hand history output (pokerstars|swc)")
+        self.parser.add_argument("--chip-formatter", default="usd", help="how to format chips (usd|raw)")
         args = self.parser.parse_args()
 
         self.heroname = args.heroname
@@ -42,12 +43,22 @@ class PN2PS:
             name_map = {name_map[i].replace("[[SPACE]]", " ") : name_map[i+1].replace("[[SPACE]]", " ") for i in range(0, len(name_map), 2)}
         self.name_map = name_map
         self.stdout = args.stdout
+        cfmt = args.chip_formatter.lower().strip()
+        chip_formatter = None
+        if cfmt == 'usd':
+            chip_formatter = lambda amt: f"${amt:0.2f}"
+        elif cfmt == 'raw':
+            chip_formatter = lambda amt: f"{int(amt)}"
+        else:
+            chip_formatter = lambda amt: f"${amt:0.2f}"
+
+        self.chip_formatter = chip_formatter
 
     def process_csv(self, filename: str):
         csv_rows: List[Dict[str, str]] = read_csv_as_dict(filename)
         output_file = f'{os.path.splitext(filename)[0]}.txt'
 
-        game = Game(csv_rows, debug_hand_action=self.debug, name_map=self.name_map, num_seats=self.seats)
+        game = Game(csv_rows, debug_hand_action=self.debug, name_map=self.name_map, num_seats=self.seats, chip_formatter=self.chip_formatter)
 
         limit = len(game.hands)
         if self.limit > 0:

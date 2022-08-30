@@ -20,15 +20,17 @@ class Game:
     def __init__(self, rows: List[Dict[str, str]],
                        debug_hand_action=False,
                        name_map: Dict[str,str]=None,
-                       num_seats=10):
+                       num_seats=10,
+                       chip_formatter=None):
     
         self.debug_hand_action: bool = debug_hand_action
         self.show_errors: bool = True
         self.hands: List[Hand] = []
         self.current_hand: Optional[Hand] = None
         self.name_map = name_map or {}
+        self.chip_formatter = chip_formatter or (lambda amt: f"${amt:0.2f}")
 
-        self.dealier_id: Optional[str] = None
+        self.dealer_id: Optional[str] = None
         self.num_seats = num_seats
         self.init(rows)
 
@@ -70,14 +72,14 @@ class Game:
             if unparsedDealer and " # " in unparsedDealer:
                 dealerSeparator = " # "
 
-            hand = Hand(name_map=self.name_map, num_seats=self.num_seats)
+            hand = Hand(name_map=self.name_map, num_seats=self.num_seats, chip_formatter=self.chip_formatter)
             if "dead button" in msg:
                 hand.id = hash_str_as_id(f"deadbutton-{date.timestamp() if date else 0}")
                 hand.dealer = None
             else:
                 dealerNameIdArray = unparsedDealer and unparsedDealer.split(dealerSeparator)
-                self.dealier_id = dealerNameIdArray and last(dealerNameIdArray)
-                hand.id = hash_str_as_id(f"{nil_guard(self.dealier_id, 'error')}-{date.timestamp() if date else 0}")
+                self.dealer_id = dealerNameIdArray and last(dealerNameIdArray)
+                hand.id = hash_str_as_id(f"{nil_guard(self.dealer_id, 'error')}-{date.timestamp() if date else 0}")
                 
             hand.pn_hand_number = hand_number
             hand.date = date
@@ -108,7 +110,7 @@ class Game:
                 self.current_hand and self.current_hand.seats.append(Seat(player=player, summary=f"{nil_guard(player.name, 'Unknown')} didn't show and lost", pre_flop_bet=False, number=seatNumberInt))
                         
             self.current_hand.players = players
-            dealer = first([x for x in players if x.id == self.dealier_id])
+            dealer = first([x for x in players if x.id == self.dealer_id])
             if dealer:
                 self.current_hand.dealer = dealer
         elif msg and msg.startswith("Your hand is "):
