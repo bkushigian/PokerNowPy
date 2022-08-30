@@ -89,25 +89,32 @@ class Game:
             if self.debug_hand_action:
                 print("----")
         elif msg and msg.startswith("Player stacks"):
-            playersWithStacks = msg.replace("Player stacks: ", "").split(" | ")
+            # Parse a line of the form:
+            # "Player stacks: #1 ""Superman @ lcLCU4HVrS"" (10000) | #2 ""LexLuthor @ 7ZOX07XXIG"" (28991)"
+            # This gives us the following information:
+            # 1. Players in this hand
+            # 2. Each player's stack size
+            # 3. Each player's seat number
+
+            players_with_stacks = msg.replace("Player stacks: ", "").split(" | ")
             players : List[Player] = []
             
-            for playerWithStack in nil_guard(playersWithStacks, []):
-                seatNumber = first(playerWithStack.split(" "))
-                playerWithStackNoSeat = playerWithStack.replace(f"{nil_guard(seatNumber, '')} ", "")
-                seatNumberInt = int(seatNumber.replace("#", "") if seatNumber is not None else "0")
+            for player_with_stack in nil_guard(players_with_stacks, []):
+                seat_number = first(player_with_stack.split(" "))
+                player_with_stack_no_seat = player_with_stack.replace(f"{nil_guard(seat_number, '')} ", "")
+                seat_number_int = int(seat_number.replace("#", "") if seat_number is not None else "0")
                 
-                nameIdArray = first(playerWithStackNoSeat.split('\" '))
-                nameIdArray = nameIdArray and nameIdArray.replace('"', "").split(" @ ")
-                name = nameIdArray[0]
+                name_ids = first(player_with_stack_no_seat.split('\" '))
+                name_ids = name_ids and name_ids.replace('"', "").split(" @ ")
+                name = name_ids[0]
                 name = self.name_map.get(name, name)
-                pid = nameIdArray[1]
-                stackSize = last(playerWithStack.split('" (')).replace(")", "")
+                pid = name_ids[1]
+                stack_size = last(player_with_stack.split('" (')).replace(")", "")
                 
-                player = Player(admin=False, id=pid, stack=float(nil_guard(stackSize, "0")), name=name)
+                player = Player(admin=False, id=pid, stack=float(nil_guard(stack_size, "0")), name=name)
                 players.append(player)
                 
-                self.current_hand and self.current_hand.seats.append(Seat(player=player, summary=f"{nil_guard(player.name, 'Unknown')} didn't show and lost", pre_flop_bet=False, number=seatNumberInt))
+                self.current_hand and self.current_hand.seats.append(Seat(player=player, summary=f"{nil_guard(player.name, 'Unknown')} didn't show and lost", pre_flop_bet=False, number=seat_number_int))
                         
             self.current_hand.players = players
             dealer = first([x for x in players if x.id == self.dealer_id])
@@ -143,8 +150,8 @@ class Game:
                 print("#\(self.currentHand?.id ?? 0) - river: \(self.currentHand?.river?.rawValue ?? '?')")
 
         else:
-            nameIdArray = msg and first(msg.split('" ')).split(" @ ")
-            player = first([p for p in self.current_hand.players if p.id == last(nameIdArray)]) if self.current_hand else None
+            name_ids = msg and first(msg.split('" ')).split(" @ ")
+            player = first([p for p in self.current_hand.players if p.id == last(name_ids)]) if self.current_hand else None
             if player:
                 if msg and "big blind" in msg:
                     bigBlindSize = float(nil_guard(last(msg.split("big blind of ")), 0.0))
