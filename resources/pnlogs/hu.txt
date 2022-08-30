@@ -1,0 +1,30 @@
+PokerStars Hand #16686291292665: Hold'em No Limit ($50.00/$100.00 USD) - 2022/08/30 05:04:47 ET
+Table 'DGen' 2-max Seat #1 is the button
+Seat 1: Superman ($10000.00 in chips)
+Seat 2: LexLuthor ($28991.00 in chips)
+Superman: posts small blind $50.00
+LexLuthor: posts big blind $100.00
+*** HOLE CARDS ***
+Dealt to Superman [Qs Qh]
+Superman: raises $150.00 to $250.00
+LexLuthor: calls $150.00
+*** FLOP *** [Ac 6d Td]
+LexLuthor: checks
+Superman: checks
+*** TURN *** [Ac 6d Td] [7s]
+LexLuthor: checks
+Superman: checks
+*** RIVER *** [Ac 6d Td 7s] [Th]
+LexLuthor: checks
+Superman: checks
+Superman: shows [Qs Qh]
+*** SHOW DOWN ***
+Superman collected $500.00 from pot
+LexLuthor: shows [2c 6h]
+*** SUMMARY ***
+Total pot: $500.00 | Rake $0.00
+Board: [Ac 6d Td 7s Th]
+Seat 1: Superman (small blind) (button) didn't show and lost, and won ($500.00) with Two Pair, Q's & 10's [Qs Qh]
+Seat 2: LexLuthor (big blind) didn't show and lost [2c 6h]
+
+
