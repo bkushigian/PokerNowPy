@@ -20,15 +20,17 @@ class Game:
     def __init__(self, rows: List[Dict[str, str]],
                        debug_hand_action=False,
                        name_map: Dict[str,str]=None,
-                       num_seats=10):
+                       num_seats=10,
+                       chip_formatter=None):
     
         self.debug_hand_action: bool = debug_hand_action
         self.show_errors: bool = True
         self.hands: List[Hand] = []
         self.current_hand: Optional[Hand] = None
         self.name_map = name_map or {}
+        self.chip_formatter = chip_formatter or (lambda amt: f"${amt:0.2f}")
 
-        self.dealier_id: Optional[str] = None
+        self.dealer_id: Optional[str] = None
         self.num_seats = num_seats
         self.init(rows)
 
@@ -39,7 +41,7 @@ class Game:
         at = last_row["at"] if last_row else None
         if self.isSupportedLog(at=at):
             for row in rows[::-1]:
-                self.parseLine(msg=row["entry"], at=row["at"], order=row["order"])
+                self.parse_line(msg=row["entry"], at=row["at"], order=row["order"])
         else:
             print("Unsupported log format: the PokerNow.club file format has changed since this log was generated")
         
@@ -56,28 +58,32 @@ class Game:
         
         return date > oldestSupportedLog
     
-    def parseLine(self, msg: Optional[str], at: Optional[str], order: Optional[str]):
+    def parse_line(self, msg: Optional[str], at: Optional[str], order: Optional[str]):
         format_str = "%Y-%m-%dT%H:%M:%S.%f%z"   # from Swift format string "yyyy-MM-dd'T'HH:mm:ss.SSSZ"
         date = datetime.strptime(at, format_str) if at else datetime.strptime("")
+        hand_number = -1
         
         if msg and msg.startswith("-- starting hand "):
+            # -- starting hand #1  (No Limit Texas Hold'em) (dealer: ""Superman @ lcLCU4HVrS"") --
+            #
+            # This contains hand number, game type, and current dealer
             starting_hand_components = msg.split(' (dealer: "')
             hand_number = starting_hand_components[0].split("#")[1].split()[0]
-            unparsedDealer = last(starting_hand_components).replace('") --', "")
+            unparsed_dealer = last(starting_hand_components).replace('") --', "")
             
             # for legacy logs
-            dealerSeparator = " @ "
-            if unparsedDealer and " # " in unparsedDealer:
-                dealerSeparator = " # "
+            dealer_separator = " @ "
+            if unparsed_dealer and " # " in unparsed_dealer:
+                dealer_separator = " # "
 
-            hand = Hand(name_map=self.name_map, num_seats=self.num_seats)
+            hand = Hand(name_map=self.name_map, num_seats=self.num_seats, chip_formatter=self.chip_formatter)
             if "dead button" in msg:
                 hand.id = hash_str_as_id(f"deadbutton-{date.timestamp() if date else 0}")
                 hand.dealer = None
             else:
-                dealerNameIdArray = unparsedDealer and unparsedDealer.split(dealerSeparator)
-                self.dealier_id = dealerNameIdArray and last(dealerNameIdArray)
-                hand.id = hash_str_as_id(f"{nil_guard(self.dealier_id, 'error')}-{date.timestamp() if date else 0}")
+                dealer_name_ids = unparsed_dealer and unparsed_dealer.split(dealer_separator)
+                self.dealer_id = dealer_name_ids and last(dealer_name_ids)
+                hand.id = hash_str_as_id(f"{nil_guard(self.dealer_id, 'error')}-{date.timestamp() if date else 0}")
                 
             hand.pn_hand_number = hand_number
             hand.date = date
@@ -87,31 +93,49 @@ class Game:
             if self.debug_hand_action:
                 print("----")
         elif msg and msg.startswith("Player stacks"):
-            playersWithStacks = msg.replace("Player stacks: ", "").split(" | ")
+            # Player stacks: #1 ""Superman @ lcLCU4HVrS"" (10000) | #2 ""LexLuthor @ 7ZOX07XXIG"" (28991)
+            # 
+            # 1. Players in this hand
+            # 2. Each player's stack size
+            # 3. Each player's seat number
+
+            players_with_stacks = msg.replace("Player stacks: ", "").split(" | ")
             players : List[Player] = []
             
-            for playerWithStack in nil_guard(playersWithStacks, []):
-                seatNumber = first(playerWithStack.split(" "))
-                playerWithStackNoSeat = playerWithStack.replace(f"{nil_guard(seatNumber, '')} ", "")
-                seatNumberInt = int(seatNumber.replace("#", "") if seatNumber is not None else "0")
+            for player_with_stack in players_with_stacks:
+                seat_number = first(player_with_stack.split(" "))
+                if not seat_number:
+                    raise RuntimeError(f"Illegal seat_number {seat_number} in hand #{hand_number}")
+                if seat_number:
+                    player_with_stack_no_seat = player_with_stack.replace(f"{seat_number} ", "")
+                seat_number_int = int(seat_number.replace("#", "") if seat_number is not None else "0")
                 
-                nameIdArray = first(playerWithStackNoSeat.split('\" '))
-                nameIdArray = nameIdArray and nameIdArray.replace('"', "").split(" @ ")
-                name = nameIdArray[0]
+                name_ids = first(player_with_stack_no_seat.split('\" '))
+                name_ids = name_ids and name_ids.replace('"', "").split(" @ ")
+                name = name_ids[0]
                 name = self.name_map.get(name, name)
-                pid = nameIdArray[1]
-                stackSize = last(playerWithStack.split('" (')).replace(")", "")
+                if name is None:
+                    raise RuntimeError(f"Illegal State: expected player name but found None: hand #{hand_number}")
+                pid = name_ids[1]
+                stack_size = player_with_stack.split('" (')[-1].replace(")", "")
+                if not stack_size:
+                    stack_size = "0"
                 
-                player = Player(admin=False, id=pid, stack=float(nil_guard(stackSize, "0")), name=name)
+                player = Player(admin=False, id=pid, stack=float(stack_size), name=name)
                 players.append(player)
                 
-                self.current_hand and self.current_hand.seats.append(Seat(player=player, summary=f"{nil_guard(player.name, 'Unknown')} didn't show and lost", pre_flop_bet=False, number=seatNumberInt))
+                if not self.current_hand:
+                    raise RuntimeError(f"Game doesn't have a current_hand (hand #{hand_number})")
+                self.current_hand.seats.append(Seat(player=player, summary=f"{player.name} didn't show and lost", pre_flop_bet=False, number=seat_number_int))
                         
             self.current_hand.players = players
-            dealer = first([x for x in players if x.id == self.dealier_id])
+            dealer = first([x for x in players if x.id == self.dealer_id])
             if dealer:
                 self.current_hand.dealer = dealer
         elif msg and msg.startswith("Your hand is "):
+            # Your hand is Q♠, Q♥
+            #
+            # This line gives the hero's hand
             self.current_hand.hole = [EmojiCard(c.strip()) for c in  msg.replace("Your hand is ", "").split(", ")]
 
             if self.debug_hand_action:
@@ -141,8 +165,8 @@ class Game:
                 print("#\(self.currentHand?.id ?? 0) - river: \(self.currentHand?.river?.rawValue ?? '?')")
 
         else:
-            nameIdArray = msg and first(msg.split('" ')).split(" @ ")
-            player = first([p for p in self.current_hand.players if p.id == last(nameIdArray)]) if self.current_hand else None
+            name_ids = msg and first(msg.split('" ')).split(" @ ")
+            player = first([p for p in self.current_hand.players if p.id == last(name_ids)]) if self.current_hand else None
             if player:
                 if msg and "big blind" in msg:
                     bigBlindSize = float(nil_guard(last(msg.split("big blind of ")), 0.0))
@@ -156,8 +180,8 @@ class Game:
                 if msg and "small blind" in msg:
                     if "and go all in" in msg:
                         msg = msg.split('and go all in')[0]
-                    smallBlindSize = float(nil_guard(last(msg.split("small blind of ")), 0.0))
-                    self.current_hand.small_blind_size = smallBlindSize
+                    small_blind_size = float(nil_guard(msg.split("small blind of ")[-1], 0.0))
+                    self.current_hand.small_blind_size = small_blind_size
                     if "missing" in msg:
                         self.current_hand.missing_small_blinds.append(player)
                     else:
