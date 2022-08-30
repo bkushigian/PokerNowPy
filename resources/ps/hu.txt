@@ -1,0 +1,29 @@
+PokerStars Zoom Hand #238262096611:  Hold'em No Limit (50/100) - 2022/08/28 2:34:56 ET
+Table 'NLHE 50/100 Heads Up' 2-max Seat #1 is the button
+Seat 1: LexLuthor (28991 in chips) 
+Seat 2: Superman (10000 in chips) 
+LexLuthor: posts small blind 50
+Superman: posts big blind 100
+*** HOLE CARDS ***
+Dealt to Superman [7c 3s]
+LexLuthor: raises 150 to 250
+Superman: calls 150
+*** FLOP *** [Qh 4h 8s]
+Superman: checks 
+LexLuthor: checks 
+*** TURN *** [Qh 4h 8s] [5h]
+Superman: checks 
+LexLuthor: checks 
+*** RIVER *** [Qh 4h 8s 5h] [5c]
+Superman: checks 
+LexLuthor: checks 
+*** SHOW DOWN ***
+Superman: shows [7c 3s] (a pair of Fives)
+LexLuthor: shows [6c 8d] (two pair, Eights and Fives)
+LexLuthor collected 500 from pot
+LexLuthor is disconnected 
+*** SUMMARY ***
+Total pot 500 | Rake 0 
+Board [Qh 4h 8s 5h 5c]
+Seat 1: LexLuthor (button) (small blind) showed [6c 8d] and won (500) with two pair, Eights and Fives
+Seat 2: Superman (big blind) showed [7c 3s] and lost with a pair of Fives
