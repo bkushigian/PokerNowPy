@@ -66,19 +66,24 @@ class PN2PS:
 
         if self.stdout:
             for hand in game.hands[:limit]:
-                hand.printPokerStarsDescription(hero_name=self.heroname, multiplier=self.multiplier or 1.0, table_name=self.table_name)
+                if self.site == "swc":
+                    hand.print_swc_description(hero_name=self.heroname, multiplier=self.multiplier or 1.0, table_name=self.table_name)
+                else:
+                    hand.print_poker_stars_description(hero_name=self.heroname, multiplier=self.multiplier or 1.0, table_name=self.table_name)
                 print("\n\n")
         else:
             with open(output_file, 'w+', encoding='utf-8') as f:
                 for hand in game.hands[:limit]:
                     try:
                         if self.site == "swc":
-                            descr = hand.getSwCDescription(hero_name=self.heroname, multiplier=self.multiplier or 1.0, table_name=self.table_name or "DGen")
+                            descr = hand.get_swc_description(hero_name=self.heroname, multiplier=self.multiplier or 1.0, table_name=self.table_name or "DGen")
                         else:
-                            descr = hand.getPokerStarsDescription(hero_name=self.heroname, multiplier=self.multiplier or 1.0, table_name=self.table_name or "DGen")
+                            descr = hand.get_poker_stars_description(hero_name=self.heroname, multiplier=self.multiplier or 1.0, table_name=self.table_name or "DGen")
                         f.write(descr)
                         f.write("\n\n")
                     except Exception as e:
+                        if self.debug:
+                            print(e)
                         print(f"Error parsing hand #{hand.pn_hand_number}...continuing")
                         continue
 
