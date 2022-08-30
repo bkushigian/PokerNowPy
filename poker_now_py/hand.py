@@ -267,8 +267,8 @@ class Hand:
                                     lines.append(f"*** {'FIRST ' if self.ran_it_twice else ''}SHOW DOWN ***")
                                     printed_showdown = True
                                 if not printed_second_showdown and "on the second run" in line:
-                                        lines.append("*** SECOND SHOW DOWN ***")
-                                        printed_second_showdown = True
+                                    lines.append("*** SECOND SHOW DOWN ***")
+                                    printed_second_showdown = True
 
                                 lines.append(f"{player.name} collected {fmt(win_pot_size)} from pot")
                                 
